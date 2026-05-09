@@ -614,28 +614,30 @@ async function proxyGet(url) {
 
 /* ── STOCKS ─────────────────────────────────────────────────── */
 
+const FINNHUB_KEY = 'd7vq1shr01qj3ct809n0d7vq1shr01qj3ct809ng';
+
 async function fetchStocks() {
   setStatus('loading', 'Updating…');
   const wl = document.getElementById('watchlist');
   try {
-    const url = `https://query1.finance.yahoo.com/v7/finance/quote?symbols=${TICKERS.join(',')}&fields=regularMarketPrice,regularMarketChangePercent`;
-    const text = await proxyGet(url);
-    const data = JSON.parse(text);
-    const quotes = data.quoteResponse.result;
-
-    wl.innerHTML = quotes.map(q => {
-      const chg = q.regularMarketChangePercent || 0;
+    const results = await Promise.all(TICKERS.map(async sym => {
+      const res = await fetch(`https://finnhub.io/api/v1/quote?symbol=${sym}&token=${FINNHUB_KEY}`);
+      const d = await res.json();
+      return { symbol: sym, price: d.c, change: d.dp };
+    }));
+    wl.innerHTML = results.map(q => {
+      const chg = q.change || 0;
       const sign = chg >= 0 ? '+' : '';
       const cls = chg >= 0 ? 'pos' : 'neg';
       return `<div class="metric-row">
         <span class="tick-sym">${esc(q.symbol)}</span>
-        <span class="tick-price">$${q.regularMarketPrice.toFixed(2)}</span>
+        <span class="tick-price">$${(q.price||0).toFixed(2)}</span>
         <span class="tick-chg ${cls}">${sign}${chg.toFixed(2)}%</span>
       </div>`;
     }).join('');
     setStatus('ok', 'Updated ' + new Date().toLocaleTimeString([],{hour:'2-digit',minute:'2-digit'}));
   } catch(e) {
-    wl.innerHTML = '<div class="empty" style="padding:8px 0;text-align:left;">Stock data unavailable — proxy may be rate-limited. Refresh to retry.</div>';
+    wl.innerHTML = '<div class="empty" style="padding:8px 0;text-align:left;">Stock fetch failed. Refresh to retry.</div>';
     setStatus('error', 'Stock fetch failed');
   }
 }
