@@ -591,6 +591,27 @@ function buildSidebar() {
   });
 }
 
+/* ── PROXY HELPER ───────────────────────────────────────────── */
+
+async function proxyGet(url) {
+  const proxies = [
+    u => `https://corsproxy.io/?${encodeURIComponent(u)}`,
+    u => `https://api.allorigins.win/get?url=${encodeURIComponent(u)}`,
+    u => `https://api.codetabs.com/v1/proxy?quest=${encodeURIComponent(u)}`,
+  ];
+  for (const mk of proxies) {
+    try {
+      const res = await fetch(mk(url), { signal: AbortSignal.timeout(12000) });
+      if (!res.ok) continue;
+      const txt = await res.text();
+      // allorigins wraps response in JSON
+      if (txt.trimStart().startsWith('{"contents"')) return JSON.parse(txt).contents;
+      return txt;
+    } catch(_) { continue; }
+  }
+  throw new Error('All proxies failed');
+}
+
 /* ── STOCKS ─────────────────────────────────────────────────── */
 
 async function fetchStocks() {
@@ -598,10 +619,8 @@ async function fetchStocks() {
   const wl = document.getElementById('watchlist');
   try {
     const url = `https://query1.finance.yahoo.com/v7/finance/quote?symbols=${TICKERS.join(',')}&fields=regularMarketPrice,regularMarketChangePercent`;
-    const proxy = `https://api.allorigins.win/get?url=${encodeURIComponent(url)}`;
-    const res = await fetch(proxy, { signal: AbortSignal.timeout(10000) });
-    const outer = await res.json();
-    const data = JSON.parse(outer.contents);
+    const text = await proxyGet(url);
+    const data = JSON.parse(text);
     const quotes = data.quoteResponse.result;
 
     wl.innerHTML = quotes.map(q => {
@@ -639,10 +658,8 @@ async function fetchAllFeeds() {
 }
 
 async function fetchOneFeed(feed) {
-  const proxy = `https://api.allorigins.win/get?url=${encodeURIComponent(feed.url)}`;
-  const res = await fetch(proxy, { signal: AbortSignal.timeout(12000) });
-  const outer = await res.json();
-  const xml = new DOMParser().parseFromString(outer.contents, 'text/xml');
+  const text = await proxyGet(feed.url);
+  const xml = new DOMParser().parseFromString(text, 'text/xml');
   return [...xml.querySelectorAll('item, entry')].slice(0, 15).map(item => {
     const title = item.querySelector('title')?.textContent?.trim() || '';
     let link = item.querySelector('link')?.textContent?.trim() || '';
