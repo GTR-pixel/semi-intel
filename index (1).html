@@ -1,0 +1,1011 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Semi Intel</title>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500&display=swap" rel="stylesheet">
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --bg: #f9f9f7;
+  --surface: #ffffff;
+  --border: #e2e1dc;
+  --border-light: #eeedea;
+  --text-primary: #1c1b18;
+  --text-secondary: #605f58;
+  --text-muted: #9c9b94;
+  --green: #15803d;
+  --red: #b91c1c;
+  --blue: #1d4ed8;
+  --amber: #b45309;
+  --tag-foundry-bg: #dbeafe;   --tag-foundry-text: #1e40af;
+  --tag-memory-bg:  #fef3c7;   --tag-memory-text:  #92400e;
+  --tag-ai-bg:      #ede9fe;   --tag-ai-text:      #5b21b6;
+  --tag-geo-bg:     #fee2e2;   --tag-geo-text:     #991b1b;
+  --tag-power-bg:   #dcfce7;   --tag-power-text:   #14532d;
+  --tag-hyper-bg:   #d1fae5;   --tag-hyper-text:   #065f46;
+  --tag-neo-bg:     #e0e7ff;   --tag-neo-text:     #3730a3;
+  --tag-equip-bg:   #f1f0eb;   --tag-equip-text:   #44403c;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #111110;
+    --surface: #1c1c1a;
+    --border: #2e2d29;
+    --border-light: #252522;
+    --text-primary: #e8e7e1;
+    --text-secondary: #9b9a93;
+    --text-muted: #6b6a63;
+    --green: #4ade80;
+    --red: #f87171;
+    --blue: #60a5fa;
+    --amber: #fbbf24;
+    --tag-foundry-bg: #1e3a5f;  --tag-foundry-text: #93c5fd;
+    --tag-memory-bg:  #451a03;  --tag-memory-text:  #fcd34d;
+    --tag-ai-bg:      #2e1065;  --tag-ai-text:      #c4b5fd;
+    --tag-geo-bg:     #450a0a;  --tag-geo-text:     #fca5a5;
+    --tag-power-bg:   #052e16;  --tag-power-text:   #86efac;
+    --tag-hyper-bg:   #022c22;  --tag-hyper-text:   #6ee7b7;
+    --tag-neo-bg:     #1e1b4b;  --tag-neo-text:     #a5b4fc;
+    --tag-equip-bg:   #1c1b17;  --tag-equip-text:   #a8a29e;
+  }
+}
+
+body {
+  font-family: 'IBM Plex Sans', system-ui, sans-serif;
+  background: var(--bg);
+  color: var(--text-primary);
+  font-size: 14px;
+  line-height: 1.5;
+  min-height: 100vh;
+}
+
+/* ── Header ── */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  gap: 12px;
+}
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0.07em;
+  white-space: nowrap;
+}
+.brand svg { width: 16px; height: 16px; flex-shrink: 0; }
+.header-right { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+.status-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 10px;
+  font-family: 'IBM Plex Mono', monospace;
+  color: var(--text-muted);
+}
+.status-dot {
+  width: 6px; height: 6px;
+  border-radius: 50%;
+  background: var(--green);
+}
+.status-dot.loading { background: var(--amber); animation: blink 1s infinite; }
+.status-dot.error   { background: var(--red); }
+@keyframes blink { 0%,100%{opacity:1} 50%{opacity:.3} }
+
+.btn {
+  background: none;
+  border: 1px solid var(--border);
+  color: var(--text-secondary);
+  padding: 4px 12px;
+  border-radius: 4px;
+  font-size: 11px;
+  font-family: 'IBM Plex Sans', sans-serif;
+  cursor: pointer;
+}
+.btn:hover { background: var(--border-light); }
+.btn:active { opacity: 0.7; }
+
+/* ── Tabs ── */
+.tabs {
+  display: flex;
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+  padding: 0 20px;
+}
+.tab {
+  background: none;
+  border: none;
+  border-bottom: 2px solid transparent;
+  color: var(--text-secondary);
+  padding: 8px 14px;
+  font-size: 12px;
+  font-weight: 500;
+  font-family: 'IBM Plex Sans', sans-serif;
+  cursor: pointer;
+}
+.tab.active { color: var(--text-primary); border-bottom-color: var(--text-primary); }
+
+/* ── Feed layout ── */
+.layout {
+  display: grid;
+  grid-template-columns: 162px 1fr 248px;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+/* ── Sidebar ── */
+.sidebar {
+  border-right: 1px solid var(--border);
+  padding: 14px 11px;
+  position: sticky;
+  top: 75px;
+  height: calc(100vh - 75px);
+  overflow-y: auto;
+}
+.sec-lbl {
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: .09em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin: 0 0 8px;
+}
+.sec-lbl.mt { margin-top: 14px; }
+.src-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 11px;
+  color: var(--text-secondary);
+  margin-bottom: 4px;
+  cursor: pointer;
+  border-radius: 3px;
+  padding: 2px 4px;
+}
+.src-item:hover, .src-item.active { background: var(--border-light); color: var(--text-primary); }
+.src-dot { width: 6px; height: 6px; border-radius: 50%; flex-shrink: 0; }
+.topic-tag {
+  display: inline-block;
+  font-size: 10px;
+  font-weight: 500;
+  padding: 3px 7px;
+  border-radius: 3px;
+  margin-bottom: 5px;
+  cursor: pointer;
+  user-select: none;
+}
+.topic-tag.off { opacity: .35; }
+
+/* ── Center feed ── */
+.feed-wrap { padding: 14px 16px; border-right: 1px solid var(--border); }
+.feed-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+.news-card {
+  display: block;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 10px 12px;
+  margin-bottom: 8px;
+  text-decoration: none;
+  color: inherit;
+  transition: border-color .12s;
+}
+.news-card:hover { border-color: var(--text-muted); }
+.news-card.alert { border-left: 3px solid var(--red); }
+.card-src { font-size: 10px; color: var(--text-muted); margin-bottom: 3px; }
+.card-title { font-size: 12px; font-weight: 500; line-height: 1.45; margin-bottom: 6px; }
+.card-meta { display: flex; align-items: center; gap: 5px; flex-wrap: wrap; }
+.card-time { font-size: 10px; color: var(--text-muted); }
+.tag { font-size: 10px; font-weight: 500; padding: 2px 6px; border-radius: 3px; }
+
+/* ── Right panel ── */
+.right-panel {
+  padding: 14px 12px;
+  overflow-y: auto;
+  height: calc(100vh - 75px);
+  position: sticky;
+  top: 75px;
+}
+.metric-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 5px 0;
+  border-bottom: 1px solid var(--border-light);
+  font-size: 11px;
+}
+.metric-row:last-child { border: none; }
+.m-lbl { color: var(--text-secondary); }
+.m-val {
+  font-family: 'IBM Plex Mono', monospace;
+  cursor: pointer;
+  border-radius: 2px;
+  padding: 0 2px;
+}
+.m-val:hover { background: var(--border-light); }
+.m-val input {
+  width: 80px;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 11px;
+  background: var(--bg);
+  border: 1px solid var(--blue);
+  border-radius: 3px;
+  padding: 1px 4px;
+  color: var(--text-primary);
+}
+.m-note { font-size: 9px; color: var(--text-muted); }
+.tick-sym { font-family: 'IBM Plex Mono', monospace; font-size: 11px; font-weight: 500; }
+.tick-price { font-family: 'IBM Plex Mono', monospace; font-size: 11px; color: var(--text-secondary); }
+.tick-chg { font-family: 'IBM Plex Mono', monospace; font-size: 10px; }
+.pos { color: var(--green); } .neg { color: var(--red); }
+.spend-row {
+  display: grid;
+  grid-template-columns: 68px 1fr;
+  gap: 6px;
+  align-items: start;
+  padding: 5px 0;
+  border-bottom: 1px solid var(--border-light);
+  font-size: 11px;
+}
+.spend-row:last-of-type { border: none; }
+.sp-pill {
+  display: inline-block;
+  font-size: 9px;
+  font-weight: 500;
+  padding: 2px 5px;
+  border-radius: 3px;
+  margin: 0 2px 3px 0;
+}
+.sig-item {
+  padding: 6px 0;
+  border-bottom: 1px solid var(--border-light);
+  font-size: 11px;
+  line-height: 1.45;
+  color: var(--text-secondary);
+}
+.sig-item:last-child { border: none; }
+.sig-date { font-size: 10px; color: var(--text-muted); margin-top: 2px; }
+.del { background:none; border:none; color:var(--text-muted); cursor:pointer; float:right; font-size:11px; }
+.del:hover { color: var(--red); }
+.sig-form { margin: 8px 0 10px; }
+.sig-ta {
+  width: 100%; resize: none;
+  font-size: 11px; font-family: 'IBM Plex Sans', sans-serif;
+  background: var(--bg); border: 1px solid var(--border);
+  border-radius: 4px; padding: 5px 7px; color: var(--text-primary);
+  margin-bottom: 5px;
+}
+.sig-row { display: flex; gap: 5px; }
+.sig-sel {
+  flex: 1; font-size: 11px; font-family: 'IBM Plex Sans', sans-serif;
+  background: var(--bg); border: 1px solid var(--border);
+  border-radius: 4px; padding: 3px 5px; color: var(--text-secondary);
+}
+
+/* ── Charts panel ── */
+.charts-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  padding: 16px;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+.chart-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 14px;
+}
+.chart-title { font-size: 12px; font-weight: 500; margin-bottom: 12px; }
+.chart-note { font-size: 10px; color: var(--text-muted); font-weight: 400; margin-left: 4px; }
+.gpu-tbl { width: 100%; border-collapse: collapse; font-size: 11px; }
+.gpu-tbl th { font-size: 10px; font-weight: 500; color: var(--text-muted); text-align: left; padding: 4px 6px; border-bottom: 1px solid var(--border); }
+.gpu-tbl td { padding: 5px 6px; border-bottom: 1px solid var(--border-light); font-family: 'IBM Plex Mono', monospace; cursor: pointer; }
+.gpu-tbl td:first-child { font-family: 'IBM Plex Sans', sans-serif; color: var(--text-secondary); cursor: default; }
+.gpu-tbl tr:last-child td { border: none; }
+.gpu-tbl td:hover:not(:first-child) { background: var(--border-light); }
+.gpu-tbl td input { width: 64px; font-family: 'IBM Plex Mono', monospace; font-size: 11px; background: var(--bg); border: 1px solid var(--blue); border-radius: 2px; padding: 1px 3px; color: var(--text-primary); }
+
+/* ── Misc ── */
+select {
+  background: var(--bg); border: 1px solid var(--border);
+  border-radius: 4px; padding: 3px 6px;
+  font-size: 11px; font-family: 'IBM Plex Sans', sans-serif;
+  color: var(--text-secondary);
+}
+.empty { font-size: 11px; color: var(--text-muted); padding: 30px 0; text-align: center; }
+.divider { margin-top: 14px; margin-bottom: 9px; }
+::-webkit-scrollbar { width: 4px; } ::-webkit-scrollbar-track { background: transparent; } ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 2px; }
+@media (max-width: 900px) { .layout { grid-template-columns: 1fr; } .sidebar,.right-panel { position:static; height:auto; border:none; } .charts-grid { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+
+<!-- ── HEADER ─────────────────────────────────────────────────── -->
+<header class="header">
+  <div class="brand">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+      <rect x="4" y="4" width="16" height="16" rx="2"/>
+      <path d="M9 4v16M15 4v16M4 9h16M4 15h16"/>
+    </svg>
+    SEMI INTEL
+  </div>
+  <div class="header-right">
+    <div class="status-pill">
+      <div class="status-dot loading" id="sdot"></div>
+      <span id="sup">Loading…</span>
+    </div>
+    <button class="btn" onclick="refreshAll()">↻ Refresh</button>
+  </div>
+</header>
+
+<!-- ── TABS ────────────────────────────────────────────────────── -->
+<nav class="tabs">
+  <button class="tab active" id="tab-feed"   onclick="sw('feed')">Feed</button>
+  <button class="tab"        id="tab-charts" onclick="sw('charts')">Charts</button>
+</nav>
+
+<!-- ══ FEED PANEL ═══════════════════════════════════════════════ -->
+<div id="p-feed">
+  <div class="layout">
+
+    <!-- Left sidebar -->
+    <aside class="sidebar">
+      <p class="sec-lbl">Sources</p>
+      <div id="src-list"></div>
+      <p class="sec-lbl mt">Topics</p>
+      <div id="topic-filters"></div>
+    </aside>
+
+    <!-- Center feed -->
+    <main class="feed-wrap">
+      <div class="feed-bar">
+        <p class="sec-lbl" style="margin:0;">News feed <span id="feed-count" style="font-weight:400;text-transform:none;letter-spacing:0;color:var(--text-muted);"></span></p>
+        <select id="sort-sel" onchange="renderFeed()">
+          <option value="date">Latest first</option>
+          <option value="source">By source</option>
+        </select>
+      </div>
+      <div id="news-feed"><div class="empty">Fetching feeds…</div></div>
+    </main>
+
+    <!-- Right panel -->
+    <aside class="right-panel">
+
+      <p class="sec-lbl">Watchlist</p>
+      <div id="watchlist"><div class="empty" style="padding:10px 0;">Loading…</div></div>
+
+      <p class="sec-lbl divider">Hyperscaler capex</p>
+      <div id="hyper-cap"></div>
+
+      <p class="sec-lbl divider">Neocloud capex</p>
+      <div id="neo-cap"></div>
+
+      <p class="sec-lbl divider">AI lab compute spend</p>
+      <div class="spend-row"><span class="m-lbl">OpenAI</span><div><span class="sp-pill" style="background:var(--tag-foundry-bg);color:var(--tag-foundry-text);">Azure ●</span><span class="sp-pill" style="background:var(--tag-power-bg);color:var(--tag-power-text);">Oracle</span></div></div>
+      <div class="spend-row"><span class="m-lbl">Anthropic</span><div><span class="sp-pill" style="background:var(--tag-power-bg);color:var(--tag-power-text);">GCP ●</span><span class="sp-pill" style="background:var(--tag-memory-bg);color:var(--tag-memory-text);">AWS</span></div></div>
+      <div class="spend-row"><span class="m-lbl">xAI</span><div><span class="sp-pill" style="background:var(--tag-power-bg);color:var(--tag-power-text);">Oracle ●</span><span class="sp-pill" style="background:var(--tag-equip-bg);color:var(--tag-equip-text);">Self</span></div></div>
+      <div class="spend-row"><span class="m-lbl">Meta AI</span><div><span class="sp-pill" style="background:var(--tag-equip-bg);color:var(--tag-equip-text);">Self-owned ●</span></div></div>
+      <p style="font-size:9px;color:var(--text-muted);margin-top:4px;">● = primary</p>
+
+      <p class="sec-lbl divider">Memory spot pricing <span class="m-note">TrendForce</span></p>
+      <div id="mem-price"></div>
+
+      <p class="sec-lbl divider">GPU rental <span class="m-note">spot $/hr — click to edit</span></p>
+      <div id="gpu-right"></div>
+
+      <div class="divider" style="display:flex;justify-content:space-between;align-items:center;">
+        <p class="sec-lbl" style="margin:0;">Signal board</p>
+        <button class="btn" onclick="toggleSigForm()" style="font-size:10px;padding:2px 8px;">+ Add</button>
+      </div>
+      <div id="sig-form-wrap" style="display:none;" class="sig-form">
+        <textarea id="sig-txt" class="sig-ta" rows="2" placeholder="Describe the signal…"></textarea>
+        <div class="sig-row">
+          <select id="sig-cat" class="sig-sel">
+            <option>Foundry</option><option>Memory</option><option>AI/ML</option>
+            <option>Geopolitics</option><option>Power</option><option>Hyperscaler</option>
+            <option>Neocloud</option><option>Equipment</option>
+          </select>
+          <button class="btn" onclick="saveSignal()">Save</button>
+        </div>
+      </div>
+      <div id="signals"></div>
+
+    </aside>
+  </div>
+</div>
+
+<!-- ══ CHARTS PANEL ═════════════════════════════════════════════ -->
+<div id="p-charts" style="display:none;">
+  <div class="charts-grid">
+
+    <div class="chart-card">
+      <p class="chart-title">Hyperscaler capex <span class="chart-note">quarterly $B</span></p>
+      <canvas id="c-hyper"></canvas>
+    </div>
+
+    <div class="chart-card">
+      <p class="chart-title">Neocloud capex / funding <span class="chart-note">$B reported — click values in Feed to update</span></p>
+      <canvas id="c-neo"></canvas>
+    </div>
+
+    <div class="chart-card">
+      <p class="chart-title">Memory spot pricing <span class="chart-note">$/GB — update from TrendForce weekly flash</span></p>
+      <canvas id="c-memory"></canvas>
+    </div>
+
+    <div class="chart-card">
+      <p class="chart-title">GPU rental rates <span class="chart-note">spot $/hr — click cells to edit</span></p>
+      <table class="gpu-tbl">
+        <thead><tr><th>Provider</th><th>H100 SXM</th><th>H200 SXM</th><th>MI300X</th></tr></thead>
+        <tbody id="gpu-tbl-body"></tbody>
+      </table>
+    </div>
+
+  </div>
+  <p style="padding:0 16px 20px;font-size:11px;color:var(--text-muted);">
+    💡 All metrics are manually maintained. Click any value to edit and save. GPU rates: Lambda, RunPod, Vast.ai, CoreWeave pricing pages. Memory: TrendForce free weekly flash. Capex: SEC filings / IR pages.
+  </p>
+</div>
+
+<!-- ══ SCRIPT ════════════════════════════════════════════════════ -->
+<script>
+/* ── CONFIG ─────────────────────────────────────────────────── */
+
+const FEEDS = [
+  { id:'chip-letter',    name:'The Chip Letter',    url:'https://thechipletter.substack.com/feed',     color:'#2563eb' },
+  { id:'fab-know',       name:'Fabricated Knowledge',url:'https://fabricatedknowledge.substack.com/feed',color:'#2563eb' },
+  { id:'moore',          name:'More Than Moore',    url:'https://morethanmoore.substack.com/feed',     color:'#2563eb' },
+  { id:'chinatalk',      name:'ChinaTalk',          url:'https://chinatalk.substack.com/feed',         color:'#16a34a' },
+  { id:'interconnects',  name:'Interconnects',      url:'https://www.interconnects.ai/feed',           color:'#16a34a' },
+  { id:'state-ai',       name:'State of AI',        url:'https://nathanbenaich.substack.com/feed',     color:'#7c3aed' },
+  { id:'import-ai',      name:'Import AI',          url:'https://jack-clark.net/feed/',                color:'#7c3aed' },
+  { id:'gradient-flow',  name:'Gradient Flow',      url:'https://gradientflow.com/feed/',              color:'#7c3aed' },
+  { id:'doroshenko',     name:'D. Doroshenko',      url:'https://denisdoroshenko.substack.com/feed',   color:'#d97706' },
+  { id:'asianometry',    name:'Asianometry',        url:'https://asianometry.substack.com/feed',       color:'#64748b' },
+];
+
+const TICKERS = ['TSM','NVDA','ASML','MU','AMD','INTC','QCOM','ARM'];
+
+const KW = {
+  foundry:    ['tsmc','foundry','wafer','intel foundry','samsung foundry','globalfoundries','umc','cowos','soic','chip manufacturing','2nm','3nm','5nm','angstrom','node'],
+  memory:     ['hbm','ddr5','ddr4','nand','memory','dram','sk hynix','micron','flash','bandwidth','lpddr','gddr','stacked memory','hbm3'],
+  ai:         ['llm','transformer','training','inference','language model','gpt','claude','gemini','llama','ai chip','accelerator','neural','deep learning','tpu','npu','generative','foundation model','gpu cluster'],
+  geopolitics:['china','export control','sanction','taiwan','cxmt','huawei','entity list','chips act','tariff','trade war','semiconductor policy','smic geopolit'],
+  power:      ['power consumption','electricity','data center power','cooling','pue','nuclear','megawatt','gigawatt','power purchase agreement','grid capacity','energy use'],
+  hyperscaler:['aws','azure','google cloud','gcp','microsoft cloud','amazon web services','hyperscaler','cloud capex','capital expenditure','data center spend'],
+  neocloud:   ['coreweave','lambda labs','together ai','crusoe','neocloud','gpu cloud','nebius','vast.ai','runpod','compute cloud'],
+  equipment:  ['asml','applied materials','lam research','kla','euv','duv','etch machine','deposition','lithography','semiconductor equipment'],
+};
+
+const TAG_STYLE = {
+  foundry:    { bg:'var(--tag-foundry-bg)', text:'var(--tag-foundry-text)', label:'Foundry'     },
+  memory:     { bg:'var(--tag-memory-bg)',  text:'var(--tag-memory-text)',  label:'Memory'      },
+  ai:         { bg:'var(--tag-ai-bg)',      text:'var(--tag-ai-text)',      label:'AI/ML'       },
+  geopolitics:{ bg:'var(--tag-geo-bg)',     text:'var(--tag-geo-text)',     label:'Geopolitics' },
+  power:      { bg:'var(--tag-power-bg)',   text:'var(--tag-power-text)',   label:'Power'       },
+  hyperscaler:{ bg:'var(--tag-hyper-bg)',   text:'var(--tag-hyper-text)',   label:'Hyperscaler' },
+  neocloud:   { bg:'var(--tag-neo-bg)',     text:'var(--tag-neo-text)',     label:'Neocloud'    },
+  equipment:  { bg:'var(--tag-equip-bg)',   text:'var(--tag-equip-text)',   label:'Equipment'   },
+};
+
+const DEFAULT_METRICS = {
+  hyper:[
+    {label:'AWS',      value:'$18.3B', note:"Q1'26"},
+    {label:'Azure',    value:'$16.1B', note:"Q1'26"},
+    {label:'GCP',      value:'$12.8B', note:"Q1'26"},
+    {label:'Meta',     value:'$11.2B', note:"Q1'26"},
+  ],
+  neo:[
+    {label:'CoreWeave',  value:'~$23B',  note:"FY'26 est."},
+    {label:'Lambda',     value:'~$500M', note:"FY'25"},
+    {label:'Together AI',value:'~$220M', note:'raised'},
+    {label:'Crusoe',     value:'~$686M', note:'raised'},
+  ],
+  mem:[
+    {label:'HBM3e', value:'$18/GB',   trend:'↑'},
+    {label:'HBM3',  value:'$14/GB',   trend:'→'},
+    {label:'DDR5',  value:'$4.20/GB', trend:'↓'},
+    {label:'NAND',  value:'$0.08/GB', trend:'↓'},
+  ],
+  gpu:[
+    {provider:'Lambda',    h100:'$2.49', h200:'—',    mi300x:'$2.19'},
+    {provider:'RunPod',    h100:'$2.29', h200:'$3.49',mi300x:'$2.15'},
+    {provider:'Vast.ai',   h100:'~$1.95',h200:'~$3.20',mi300x:'~$1.80'},
+    {provider:'CoreWeave', h100:'$2.89', h200:'$4.50',mi300x:'—'},
+  ],
+};
+
+/* ── STATE ──────────────────────────────────────────────────── */
+
+let allNews = [];
+let activeSrc = null;
+let activeTopics = new Set(Object.keys(KW));
+let metrics = {};
+
+/* ── INIT ───────────────────────────────────────────────────── */
+
+document.addEventListener('DOMContentLoaded', () => {
+  loadMetrics();
+  buildSidebar();
+  renderAllMetrics();
+  loadSignals();
+  fetchStocks();
+  fetchAllFeeds();
+  setInterval(fetchStocks,   2 * 60 * 1000);
+  setInterval(fetchAllFeeds, 30 * 60 * 1000);
+});
+
+/* ── SIDEBAR ────────────────────────────────────────────────── */
+
+function buildSidebar() {
+  const sl = document.getElementById('src-list');
+  const all = mkEl('div','src-item active','All sources');
+  all.onclick = () => { activeSrc = null; sl.querySelectorAll('.src-item').forEach(e => e.classList.remove('active')); all.classList.add('active'); renderFeed(); };
+  sl.appendChild(all);
+
+  FEEDS.forEach(f => {
+    const el = mkEl('div','src-item');
+    el.innerHTML = `<span class="src-dot" style="background:${f.color}"></span>${esc(f.name)}`;
+    el.onclick = () => { activeSrc = f.id; sl.querySelectorAll('.src-item').forEach(e=>e.classList.remove('active')); el.classList.add('active'); renderFeed(); };
+    sl.appendChild(el);
+  });
+
+  // HN entry
+  const hn = mkEl('div','src-item');
+  hn.innerHTML = `<span class="src-dot" style="background:#d97706"></span>Hacker News`;
+  hn.onclick = () => { activeSrc = 'hn'; sl.querySelectorAll('.src-item').forEach(e=>e.classList.remove('active')); hn.classList.add('active'); renderFeed(); };
+  sl.appendChild(hn);
+
+  const tf = document.getElementById('topic-filters');
+  Object.keys(TAG_STYLE).forEach(t => {
+    const s = TAG_STYLE[t];
+    const wrap = mkEl('div'); wrap.style.marginBottom = '5px';
+    const tag = mkEl('span','topic-tag', s.label);
+    tag.style.cssText = `background:${s.bg};color:${s.text};`;
+    tag.onclick = () => {
+      if (activeTopics.has(t)) { activeTopics.delete(t); tag.classList.add('off'); }
+      else { activeTopics.add(t); tag.classList.remove('off'); }
+      renderFeed();
+    };
+    wrap.appendChild(tag);
+    tf.appendChild(wrap);
+  });
+}
+
+/* ── STOCKS ─────────────────────────────────────────────────── */
+
+async function fetchStocks() {
+  setStatus('loading', 'Updating…');
+  const wl = document.getElementById('watchlist');
+  try {
+    const url = `https://query1.finance.yahoo.com/v7/finance/quote?symbols=${TICKERS.join(',')}&fields=regularMarketPrice,regularMarketChangePercent`;
+    const proxy = `https://api.allorigins.win/get?url=${encodeURIComponent(url)}`;
+    const res = await fetch(proxy, { signal: AbortSignal.timeout(10000) });
+    const outer = await res.json();
+    const data = JSON.parse(outer.contents);
+    const quotes = data.quoteResponse.result;
+
+    wl.innerHTML = quotes.map(q => {
+      const chg = q.regularMarketChangePercent || 0;
+      const sign = chg >= 0 ? '+' : '';
+      const cls = chg >= 0 ? 'pos' : 'neg';
+      return `<div class="metric-row">
+        <span class="tick-sym">${esc(q.symbol)}</span>
+        <span class="tick-price">$${q.regularMarketPrice.toFixed(2)}</span>
+        <span class="tick-chg ${cls}">${sign}${chg.toFixed(2)}%</span>
+      </div>`;
+    }).join('');
+    setStatus('ok', 'Updated ' + new Date().toLocaleTimeString([],{hour:'2-digit',minute:'2-digit'}));
+  } catch(e) {
+    wl.innerHTML = '<div class="empty" style="padding:8px 0;text-align:left;">Stock data unavailable — proxy may be rate-limited. Refresh to retry.</div>';
+    setStatus('error', 'Stock fetch failed');
+  }
+}
+
+/* ── RSS FEEDS ──────────────────────────────────────────────── */
+
+async function fetchAllFeeds() {
+  document.getElementById('news-feed').innerHTML = '<div class="empty">Fetching feeds…</div>';
+  setStatus('loading', 'Fetching news…');
+
+  const results = await Promise.allSettled(FEEDS.map(f => fetchOneFeed(f)));
+  allNews = [];
+  results.forEach(r => { if (r.status === 'fulfilled') allNews.push(...r.value); });
+
+  try { const hn = await fetchHN(); allNews.push(...hn); } catch(_) {}
+
+  allNews.sort((a, b) => b.date - a.date);
+  renderFeed();
+  setStatus('ok', 'Updated ' + new Date().toLocaleTimeString([],{hour:'2-digit',minute:'2-digit'}));
+}
+
+async function fetchOneFeed(feed) {
+  const proxy = `https://api.allorigins.win/get?url=${encodeURIComponent(feed.url)}`;
+  const res = await fetch(proxy, { signal: AbortSignal.timeout(12000) });
+  const outer = await res.json();
+  const xml = new DOMParser().parseFromString(outer.contents, 'text/xml');
+  return [...xml.querySelectorAll('item, entry')].slice(0, 15).map(item => {
+    const title = item.querySelector('title')?.textContent?.trim() || '';
+    let link = item.querySelector('link')?.textContent?.trim() || '';
+    if (!link) link = item.querySelector('link')?.getAttribute('href') || '#';
+    const pubRaw = item.querySelector('pubDate, published, updated')?.textContent;
+    const desc = (item.querySelector('description, summary, content')?.textContent || '').replace(/<[^>]+>/g,'').trim();
+    const date = pubRaw ? new Date(pubRaw) : new Date(0);
+    const topics = tagItem(title + ' ' + desc);
+    return { title, link, date, desc: desc.slice(0,180), source: feed.name, sourceId: feed.id, sourceColor: feed.color, topics };
+  }).filter(i => i.title.length > 5);
+}
+
+async function fetchHN() {
+  const q = encodeURIComponent('semiconductor OR TSMC OR HBM OR "AI chip" OR "GPU" OR foundry');
+  const res = await fetch(`https://hn.algolia.com/api/v1/search?query=${q}&tags=story&hitsPerPage=15`);
+  const data = await res.json();
+  return data.hits.map(h => ({
+    title: h.title,
+    link: h.url || `https://news.ycombinator.com/item?id=${h.objectID}`,
+    date: new Date(h.created_at),
+    source: 'Hacker News', sourceId: 'hn', sourceColor: '#d97706',
+    desc: '',
+    topics: tagItem(h.title),
+  })).filter(i => i.topics.length > 0);
+}
+
+/* ── TOPIC TAGGING ──────────────────────────────────────────── */
+
+function tagItem(text) {
+  const lower = text.toLowerCase();
+  return Object.entries(KW)
+    .filter(([, kws]) => kws.some(kw => lower.includes(kw)))
+    .map(([t]) => t);
+}
+
+/* ── RENDER FEED ────────────────────────────────────────────── */
+
+function renderFeed() {
+  let items = [...allNews];
+  if (activeSrc) items = items.filter(i => i.sourceId === activeSrc);
+  if (activeTopics.size < Object.keys(KW).length)
+    items = items.filter(i => i.topics.some(t => activeTopics.has(t)));
+  const sort = document.getElementById('sort-sel').value;
+  if (sort === 'source') items.sort((a,b) => a.source.localeCompare(b.source));
+
+  document.getElementById('feed-count').textContent = `· ${items.length} items`;
+
+  if (!items.length) {
+    document.getElementById('news-feed').innerHTML = '<div class="empty">No items match the current filters.</div>';
+    return;
+  }
+
+  document.getElementById('news-feed').innerHTML = items.map(item => {
+    const isAlert = item.topics.includes('geopolitics');
+    const tags = item.topics.slice(0,3).map(t => {
+      const s = TAG_STYLE[t];
+      return `<span class="tag" style="background:${s.bg};color:${s.text};">${s.label}</span>`;
+    }).join('');
+    return `<a class="news-card${isAlert?' alert':''}" href="${esc(item.link)}" target="_blank" rel="noopener noreferrer">
+      <div class="card-src"><span style="color:${item.sourceColor}">${esc(item.source)}</span></div>
+      <div class="card-title">${esc(item.title)}</div>
+      <div class="card-meta">
+        <span class="card-time">${age(item.date)}</span>
+        ${tags}
+      </div>
+    </a>`;
+  }).join('');
+}
+
+function age(d) {
+  const s = (Date.now() - d.getTime()) / 1000;
+  if (s < 3600) return `${Math.floor(s/60)}m ago`;
+  if (s < 86400) return `${Math.floor(s/3600)}h ago`;
+  if (s < 604800) return `${Math.floor(s/86400)}d ago`;
+  return d.toLocaleDateString([],{month:'short',day:'numeric'});
+}
+
+/* ── METRICS ────────────────────────────────────────────────── */
+
+function loadMetrics() {
+  try {
+    const s = localStorage.getItem('semi_metrics');
+    metrics = s ? JSON.parse(s) : JSON.parse(JSON.stringify(DEFAULT_METRICS));
+  } catch(_) {
+    metrics = JSON.parse(JSON.stringify(DEFAULT_METRICS));
+  }
+}
+
+function saveMet() { localStorage.setItem('semi_metrics', JSON.stringify(metrics)); }
+
+function renderAllMetrics() {
+  renderMetList('hyper-cap', metrics.hyper, 'hyper');
+  renderMetList('neo-cap', metrics.neo, 'neo');
+  renderMemory();
+  renderGPURight();
+  if (document.getElementById('p-charts').style.display !== 'none') renderCharts();
+}
+
+function renderMetList(id, arr, key) {
+  document.getElementById(id).innerHTML = arr.map((r, i) =>
+    `<div class="metric-row">
+      <span class="m-lbl">${esc(r.label)}</span>
+      <span class="m-val" title="Click to edit" onclick="editMet('${key}',${i},this)">
+        ${esc(r.value)} <span class="m-note">${esc(r.note)}</span>
+      </span>
+    </div>`
+  ).join('');
+}
+
+function renderMemory() {
+  document.getElementById('mem-price').innerHTML = metrics.mem.map((r, i) => {
+    const tc = r.trend==='↑' ? 'var(--green)' : r.trend==='↓' ? 'var(--red)' : 'var(--text-muted)';
+    return `<div class="metric-row">
+      <span class="m-lbl">${esc(r.label)}</span>
+      <span class="m-val" onclick="editMem(${i},this)">
+        ${esc(r.value)} <span style="color:${tc}">${r.trend}</span>
+      </span>
+    </div>`;
+  }).join('');
+}
+
+function renderGPURight() {
+  const types = [{k:'h100',l:'H100 SXM'},{k:'mi300x',l:'MI300X'}];
+  document.getElementById('gpu-right').innerHTML = types.map(t =>
+    `<p style="font-size:10px;color:var(--text-muted);font-weight:500;margin:8px 0 5px;">${t.l}</p>` +
+    metrics.gpu.map((g,i) => g[t.k]==='—' ? '' :
+      `<div class="metric-row"><span class="m-lbl">${esc(g.provider)}</span>
+       <span class="m-val" onclick="editGPU(${i},'${t.k}',this)">${esc(g[t.k])}</span></div>`
+    ).join('')
+  ).join('');
+}
+
+function editMet(key, idx, el) {
+  const cur = metrics[key][idx].value;
+  const inp = document.createElement('input');
+  inp.value = cur;
+  inp.onblur = () => { metrics[key][idx].value = inp.value; saveMet(); renderAllMetrics(); };
+  inp.onkeydown = e => { if(e.key==='Enter') inp.blur(); if(e.key==='Escape') renderAllMetrics(); };
+  el.innerHTML = '';
+  el.appendChild(inp);
+  inp.focus(); inp.select();
+}
+
+function editMem(idx, el) {
+  const inp = document.createElement('input');
+  inp.value = metrics.mem[idx].value;
+  inp.onblur = () => { metrics.mem[idx].value = inp.value; saveMet(); renderAllMetrics(); };
+  inp.onkeydown = e => { if(e.key==='Enter') inp.blur(); if(e.key==='Escape') renderAllMetrics(); };
+  el.innerHTML = '';
+  el.appendChild(inp);
+  inp.focus(); inp.select();
+}
+
+function editGPU(idx, key, el) {
+  const inp = document.createElement('input');
+  inp.value = metrics.gpu[idx][key];
+  inp.onblur = () => { metrics.gpu[idx][key] = inp.value; saveMet(); renderAllMetrics(); renderCharts(); };
+  inp.onkeydown = e => { if(e.key==='Enter') inp.blur(); if(e.key==='Escape') renderAllMetrics(); };
+  el.innerHTML = '';
+  el.appendChild(inp);
+  inp.focus(); inp.select();
+}
+
+/* ── SIGNAL BOARD ───────────────────────────────────────────── */
+
+function loadSignals() {
+  const s = localStorage.getItem('semi_signals');
+  renderSignals(s ? JSON.parse(s) : [
+    {id:1,text:'TSMC CoWoS-L capacity +30% confirmed by end 2026',cat:'Foundry',date:'07 May'},
+    {id:2,text:'Microsoft + G42 signals neocloud geographic expansion',cat:'Hyperscaler',date:'04 May'},
+    {id:3,text:'CHIPS Act disbursements delayed to Q3 per NIST update',cat:'Geopolitics',date:'01 May'},
+  ]);
+}
+
+function renderSignals(sigs) {
+  const el = document.getElementById('signals');
+  if (!sigs.length) { el.innerHTML = '<div class="empty" style="padding:8px 0;text-align:left;">No signals yet.</div>'; return; }
+  el.innerHTML = sigs.map(s =>
+    `<div class="sig-item">
+      <button class="del" onclick="delSig(${s.id})">✕</button>
+      <div>${esc(s.text)}</div>
+      <div class="sig-date">${esc(s.date)} · ${esc(s.cat)}</div>
+    </div>`
+  ).join('');
+}
+
+function toggleSigForm() {
+  const w = document.getElementById('sig-form-wrap');
+  w.style.display = w.style.display === 'none' ? 'block' : 'none';
+  if (w.style.display === 'block') document.getElementById('sig-txt').focus();
+}
+
+function saveSignal() {
+  const txt = document.getElementById('sig-txt').value.trim();
+  if (!txt) return;
+  const cat = document.getElementById('sig-cat').value;
+  const s = localStorage.getItem('semi_signals');
+  const sigs = s ? JSON.parse(s) : [];
+  const d = new Date();
+  const date = d.toLocaleDateString([],{day:'2-digit',month:'short'});
+  sigs.unshift({id:Date.now(), text:txt, cat, date});
+  localStorage.setItem('semi_signals', JSON.stringify(sigs));
+  document.getElementById('sig-txt').value = '';
+  document.getElementById('sig-form-wrap').style.display = 'none';
+  renderSignals(sigs);
+}
+
+function delSig(id) {
+  const s = localStorage.getItem('semi_signals');
+  const sigs = (s ? JSON.parse(s) : []).filter(x => x.id !== id);
+  localStorage.setItem('semi_signals', JSON.stringify(sigs));
+  renderSignals(sigs);
+}
+
+/* ── CHARTS ─────────────────────────────────────────────────── */
+
+function renderCharts() {
+  drawBar('c-hyper',  metrics.hyper, '#2563eb');
+  drawBar('c-neo',    metrics.neo,   '#7c3aed');
+  drawMemoryLine();
+  renderGPUTable();
+}
+
+function drawBar(id, rows, color) {
+  const canvas = document.getElementById(id);
+  if (!canvas || !canvas.offsetWidth) return;
+  const W = canvas.offsetWidth, H = 190;
+  canvas.width = W; canvas.height = H;
+  const ctx = canvas.getContext('2d');
+  const dark = matchMedia('(prefers-color-scheme:dark)').matches;
+  const gridC = dark ? '#2e2d29' : '#e2e1dc';
+  const textC = dark ? '#9b9a93' : '#9c9b94';
+  const labelC = dark ? '#e8e7e1' : '#1c1b18';
+  const pad = {t:10,r:10,b:40,l:44};
+  const cW = W-pad.l-pad.r, cH = H-pad.t-pad.b;
+  const vals = rows.map(r => parseFloat(r.value.replace(/[^0-9.]/g,'')) || 0);
+  const mx = Math.max(...vals) * 1.2 || 1;
+
+  ctx.clearRect(0,0,W,H);
+  [.25,.5,.75,1].forEach(f => {
+    const y = pad.t + cH*(1-f);
+    ctx.beginPath(); ctx.strokeStyle=gridC; ctx.lineWidth=0.5; ctx.setLineDash([3,3]);
+    ctx.moveTo(pad.l,y); ctx.lineTo(W-pad.r,y); ctx.stroke(); ctx.setLineDash([]);
+    ctx.fillStyle=textC; ctx.font='9px IBM Plex Mono,monospace'; ctx.textAlign='right';
+    const v = mx*f; ctx.fillText(v>=1?v.toFixed(0):v.toFixed(1), pad.l-5, y+3);
+  });
+  const gap = cW/rows.length, bw = gap*0.5;
+  rows.forEach((r,i) => {
+    const bh = Math.max((vals[i]/mx)*cH, 1);
+    const x = pad.l + gap*i + (gap-bw)/2;
+    const y = pad.t + cH - bh;
+    ctx.fillStyle = color; ctx.globalAlpha = .85;
+    ctx.beginPath();
+    if (ctx.roundRect) ctx.roundRect(x,y,bw,bh,2); else ctx.rect(x,y,bw,bh);
+    ctx.fill(); ctx.globalAlpha = 1;
+    ctx.fillStyle = labelC; ctx.font='10px IBM Plex Sans,sans-serif'; ctx.textAlign='center';
+    ctx.fillText(r.label, x+bw/2, H-pad.b+14);
+    ctx.fillStyle = textC; ctx.font='9px IBM Plex Mono,monospace';
+    ctx.fillText(r.value.replace(/[FYQ'.est ]/g,'').slice(0,7), x+bw/2, H-pad.b+25);
+  });
+}
+
+function drawMemoryLine() {
+  const canvas = document.getElementById('c-memory');
+  if (!canvas || !canvas.offsetWidth) return;
+  const W = canvas.offsetWidth, H = 190;
+  canvas.width = W; canvas.height = H;
+  const ctx = canvas.getContext('2d');
+  const dark = matchMedia('(prefers-color-scheme:dark)').matches;
+  const gridC = dark ? '#2e2d29' : '#e2e1dc';
+  const textC = dark ? '#9b9a93' : '#9c9b94';
+  const labelC = dark ? '#e8e7e1' : '#1c1b18';
+
+  // Build data from current metrics + static history
+  const series = [
+    { label:'HBM3e', color:'#b45309', pts:[14,15,16,16.5,17,parseFloat(metrics.mem[0].value)||18] },
+    { label:'HBM3',  color:'#d97706', pts:[14,14,14,14,14,parseFloat(metrics.mem[1].value)||14]   },
+    { label:'DDR5',  color:'#2563eb', pts:[5.2,5.0,4.8,4.6,4.4,parseFloat(metrics.mem[2].value)||4.2] },
+  ];
+  const months = ['Nov','Dec','Jan','Feb','Mar','Apr'];
+  const pad = {t:10,r:72,b:36,l:40};
+  const cW = W-pad.l-pad.r, cH = H-pad.t-pad.b;
+  const mx = Math.max(...series.flatMap(s=>s.pts))*1.15;
+  ctx.clearRect(0,0,W,H);
+
+  [.25,.5,.75,1].forEach(f => {
+    const y = pad.t+cH*(1-f);
+    ctx.beginPath(); ctx.strokeStyle=gridC; ctx.lineWidth=0.5; ctx.setLineDash([3,3]);
+    ctx.moveTo(pad.l,y); ctx.lineTo(W-pad.r,y); ctx.stroke(); ctx.setLineDash([]);
+    ctx.fillStyle=textC; ctx.font='9px IBM Plex Mono,monospace'; ctx.textAlign='right';
+    ctx.fillText('$'+(mx*f).toFixed(0), pad.l-5, y+3);
+  });
+
+  series.forEach((s,si) => {
+    ctx.beginPath(); ctx.strokeStyle=s.color; ctx.lineWidth=1.5; ctx.lineJoin='round';
+    s.pts.forEach((v,i) => {
+      const x=pad.l+(i/(s.pts.length-1))*cW, y=pad.t+cH*(1-v/mx);
+      i===0?ctx.moveTo(x,y):ctx.lineTo(x,y);
+    }); ctx.stroke();
+    const ly = pad.t+20*si+10;
+    ctx.beginPath(); ctx.strokeStyle=s.color; ctx.lineWidth=1.5;
+    ctx.moveTo(W-pad.r+4,ly); ctx.lineTo(W-pad.r+18,ly); ctx.stroke();
+    ctx.fillStyle=labelC; ctx.font='10px IBM Plex Sans,sans-serif'; ctx.textAlign='left';
+    ctx.fillText(s.label, W-pad.r+22, ly+4);
+  });
+
+  months.forEach((m,i) => {
+    const x=pad.l+(i/(months.length-1))*cW;
+    ctx.fillStyle=textC; ctx.font='10px IBM Plex Sans,sans-serif'; ctx.textAlign='center';
+    ctx.fillText(m, x, H-pad.b+15);
+  });
+}
+
+function renderGPUTable() {
+  document.getElementById('gpu-tbl-body').innerHTML = metrics.gpu.map((g,i) =>
+    `<tr>
+      <td>${esc(g.provider)}</td>
+      <td onclick="editGPUChart(${i},'h100',this)">${esc(g.h100)}</td>
+      <td onclick="editGPUChart(${i},'h200',this)">${esc(g.h200)}</td>
+      <td onclick="editGPUChart(${i},'mi300x',this)">${esc(g.mi300x)}</td>
+    </tr>`
+  ).join('');
+}
+
+function editGPUChart(idx, key, td) {
+  const inp = document.createElement('input');
+  inp.value = metrics.gpu[idx][key];
+  inp.onblur = () => { metrics.gpu[idx][key]=inp.value; saveMet(); renderAllMetrics(); renderCharts(); };
+  inp.onkeydown = e => { if(e.key==='Enter') inp.blur(); if(e.key==='Escape') renderCharts(); };
+  td.innerHTML=''; td.appendChild(inp); inp.focus(); inp.select();
+}
+
+/* ── UTILITIES ──────────────────────────────────────────────── */
+
+async function refreshAll() {
+  await Promise.all([fetchStocks(), fetchAllFeeds()]);
+}
+
+function sw(name) {
+  document.getElementById('p-feed').style.display   = name==='feed'   ? 'block' : 'none';
+  document.getElementById('p-charts').style.display = name==='charts' ? 'block' : 'none';
+  document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+  document.getElementById('tab-'+name).classList.add('active');
+  if (name==='charts') setTimeout(renderCharts, 60);
+}
+
+function setStatus(state, msg) {
+  const dot = document.getElementById('sdot');
+  const txt = document.getElementById('sup');
+  dot.className = 'status-dot' + (state==='ok'?'': state==='loading'?' loading':' error');
+  txt.textContent = msg;
+}
+
+function mkEl(tag, cls='', txt='') {
+  const el = document.createElement(tag);
+  if (cls) el.className = cls;
+  if (txt) el.textContent = txt;
+  return el;
+}
+
+function esc(s) {
+  return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+</script>
+</body>
+</html>
