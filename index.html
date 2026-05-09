@@ -472,9 +472,9 @@ select {
 
 const FEEDS = [
   { id:'chip-letter',    name:'The Chip Letter',    url:'https://thechipletter.substack.com/feed',     color:'#2563eb' },
-  { id:'fab-know',       name:'Fabricated Knowledge',url:'https://fabricatedknowledge.substack.com/feed',color:'#2563eb' },
+  { id:'fab-know',       name:'Fabricated Knowledge',url:'https://www.fabricatedknowledge.com/feed',color:'#2563eb' },
   { id:'moore',          name:'More Than Moore',    url:'https://morethanmoore.substack.com/feed',     color:'#2563eb' },
-  { id:'chinatalk',      name:'ChinaTalk',          url:'https://chinatalk.substack.com/feed',         color:'#16a34a' },
+  { id:'chinatalk',      name:'ChinaTalk',          url:'https://www.chinatalk.media/rss',             color:'#16a34a' },
   { id:'interconnects',  name:'Interconnects',      url:'https://www.interconnects.ai/feed',           color:'#16a34a' },
   { id:'state-ai',       name:'State of AI',        url:'https://nathanbenaich.substack.com/feed',     color:'#7c3aed' },
   { id:'import-ai',      name:'Import AI',          url:'https://jack-clark.net/feed/',                color:'#7c3aed' },
@@ -675,17 +675,29 @@ async function fetchOneFeed(feed) {
 }
 
 async function fetchHN() {
-  const q = encodeURIComponent('semiconductor OR TSMC OR HBM OR "AI chip" OR "GPU" OR foundry');
-  const res = await fetch(`https://hn.algolia.com/api/v1/search?query=${q}&tags=story&hitsPerPage=15`);
-  const data = await res.json();
-  return data.hits.map(h => ({
-    title: h.title,
-    link: h.url || `https://news.ycombinator.com/item?id=${h.objectID}`,
-    date: new Date(h.created_at),
-    source: 'Hacker News', sourceId: 'hn', sourceColor: '#d97706',
-    desc: '',
-    topics: tagItem(h.title),
-  })).filter(i => i.topics.length > 0);
+  const queries = ['semiconductor', 'TSMC nvidia', 'HBM memory chip', 'AI inference compute'];
+  const allHits = [];
+  for (const q of queries) {
+    try {
+      const res = await fetch(`https://hn.algolia.com/api/v1/search?query=${encodeURIComponent(q)}&tags=story&hitsPerPage=8`);
+      const data = await res.json();
+      allHits.push(...data.hits);
+    } catch(_) {}
+  }
+  const seen = new Set();
+  return allHits
+    .filter(h => { if (seen.has(h.objectID)) return false; seen.add(h.objectID); return true; })
+    .map(h => {
+      const topics = tagItem(h.title);
+      return {
+        title: h.title,
+        link: h.url || `https://news.ycombinator.com/item?id=${h.objectID}`,
+        date: new Date(h.created_at),
+        source: 'Hacker News', sourceId: 'hn', sourceColor: '#d97706',
+        desc: '',
+        topics: topics.length ? topics : ['ai'],
+      };
+    });
 }
 
 /* ── TOPIC TAGGING ──────────────────────────────────────────── */
