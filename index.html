@@ -660,17 +660,17 @@ async function fetchAllFeeds() {
 }
 
 async function fetchOneFeed(feed) {
-  const text = await proxyGet(feed.url);
-  const xml = new DOMParser().parseFromString(text, 'text/xml');
-  return [...xml.querySelectorAll('item, entry')].slice(0, 15).map(item => {
-    const title = item.querySelector('title')?.textContent?.trim() || '';
-    let link = item.querySelector('link')?.textContent?.trim() || '';
-    if (!link) link = item.querySelector('link')?.getAttribute('href') || '#';
-    const pubRaw = item.querySelector('pubDate, published, updated')?.textContent;
-    const desc = (item.querySelector('description, summary, content')?.textContent || '').replace(/<[^>]+>/g,'').trim();
-    const date = pubRaw ? new Date(pubRaw) : new Date(0);
+  const url = `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(feed.url)}&count=15`;
+  const res = await fetch(url, { signal: AbortSignal.timeout(15000) });
+  const data = await res.json();
+  if (data.status !== 'ok') throw new Error(data.message || 'Feed error');
+  return data.items.map(item => {
+    const title = (item.title || '').trim();
+    const link = item.link || '#';
+    const date = item.pubDate ? new Date(item.pubDate) : new Date(0);
+    const desc = (item.description || item.content || '').replace(/<[^>]+>/g, '').trim();
     const topics = tagItem(title + ' ' + desc);
-    return { title, link, date, desc: desc.slice(0,180), source: feed.name, sourceId: feed.id, sourceColor: feed.color, topics };
+    return { title, link, date, desc: desc.slice(0, 180), source: feed.name, sourceId: feed.id, sourceColor: feed.color, topics };
   }).filter(i => i.title.length > 5);
 }
 
