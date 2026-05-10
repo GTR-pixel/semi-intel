@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-10T00:09:36.452589+00:00",
+  "updated": "2026-05-10T00:18:27.113920+00:00",
   "items": [
     {
       "title": "Notes from inside China's AI labs",
@@ -533,6 +533,15 @@
       "sourceColor": "#d97706"
     },
     {
+      "title": "OpenAI builds first chip with Broadcom and TSMC, scales back foundry ambition",
+      "link": "https://www.reuters.com/technology/artificial-intelligence/openai-builds-first-chip-with-broadcom-tsmc-scales-back-foundry-ambition-2024-10-29/",
+      "date": "2024-10-29T17:19:44Z",
+      "desc": "",
+      "source": "Hacker News",
+      "sourceId": "hn",
+      "sourceColor": "#d97706"
+    },
+    {
       "title": "Apple mobile processors are now made in America by TSMC",
       "link": "https://timculpan.substack.com/p/apple-mobile-processors-are-now-made",
       "date": "2024-09-18T01:38:01Z",
@@ -641,6 +650,24 @@
       "sourceColor": "#d97706"
     },
     {
+      "title": "Intel Foundry Services and Arm announce collaboration on SoC design",
+      "link": "https://www.intel.com/content/www/us/en/newsroom/news/intel-foundry-arm-announce-multigeneration-collaboration-leading-edge-soc-design.html",
+      "date": "2023-04-12T13:09:49Z",
+      "desc": "",
+      "source": "Hacker News",
+      "sourceId": "hn",
+      "sourceColor": "#d97706"
+    },
+    {
+      "title": "OpenAI's Foundry leaked pricing says a lot",
+      "link": "https://cognitiverevolution.substack.com/p/openais-foundry-leaked-pricing-says",
+      "date": "2023-02-28T19:26:45Z",
+      "desc": "",
+      "source": "Hacker News",
+      "sourceId": "hn",
+      "sourceColor": "#d97706"
+    },
+    {
       "title": "Sam Zeloof and Jim Keller start a new semiconductor fab",
       "link": "https://atomicsemi.com/",
       "date": "2023-02-23T07:35:23Z",
@@ -686,6 +713,15 @@
       "sourceColor": "#d97706"
     },
     {
+      "title": "Samsung Electronics cultural issues causing disasters in foundry, LSI, DRAM",
+      "link": "https://semianalysis.substack.com/p/samsung-electronics-cultural-issues",
+      "date": "2022-04-17T20:19:58Z",
+      "desc": "",
+      "source": "Hacker News",
+      "sourceId": "hn",
+      "sourceColor": "#d97706"
+    },
+    {
       "title": "Sony to join TSMC on new $7B chip plant in Japan",
       "link": "https://asia.nikkei.com/Business/Tech/Semiconductors/Sony-to-join-TSMC-on-new-7bn-chip-plant-in-Japan",
       "date": "2021-10-11T17:47:24Z",
@@ -713,6 +749,15 @@
       "sourceColor": "#d97706"
     },
     {
+      "title": "Intel to build Qualcomm chips, aims to catch foundry rivals by 2025",
+      "link": "https://www.reuters.com/technology/intel-build-qualcomm-chips-aims-catch-foundry-rivals-by-2025-2021-07-26/",
+      "date": "2021-07-26T21:33:20Z",
+      "desc": "",
+      "source": "Hacker News",
+      "sourceId": "hn",
+      "sourceColor": "#d97706"
+    },
+    {
       "title": "TSMC eyes Germany as possible location for first Europe chip plant",
       "link": "https://asia.nikkei.com/Business/Tech/Semiconductors/TSMC-eyes-Germany-as-possible-location-for-first-Europe-chip-plant",
       "date": "2021-07-26T08:49:51Z",
@@ -734,6 +779,15 @@
       "title": "U.S. senators propose 25% tax credit for semiconductor manufacturing",
       "link": "https://www.reuters.com/article/ctech-us-usa-semiconductors-congress-idCAKCN2DT29F-OCATC",
       "date": "2021-06-19T15:20:40Z",
+      "desc": "",
+      "source": "Hacker News",
+      "sourceId": "hn",
+      "sourceColor": "#d97706"
+    },
+    {
+      "title": "Samsung Foundry: New $17B Fab in the USA by Late 2023",
+      "link": "https://www.anandtech.com/show/16483/samsung-in-the-usa-a-17-billion-usd-fab-by-late-2023",
+      "date": "2021-02-10T20:45:31Z",
       "desc": "",
       "source": "Hacker News",
       "sourceId": "hn",
@@ -779,6 +833,24 @@
       "title": "AMD Announces Dual-Vega Radeon Pro V340 Card with 32GB of ECC HBM Memory",
       "link": "https://www.tomshardware.com/news/amd-radeon-pro-dual-vega-v340,37694.html",
       "date": "2018-08-27T12:33:12Z",
+      "desc": "",
+      "source": "Hacker News",
+      "sourceId": "hn",
+      "sourceColor": "#d97706"
+    },
+    {
+      "title": "Rolls-Royce’s single-crystal turbine blade casting foundry",
+      "link": "https://www.theengineer.co.uk/issues/june-2015-online/jewel-in-the-crown-rolls-royces-single-crystal-turbine-blade-casting-foundry/",
+      "date": "2016-09-11T16:35:35Z",
+      "desc": "",
+      "source": "Hacker News",
+      "sourceId": "hn",
+      "sourceColor": "#d97706"
+    },
+    {
+      "title": "Intel Licenses ARM Technology to Boost Foundry Business",
+      "link": "http://www.bloomberg.com/news/articles/2016-08-16/intel-licenses-arm-technology-in-move-to-boost-foundry-business",
+      "date": "2016-08-16T20:24:36Z",
       "desc": "",
       "source": "Hacker News",
       "sourceId": "hn",
