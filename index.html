@@ -551,7 +551,7 @@ document.addEventListener('DOMContentLoaded', () => {
   fetchStocks();
   fetchAllFeeds();
   setInterval(fetchStocks,   2 * 60 * 1000);
-  setInterval(fetchAllFeeds, 30 * 60 * 1000);
+  // feeds.json is updated by GitHub Actions every 30 min
 });
 
 /* ── SIDEBAR ────────────────────────────────────────────────── */
@@ -645,18 +645,27 @@ async function fetchStocks() {
 /* ── RSS FEEDS ──────────────────────────────────────────────── */
 
 async function fetchAllFeeds() {
-  document.getElementById('news-feed').innerHTML = '<div class="empty">Fetching feeds…</div>';
-  setStatus('loading', 'Fetching news…');
-
-  const results = await Promise.allSettled(FEEDS.map(f => fetchOneFeed(f)));
-  allNews = [];
-  results.forEach(r => { if (r.status === 'fulfilled') allNews.push(...r.value); });
-
-  try { const hn = await fetchHN(); allNews.push(...hn); } catch(_) {}
-
-  allNews.sort((a, b) => b.date - a.date);
-  renderFeed();
-  setStatus('ok', 'Updated ' + new Date().toLocaleTimeString([],{hour:'2-digit',minute:'2-digit'}));
+  document.getElementById('news-feed').innerHTML = '<div class="empty">Loading feeds…</div>';
+  setStatus('loading', 'Loading…');
+  try {
+    const res = await fetch(`feeds.json?t=${Date.now()}`);
+    if (!res.ok) throw new Error('not found');
+    const data = await res.json();
+    allNews = (data.items || []).map(item => ({
+      ...item,
+      date: new Date(item.date),
+      topics: tagItem((item.title || '') + ' ' + (item.desc || '')),
+    }));
+    renderFeed();
+    const t = data.updated
+      ? new Date(data.updated).toLocaleTimeString([], {hour:'2-digit', minute:'2-digit'})
+      : '—';
+    setStatus('ok', 'Feeds as of ' + t);
+  } catch(e) {
+    document.getElementById('news-feed').innerHTML =
+      '<div class="empty">Feeds not loaded yet — go to the <strong>Actions</strong> tab in your GitHub repo, click <strong>Fetch RSS Feeds</strong>, then <strong>Run workflow</strong> to populate them for the first time.</div>';
+    setStatus('error', 'feeds.json not found');
+  }
 }
 
 async function fetchOneFeed(feed) {
