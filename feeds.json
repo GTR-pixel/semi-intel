@@ -1,0 +1,806 @@
+{
+  "updated": "2026-05-10T00:09:36.452589+00:00",
+  "items": [
+    {
+      "title": "Notes from inside China's AI labs",
+      "link": "https://www.interconnects.ai/p/notes-from-inside-chinas-ai-labs",
+      "date": "2026-05-07T15:42:43",
+      "desc": "Lessons from my trip to talk to most of the leading AI labs in China.",
+      "source": "Interconnects",
+      "sourceId": "interconnects",
+      "sourceColor": "#16a34a"
+    },
+    {
+      "title": "Why Your AI Agents Fail in Production (And How to Actually Test Them)",
+      "link": "https://gradientflow.com/why-your-ai-agents-fail-in-production-and-how-to-actually-test-them/",
+      "date": "2026-05-06T13:30:41+00:00",
+      "desc": "In a previous post, I argued that deploying autonomous AI agents reliably is not primarily a model problem. It is an environment problem. The gap between a capable foundation model and a production-re",
+      "source": "Gradient Flow",
+      "sourceId": "gradient-flow",
+      "sourceColor": "#7c3aed"
+    },
+    {
+      "title": "Your AI agent looks capable. But can it actually finish the job?",
+      "link": "https://gradientflow.com/your-ai-agent-looks-capable-but-can-it-actually-finish-the-job/",
+      "date": "2026-05-05T13:00:21+00:00",
+      "desc": "Subscribe • Previous Issues Why Your AI Agents Fail in Production (And How to Actually Test Them) In a previous post, I argued that deploying autonomous AI agents reliably is not primarily a model pro",
+      "source": "Gradient Flow",
+      "sourceId": "gradient-flow",
+      "sourceColor": "#7c3aed"
+    },
+    {
+      "title": "Quantum’s Weak Link: Why Supply Chains Will Determine Who Wins",
+      "link": "https://gradientflow.com/quantum-computing-supply-chains/",
+      "date": "2026-05-05T12:00:03+00:00",
+      "desc": "Quantum technologies are entering an industrialization phase. A recent CNAS report  argues that over the next three to five years, quantum sensors and computers will begin moving from laboratories int",
+      "source": "Gradient Flow",
+      "sourceId": "gradient-flow",
+      "sourceColor": "#7c3aed"
+    },
+    {
+      "title": "The distillation panic",
+      "link": "https://www.interconnects.ai/p/the-distillation-panic",
+      "date": "2026-05-04T15:56:44",
+      "desc": "&#8216;Distillation attacks&#8217; is a horrible term for what is happening right now.",
+      "source": "Interconnects",
+      "sourceId": "interconnects",
+      "sourceColor": "#16a34a"
+    },
+    {
+      "title": "Import AI 455: Automating AI Research",
+      "link": "https://jack-clark.net/2026/05/04/import-ai-455-automating-ai-research/",
+      "date": "2026-05-04T12:32:09+00:00",
+      "desc": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv and feedback from readers. If you’d like to support this, please subscribe. Subscribe now AI systems are about to start bu",
+      "source": "Import AI",
+      "sourceId": "import-ai",
+      "sourceColor": "#7c3aed"
+    },
+    {
+      "title": "What mathematicians figured out about AI that most enterprises haven’t",
+      "link": "https://gradientflow.com/ai-in-research-mathematics/",
+      "date": "2026-04-29T12:36:50+00:00",
+      "desc": "Recent results suggest that research mathematics is no longer a purely speculative test case for AI. A growing set of examples shows AI contributing not just to short contest puzzles, but to open-ende",
+      "source": "Gradient Flow",
+      "sourceId": "gradient-flow",
+      "sourceColor": "#7c3aed"
+    },
+    {
+      "title": "Generation is cheap. Evaluation is everything.",
+      "link": "https://gradientflow.com/the-real-ai-bottleneck-isnt-generation-its-this/",
+      "date": "2026-04-28T13:00:06+00:00",
+      "desc": "Subscribe • Previous Issues What mathematicians figured out about AI that most enterprises haven&#8217;t Recent results suggest that research mathematics is no longer a purely speculative test case fo",
+      "source": "Gradient Flow",
+      "sourceId": "gradient-flow",
+      "sourceColor": "#7c3aed"
+    },
+    {
+      "title": "China’s AI Strengths Are Real. So Are the Structural Drags Behind Them.",
+      "link": "https://gradientflow.com/us-china-frontier-models/",
+      "date": "2026-04-28T12:00:17+00:00",
+      "desc": "China is not out of the frontier AI race. Its open-weight models (models whose parameters are publicly released, allowing anyone to run or adapt them) remain genuinely competitive, and the overall cap",
+      "source": "Gradient Flow",
+      "sourceId": "gradient-flow",
+      "sourceColor": "#7c3aed"
+    },
+    {
+      "title": "The Missing Layer: Why Your AI Agent Fails — and What Actually Fixes It",
+      "link": "https://gradientflow.com/the-missing-layer-why-your-ai-agent-fails-and-what-actually-fixes-it/",
+      "date": "2026-04-22T12:49:34+00:00",
+      "desc": "As organizations move autonomous AI agents from experimental sandboxes into live production, a critical bottleneck has emerged. Foundation models are remarkably capable but structurally unsuited to co",
+      "source": "Gradient Flow",
+      "sourceId": "gradient-flow",
+      "sourceColor": "#7c3aed"
+    },
+    {
+      "title": "Stop tweaking your AI models. Do this instead.",
+      "link": "https://gradientflow.com/your-ai-model-isnt-the-problem-its-environment-is/",
+      "date": "2026-04-21T13:00:49+00:00",
+      "desc": "Subscribe • Previous Issues The Missing Layer: Why Your AI Agent Fails — and What Actually Fixes It As organizations move autonomous AI agents from experimental sandboxes into live production, a criti",
+      "source": "Gradient Flow",
+      "sourceId": "gradient-flow",
+      "sourceColor": "#7c3aed"
+    },
+    {
+      "title": "Reading today's open-closed performance gap",
+      "link": "https://www.interconnects.ai/p/reading-todays-open-closed-performance",
+      "date": "2026-04-20T18:25:02",
+      "desc": "The complex factors that determine the single evaluation number so many focus on. Plus, how this changes in the future.",
+      "source": "Interconnects",
+      "sourceId": "interconnects",
+      "sourceColor": "#16a34a"
+    },
+    {
+      "title": "Import AI 454: Automating alignment research; safety study of a Chinese model; HiFloat4",
+      "link": "https://jack-clark.net/2026/04/20/import-ai-454-automating-alignment-research-safety-study-of-a-chinese-model-hifloat4/",
+      "date": "2026-04-20T12:30:19+00:00",
+      "desc": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Huawei’s HiFloat4 training forma",
+      "source": "Import AI",
+      "sourceId": "import-ai",
+      "sourceColor": "#7c3aed"
+    },
+    {
+      "title": "Engels' Pause and the Permanent Underclass",
+      "link": "https://www.fabricatedknowledge.com/p/mythos-and-engels-pause",
+      "date": "2026-04-15T19:15:28",
+      "desc": "The first permanent underclass, and what that would look like today.",
+      "source": "Fabricated Knowledge",
+      "sourceId": "fab-know",
+      "sourceColor": "#2563eb"
+    },
+    {
+      "title": "My bets on open models, mid-2026",
+      "link": "https://www.interconnects.ai/p/my-bets-on-open-models-mid-2026",
+      "date": "2026-04-15T18:20:00",
+      "desc": "What I expect to come next and why, focused on the open-closed gap.",
+      "source": "Interconnects",
+      "sourceId": "interconnects",
+      "sourceColor": "#16a34a"
+    },
+    {
+      "title": "What Is An AI Delegate?",
+      "link": "https://gradientflow.com/what-is-an-ai-delegate/",
+      "date": "2026-04-15T13:10:49+00:00",
+      "desc": "OpenClaw arrived with little fanfare and quickly became the fastest growing open source AI project on record. At its core, OpenClaw is a personal autonomous agent framework. It is software that connec",
+      "source": "Gradient Flow",
+      "sourceId": "gradient-flow",
+      "sourceColor": "#7c3aed"
+    },
+    {
+      "title": "What I’ve been building: ATOM Report, post-training course, finishing my book, and ongoing research",
+      "link": "https://www.interconnects.ai/p/what-ive-been-building-atom-report",
+      "date": "2026-04-14T20:41:12",
+      "desc": "What I've been up to!",
+      "source": "Interconnects",
+      "sourceId": "interconnects",
+      "sourceColor": "#16a34a"
+    },
+    {
+      "title": "Shadow IT is back, and this time it has admin access",
+      "link": "https://gradientflow.com/your-employees-are-already-using-this-it-doesnt-know-yet/",
+      "date": "2026-04-14T13:00:28+00:00",
+      "desc": "Subscribe • Previous Issues What Is An AI Delegate? OpenClaw arrived with little fanfare and quickly became the fastest growing open source AI project on record. At its core, OpenClaw is a personal au",
+      "source": "Gradient Flow",
+      "sourceId": "gradient-flow",
+      "sourceColor": "#7c3aed"
+    },
+    {
+      "title": "Import AI 453: Breaking AI agents; MirrorCode; and ten views on gradual disempowerment",
+      "link": "https://jack-clark.net/2026/04/13/import-ai-453-breaking-ai-agents-mirrorcode-and-ten-views-on-gradual-disempowerment/",
+      "date": "2026-04-13T10:02:22+00:00",
+      "desc": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv and feedback from readers. If you’d like to support this, please subscribe. A shorter issue than usual as I was attending ",
+      "source": "Import AI",
+      "sourceId": "import-ai",
+      "sourceColor": "#7c3aed"
+    },
+    {
+      "title": "The inevitable need for an open model consortium",
+      "link": "https://www.interconnects.ai/p/the-inevitable-need-for-an-open-model",
+      "date": "2026-04-11T13:02:06",
+      "desc": "And yes, I hate consortia too.",
+      "source": "Interconnects",
+      "sourceId": "interconnects",
+      "sourceColor": "#16a34a"
+    },
+    {
+      "title": "Claude Mythos and misguided open-weight fearmongering",
+      "link": "https://www.interconnects.ai/p/claude-mythos-and-misguided-open",
+      "date": "2026-04-09T21:28:39",
+      "desc": "Another dance around fears of open-source.",
+      "source": "Interconnects",
+      "sourceId": "interconnects",
+      "sourceColor": "#16a34a"
+    },
+    {
+      "title": "Import AI 452: Scaling laws for cyberwar; rising tides of AI automation; and a puzzle over gDP forecasting",
+      "link": "https://jack-clark.net/2026/04/06/import-ai-452-scaling-laws-for-cyberwar-rising-tides-of-ai-automation-and-a-puzzle-over-gdp-forecasting/",
+      "date": "2026-04-06T12:31:31+00:00",
+      "desc": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Uh oh, there’s a scaling war for",
+      "source": "Import AI",
+      "sourceId": "import-ai",
+      "sourceColor": "#7c3aed"
+    },
+    {
+      "title": "Gemma 4 and what makes an open model succeed",
+      "link": "https://www.interconnects.ai/p/gemma-4-and-what-makes-an-open-model",
+      "date": "2026-04-03T16:57:36",
+      "desc": "Hint: it's not benchmark scores.",
+      "source": "Interconnects",
+      "sourceId": "interconnects",
+      "sourceColor": "#16a34a"
+    },
+    {
+      "title": "Latest open artifacts (#20): New orgs! New types of models! With Nemotron Super, Sarvam, Cohere Transcribe, & others",
+      "link": "https://www.interconnects.ai/p/latest-open-artifacts-20-new-orgs",
+      "date": "2026-03-30T13:02:45",
+      "desc": "New orgs! New types of models! With Nemotron Super, Sarvam, Cohere Transcribe, & others",
+      "source": "Interconnects",
+      "sourceId": "interconnects",
+      "sourceColor": "#16a34a"
+    },
+    {
+      "title": "Import AI 451: Political superintelligence; Google’s society of minds, and a robot drummer",
+      "link": "https://jack-clark.net/2026/03/30/import-ai-451-political-superintelligence-googles-society-of-minds-and-a-robot-drummer/",
+      "date": "2026-03-30T12:28:13+00:00",
+      "desc": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv and feedback from readers. If you’d like to support this, please subscribe. Subscribe now AI might let us build “political",
+      "source": "Import AI",
+      "sourceId": "import-ai",
+      "sourceColor": "#7c3aed"
+    },
+    {
+      "title": "Import AI 450: China’s electronic warfare model; traumatized LLMs; and a scaling law for cyberattacks",
+      "link": "https://jack-clark.net/2026/03/23/import-ai-450-chinas-electronic-warfare-model-traumatized-llms-and-a-scaling-law-for-cyberattacks/",
+      "date": "2026-03-23T12:31:45+00:00",
+      "desc": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv and feedback from readers. If you’d like to support this, please subscribe. A somewhat shorter issue than usual as I had t",
+      "source": "Import AI",
+      "sourceId": "import-ai",
+      "sourceColor": "#7c3aed"
+    },
+    {
+      "title": "Lossy self-improvement",
+      "link": "https://www.interconnects.ai/p/lossy-self-improvement",
+      "date": "2026-03-22T19:39:40",
+      "desc": "The case for why self-improvement is real but it doesn't lead to fast takeoff.",
+      "source": "Interconnects",
+      "sourceId": "interconnects",
+      "sourceColor": "#16a34a"
+    },
+    {
+      "title": "GPT 5.4 is a big step for Codex",
+      "link": "https://www.interconnects.ai/p/gpt-54-is-a-big-step-for-codex",
+      "date": "2026-03-18T13:02:54",
+      "desc": "On evaluating and understanding the frontier of agents, and why I still turn to Claude.",
+      "source": "Interconnects",
+      "sourceId": "interconnects",
+      "sourceColor": "#16a34a"
+    },
+    {
+      "title": "What comes next with open models",
+      "link": "https://www.interconnects.ai/p/the-next-phase-of-open-models",
+      "date": "2026-03-16T13:00:51",
+      "desc": "Markets, capabilities, cope, and bewilderment in the industrialization of language models.",
+      "source": "Interconnects",
+      "sourceId": "interconnects",
+      "sourceColor": "#16a34a"
+    },
+    {
+      "title": "ImportAI 449: LLMs training other LLMs; 72B distributed training run; computer vision is harder than generative text",
+      "link": "https://jack-clark.net/2026/03/16/importai-449-llms-training-other-llms-72b-distributed-training-run-computer-vision-is-harder-than-generative-text/",
+      "date": "2026-03-16T12:30:50+00:00",
+      "desc": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Can LLMs autonomously refine oth",
+      "source": "Import AI",
+      "sourceId": "import-ai",
+      "sourceColor": "#7c3aed"
+    },
+    {
+      "title": "Import AI 448: AI R&D; Bytedance’s CUDA-writing agent; on-device satellite AI",
+      "link": "https://jack-clark.net/2026/03/09/import-ai-448-ai-rd-bytedances-cuda-writing-agent-on-device-satellite-ai/",
+      "date": "2026-03-09T12:45:54+00:00",
+      "desc": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv and feedback from readers. If you’d like to support this, please subscribe. Subscribe now AI progress is moving faster tha",
+      "source": "Import AI",
+      "sourceId": "import-ai",
+      "sourceColor": "#7c3aed"
+    },
+    {
+      "title": "Dean Ball on open models and government control",
+      "link": "https://www.interconnects.ai/p/how-anthropic-vs-dow-impacts-open",
+      "date": "2026-03-06T14:03:27",
+      "desc": "Subtle precedents on the future of open models set by the unfolding Anthropic v. Department of War case.",
+      "source": "Interconnects",
+      "sourceId": "interconnects",
+      "sourceColor": "#16a34a"
+    },
+    {
+      "title": "Olmo Hybrid and future LLM architectures",
+      "link": "https://www.interconnects.ai/p/olmo-hybrid-and-future-llm-architectures",
+      "date": "2026-03-05T16:16:44",
+      "desc": "The latest Olmo model and discussions at the frontier of open-source post training tools.",
+      "source": "Interconnects",
+      "sourceId": "interconnects",
+      "sourceColor": "#16a34a"
+    },
+    {
+      "title": "Latest open artifacts (#19): Qwen 3.5, GLM 5, MiniMax 2.5 — Chinese labs' latest push of the frontier",
+      "link": "https://www.interconnects.ai/p/latest-open-artifacts-19-qwen-35",
+      "date": "2026-03-03T16:30:59",
+      "desc": "Welcome to the year of the horse!",
+      "source": "Interconnects",
+      "sourceId": "interconnects",
+      "sourceColor": "#16a34a"
+    },
+    {
+      "title": "Import AI 447: The AGI economy; testing AIs with generated games; and agent ecologies",
+      "link": "https://jack-clark.net/2026/03/02/import-ai-447-the-agi-economy-testing-ais-with-generated-games-and-agent-ecologies/",
+      "date": "2026-03-02T13:45:27+00:00",
+      "desc": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv and feedback from readers. If you’d like to support this, please subscribe. Subscribe now The AGI economy &#8211; most lab",
+      "source": "Import AI",
+      "sourceId": "import-ai",
+      "sourceColor": "#7c3aed"
+    },
+    {
+      "title": "Import AI 446: Nuclear LLMs; China’s big AI benchmark; measurement and AI policy",
+      "link": "https://jack-clark.net/2026/02/23/import-ai-446-nuclear-llms-chinas-big-ai-benchmark-measurement-and-ai-policy/",
+      "date": "2026-02-23T13:31:18+00:00",
+      "desc": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Want to make AI go better? Figur",
+      "source": "Import AI",
+      "sourceId": "import-ai",
+      "sourceColor": "#7c3aed"
+    },
+    {
+      "title": "Another Conversation with Val Bercovici Memory Markets",
+      "link": "https://www.fabricatedknowledge.com/p/another-conversation-with-val-bercovici",
+      "date": "2026-02-16T17:13:23",
+      "desc": "General chatter about memory, agents, and more!",
+      "source": "Fabricated Knowledge",
+      "sourceId": "fab-know",
+      "sourceColor": "#2563eb"
+    },
+    {
+      "title": "The Death of Software 2.0 (A Better Analogy!)",
+      "link": "https://www.fabricatedknowledge.com/p/the-death-of-software-20-a-better",
+      "date": "2026-01-16T14:26:18",
+      "desc": "The age of PDF is over. The time of markdown has begun. Why Memory Hierarchies are the best analogy for how software must change. And why Software it's unlikely to command the most value.",
+      "source": "Fabricated Knowledge",
+      "sourceId": "fab-know",
+      "sourceColor": "#2563eb"
+    },
+    {
+      "title": "Apple is fighting for TSMC capacity as Nvidia takes center stage",
+      "link": "https://www.culpium.com/p/exclusiveapple-is-fighting-for-tsmc",
+      "date": "2026-01-15T15:02:42Z",
+      "desc": "",
+      "source": "Hacker News",
+      "sourceId": "hn",
+      "sourceColor": "#d97706"
+    },
+    {
+      "title": "2026 AI & Semiconductor Outlook",
+      "link": "https://www.fabricatedknowledge.com/p/2026-ai-and-semiconductor-outlook",
+      "date": "2026-01-07T21:37:33",
+      "desc": "A wee bit late, and a bit different this year.",
+      "source": "Fabricated Knowledge",
+      "sourceId": "fab-know",
+      "sourceColor": "#2563eb"
+    },
+    {
+      "title": "How China built its ‘Manhattan Project’ to rival the West in AI chips",
+      "link": "https://www.japantimes.co.jp/business/2025/12/18/tech/china-west-ai-chips/",
+      "date": "2025-12-18T18:55:34Z",
+      "desc": "",
+      "source": "Hacker News",
+      "sourceId": "hn",
+      "sourceColor": "#d97706"
+    },
+    {
+      "title": "Lessons from History: The Great Railroad Buildout",
+      "link": "https://www.fabricatedknowledge.com/p/lessons-from-history-the-great-railroad",
+      "date": "2025-12-17T17:09:33",
+      "desc": "History doesn't rhyme, it just repeats itself with increasingly strained analogies",
+      "source": "Fabricated Knowledge",
+      "sourceId": "fab-know",
+      "sourceColor": "#2563eb"
+    },
+    {
+      "title": "Market Volatility: Some Thoughts",
+      "link": "https://www.fabricatedknowledge.com/p/market-volatility-some-thoughts",
+      "date": "2025-11-24T14:53:13",
+      "desc": "The long overdue correction is here. I think it's a bit more technical than you previously thought.",
+      "source": "Fabricated Knowledge",
+      "sourceId": "fab-know",
+      "sourceColor": "#2563eb"
+    },
+    {
+      "title": "Earnings Recap So Far (And Ideas)",
+      "link": "https://www.fabricatedknowledge.com/p/earnings-recap-so-far-and-ideas",
+      "date": "2025-10-28T12:41:00",
+      "desc": "Memory rips, Intel doesn't move on anything near term, and more",
+      "source": "Fabricated Knowledge",
+      "sourceId": "fab-know",
+      "sourceColor": "#2563eb"
+    },
+    {
+      "title": "Will Eatherton: How Cisco Plans to Compete in the AI Datacenter",
+      "link": "https://www.fabricatedknowledge.com/p/will-eatherton-how-cisco-plans-to",
+      "date": "2025-10-27T14:57:33",
+      "desc": "Listen now (41 mins) | How does Cisco plan to make a dent in the all important AI market.",
+      "source": "Fabricated Knowledge",
+      "sourceId": "fab-know",
+      "sourceColor": "#2563eb"
+    },
+    {
+      "title": "AMD signs AI chip-supply deal with OpenAI, gives it option to take a 10% stake",
+      "link": "https://www.reuters.com/business/amd-signs-ai-chip-supply-deal-with-openai-gives-it-option-take-10-stake-2025-10-06/",
+      "date": "2025-10-06T12:17:59Z",
+      "desc": "",
+      "source": "Hacker News",
+      "sourceId": "hn",
+      "sourceColor": "#d97706"
+    },
+    {
+      "title": "Where We Go From Here",
+      "link": "https://www.fabricatedknowledge.com/p/where-we-go-from-here",
+      "date": "2025-10-02T12:59:47",
+      "desc": "A sober look at the potential trajectory of a bubble.",
+      "source": "Fabricated Knowledge",
+      "sourceId": "fab-know",
+      "sourceColor": "#2563eb"
+    },
+    {
+      "title": "Fenghua No.3 GPU – CUDA Compatibility, RT Support and 112GB+ of HBM Memory",
+      "link": "https://www.tomshardware.com/pc-components/gpus/chinas-latest-gpu-arrives-with-claims-of-cuda-compatibility-and-rt-support-fenghua-no-3-also-boasts-112gb-of-hbm-memory-for-ai",
+      "date": "2025-09-25T00:35:46Z",
+      "desc": "",
+      "source": "Hacker News",
+      "sourceId": "hn",
+      "sourceColor": "#d97706"
+    },
+    {
+      "title": "Alibaba's new AI chip: Key specifications comparable to H20",
+      "link": "https://news.futunn.com/en/post/62202518/alibaba-s-new-ai-chip-unveiled-key-specifications-comparable-to",
+      "date": "2025-09-17T09:45:44Z",
+      "desc": "",
+      "source": "Hacker News",
+      "sourceId": "hn",
+      "sourceColor": "#d97706"
+    },
+    {
+      "title": "Oracle and Animal Spirits",
+      "link": "https://www.fabricatedknowledge.com/p/oracle-and-animal-spirits",
+      "date": "2025-09-15T20:16:51",
+      "desc": "Oracle's result is the second most impactful earnings result this cycle. And I think it's a critical turning point.",
+      "source": "Fabricated Knowledge",
+      "sourceId": "fab-know",
+      "sourceColor": "#2563eb"
+    },
+    {
+      "title": "Lagging Edge will have a Permanent Glut",
+      "link": "https://www.fabricatedknowledge.com/p/lagging-edge-will-have-a-permanent",
+      "date": "2025-09-04T20:20:53",
+      "desc": "The direction is clear, the lagging edge with exposure to Chinese markets will have a glut.",
+      "source": "Fabricated Knowledge",
+      "sourceId": "fab-know",
+      "sourceColor": "#2563eb"
+    },
+    {
+      "title": "Foundry Idea(s)",
+      "link": "https://www.fabricatedknowledge.com/p/foundry-ideas",
+      "date": "2025-08-25T20:30:50",
+      "desc": "Not one but two foundry ideas today.",
+      "source": "Fabricated Knowledge",
+      "sourceId": "fab-know",
+      "sourceColor": "#2563eb"
+    },
+    {
+      "title": "Intel's One True Stakeholder is Here",
+      "link": "https://www.fabricatedknowledge.com/p/intels-one-true-stakeholder-is-here",
+      "date": "2025-08-15T20:01:13",
+      "desc": "What an Intel with Government help would look like.",
+      "source": "Fabricated Knowledge",
+      "sourceId": "fab-know",
+      "sourceColor": "#2563eb"
+    },
+    {
+      "title": "Earnings: Hyperscalers, AMD, ALAB, ANET",
+      "link": "https://www.fabricatedknowledge.com/p/earnings-hyperscalers-amd-alab-anet",
+      "date": "2025-08-11T17:31:34",
+      "desc": "",
+      "source": "Fabricated Knowledge",
+      "sourceId": "fab-know",
+      "sourceColor": "#2563eb"
+    },
+    {
+      "title": "Skimpy HBM Memory Opens Up the Way for AI Inference Memory Godbox",
+      "link": "https://www.nextplatform.com/2025/07/29/skimpy-hbm-memory-opens-up-the-way-ai-inference-memory-godbox/",
+      "date": "2025-07-30T20:05:44Z",
+      "desc": "",
+      "source": "Hacker News",
+      "sourceId": "hn",
+      "sourceColor": "#d97706"
+    },
+    {
+      "title": "Earnings: TSMC, NXPI, AEHR, GOOG, TXN, VAT, VICR",
+      "link": "https://www.fabricatedknowledge.com/p/earnings-tsmc-nxpi-aehr-goog-txn",
+      "date": "2025-07-25T15:13:09",
+      "desc": "Was way too late on AEHR",
+      "source": "Fabricated Knowledge",
+      "sourceId": "fab-know",
+      "sourceColor": "#2563eb"
+    },
+    {
+      "title": "Disabling Intel Graphics Security Mitigation Boosts GPU Compute Performance 20%",
+      "link": "https://www.phoronix.com/news/Disable-Intel-Gfx-Security-20p",
+      "date": "2025-06-23T07:01:20Z",
+      "desc": "",
+      "source": "Hacker News",
+      "sourceId": "hn",
+      "sourceColor": "#d97706"
+    },
+    {
+      "title": "AI-designed chips are so weird that 'humans cannot understand them'",
+      "link": "https://www.livescience.com/technology/computing/humans-cannot-really-understand-them-weird-ai-designed-chip-is-unlike-any-other-made-by-humans-and-performs-much-better",
+      "date": "2025-02-23T19:36:49Z",
+      "desc": "",
+      "source": "Hacker News",
+      "sourceId": "hn",
+      "sourceColor": "#d97706"
+    },
+    {
+      "title": "Intel Arc B580 Delivers Promising Linux GPU Compute Potential for Battlemage",
+      "link": "https://www.phoronix.com/review/intel-arc-b580-gpu-compute",
+      "date": "2024-12-12T16:16:33Z",
+      "desc": "",
+      "source": "Hacker News",
+      "sourceId": "hn",
+      "sourceColor": "#d97706"
+    },
+    {
+      "title": "Apple mobile processors are now made in America by TSMC",
+      "link": "https://timculpan.substack.com/p/apple-mobile-processors-are-now-made",
+      "date": "2024-09-18T01:38:01Z",
+      "desc": "",
+      "source": "Hacker News",
+      "sourceId": "hn",
+      "sourceColor": "#d97706"
+    },
+    {
+      "title": "SK Hynix Reports That 2025 HBM Memory Supply Has Nearly Sold Out",
+      "link": "https://www.anandtech.com/show/21382/sk-hynixs-hbm-memory-supply-sold-out-through-2025",
+      "date": "2024-05-02T15:31:49Z",
+      "desc": "",
+      "source": "Hacker News",
+      "sourceId": "hn",
+      "sourceColor": "#d97706"
+    },
+    {
+      "title": "GPU compute in the browser at the speed of native: WebGPU marching cubes",
+      "link": "https://www.willusher.io/graphics/2024/04/22/webgpu-marching-cubes",
+      "date": "2024-04-23T19:22:22Z",
+      "desc": "",
+      "source": "Hacker News",
+      "sourceId": "hn",
+      "sourceColor": "#d97706"
+    },
+    {
+      "title": "Show HN: Metashade – a Pythonic GPU shading/compute EDSL",
+      "link": "https://github.com/ppenenko/metashade",
+      "date": "2024-04-21T23:21:57Z",
+      "desc": "",
+      "source": "Hacker News",
+      "sourceId": "hn",
+      "sourceColor": "#d97706"
+    },
+    {
+      "title": "Nvidia CEO Jensen Huang announces new AI chips: ‘We need bigger GPUs’",
+      "link": "https://www.cnbc.com/2024/03/18/nvidia-announces-gb200-blackwell-ai-chip-launching-later-this-year.html",
+      "date": "2024-03-18T20:32:46Z",
+      "desc": "",
+      "source": "Hacker News",
+      "sourceId": "hn",
+      "sourceColor": "#d97706"
+    },
+    {
+      "title": "He Who Can Pay Top Dollar for HBM Memory Controls AI Training",
+      "link": "https://www.nextplatform.com/2024/02/26/he-who-can-pay-top-dollar-for-hbm-memory-controls-ai-training/",
+      "date": "2024-02-27T12:04:54Z",
+      "desc": "",
+      "source": "Hacker News",
+      "sourceId": "hn",
+      "sourceColor": "#d97706"
+    },
+    {
+      "title": "Linux 6.9 Adding AMD MI300 Row Retirement Support for Problematic HBM Memory",
+      "link": "https://www.phoronix.com/news/Linux-6.9-AMD-MI300-EDAC",
+      "date": "2024-02-19T20:10:28Z",
+      "desc": "",
+      "source": "Hacker News",
+      "sourceId": "hn",
+      "sourceColor": "#d97706"
+    },
+    {
+      "title": "Demystifying GPU compute architectures",
+      "link": "https://thechipletter.substack.com/p/demystifying-gpu-compute-architectures",
+      "date": "2024-02-06T19:20:32Z",
+      "desc": "",
+      "source": "Hacker News",
+      "sourceId": "hn",
+      "sourceColor": "#d97706"
+    },
+    {
+      "title": "TSMC to build second Japan chip factory",
+      "link": "https://finance.yahoo.com/news/tsmc-build-second-japan-chip-105111276.html",
+      "date": "2024-02-06T13:12:36Z",
+      "desc": "",
+      "source": "Hacker News",
+      "sourceId": "hn",
+      "sourceColor": "#d97706"
+    },
+    {
+      "title": "Altman sought billions for AI chip venture before OpenAI ouster",
+      "link": "https://www.bloomberg.com/news/articles/2023-11-19/altman-sought-billions-for-ai-chip-venture-before-openai-ouster",
+      "date": "2023-11-19T17:59:09Z",
+      "desc": "",
+      "source": "Hacker News",
+      "sourceId": "hn",
+      "sourceColor": "#d97706"
+    },
+    {
+      "title": "TSMC, Bosch, Infineon, NXP to jointly build semiconductor fab in Europe",
+      "link": "https://pr.tsmc.com/english/news/3049",
+      "date": "2023-08-08T10:48:20Z",
+      "desc": "",
+      "source": "Hacker News",
+      "sourceId": "hn",
+      "sourceColor": "#d97706"
+    },
+    {
+      "title": "Nvidia releases new AI chip with 480GB CPU RAM, 96GB GPU RAM",
+      "link": "https://www.nvidia.com/en-us/data-center/grace-hopper-superchip/",
+      "date": "2023-06-06T06:46:31Z",
+      "desc": "",
+      "source": "Hacker News",
+      "sourceId": "hn",
+      "sourceColor": "#d97706"
+    },
+    {
+      "title": "Sam Zeloof and Jim Keller start a new semiconductor fab",
+      "link": "https://atomicsemi.com/",
+      "date": "2023-02-23T07:35:23Z",
+      "desc": "",
+      "source": "Hacker News",
+      "sourceId": "hn",
+      "sourceColor": "#d97706"
+    },
+    {
+      "title": "TSMC to make 4nm chips in Arizona for Apple, AMD, Nvidia",
+      "link": "https://techmonitor.ai/technology/silicon/tsmcs-arizona-apple-amd-nvidia",
+      "date": "2022-12-01T08:59:36Z",
+      "desc": "",
+      "source": "Hacker News",
+      "sourceId": "hn",
+      "sourceColor": "#d97706"
+    },
+    {
+      "title": "Senate passes bipartisan bill to subsidize U.S.-made semiconductor chips",
+      "link": "https://www.washingtonpost.com/politics/2022/07/27/senate-chips-funding-bill-pass/",
+      "date": "2022-07-27T18:40:19Z",
+      "desc": "",
+      "source": "Hacker News",
+      "sourceId": "hn",
+      "sourceColor": "#d97706"
+    },
+    {
+      "title": "Get started with GPU Compute on the web",
+      "link": "https://web.dev/gpu-compute/",
+      "date": "2022-07-19T12:11:36Z",
+      "desc": "",
+      "source": "Hacker News",
+      "sourceId": "hn",
+      "sourceColor": "#d97706"
+    },
+    {
+      "title": "Purdue Starts Comprehensive Semiconductor Degree Programs in U.S.",
+      "link": "https://www.eetimes.com/purdue-starts-comprehensive-semiconductor-degree-programs-in-u-s/",
+      "date": "2022-06-15T17:56:03Z",
+      "desc": "",
+      "source": "Hacker News",
+      "sourceId": "hn",
+      "sourceColor": "#d97706"
+    },
+    {
+      "title": "Sony to join TSMC on new $7B chip plant in Japan",
+      "link": "https://asia.nikkei.com/Business/Tech/Semiconductors/Sony-to-join-TSMC-on-new-7bn-chip-plant-in-Japan",
+      "date": "2021-10-11T17:47:24Z",
+      "desc": "",
+      "source": "Hacker News",
+      "sourceId": "hn",
+      "sourceColor": "#d97706"
+    },
+    {
+      "title": "TSMC hikes chip prices up to 20% amid supply shortage",
+      "link": "https://asia.nikkei.com/Business/Tech/Semiconductors/TSMC-hikes-chip-prices-up-to-20-amid-supply-shortage",
+      "date": "2021-08-26T11:20:09Z",
+      "desc": "",
+      "source": "Hacker News",
+      "sourceId": "hn",
+      "sourceColor": "#d97706"
+    },
+    {
+      "title": "ASML, a $300B Dutch firm, makes the machines that make semiconductors",
+      "link": "https://twitter.com/trungtphan/status/1429464889307762688",
+      "date": "2021-08-22T16:16:28Z",
+      "desc": "",
+      "source": "Hacker News",
+      "sourceId": "hn",
+      "sourceColor": "#d97706"
+    },
+    {
+      "title": "TSMC eyes Germany as possible location for first Europe chip plant",
+      "link": "https://asia.nikkei.com/Business/Tech/Semiconductors/TSMC-eyes-Germany-as-possible-location-for-first-Europe-chip-plant",
+      "date": "2021-07-26T08:49:51Z",
+      "desc": "",
+      "source": "Hacker News",
+      "sourceId": "hn",
+      "sourceColor": "#d97706"
+    },
+    {
+      "title": "Intel Sapphire Rapids Xeon CPUs Will Launch with High Bandwidth Memory (HBM)",
+      "link": "https://www.anandtech.com/show/16795/intel-to-launch-next-gen-sapphire-rapids-xeon-with-high-bandwidth-memory",
+      "date": "2021-06-29T01:34:33Z",
+      "desc": "",
+      "source": "Hacker News",
+      "sourceId": "hn",
+      "sourceColor": "#d97706"
+    },
+    {
+      "title": "U.S. senators propose 25% tax credit for semiconductor manufacturing",
+      "link": "https://www.reuters.com/article/ctech-us-usa-semiconductors-congress-idCAKCN2DT29F-OCATC",
+      "date": "2021-06-19T15:20:40Z",
+      "desc": "",
+      "source": "Hacker News",
+      "sourceId": "hn",
+      "sourceColor": "#d97706"
+    },
+    {
+      "title": "Jim Keller moves to AI chip startup",
+      "link": "https://www.reuters.com/article/tenstorrent-tech/moves-former-intel-tesla-chip-exec-jim-keller-joins-artificial-intelligence-startup-idUSL1N2JG2I6",
+      "date": "2021-01-06T07:30:06Z",
+      "desc": "",
+      "source": "Hacker News",
+      "sourceId": "hn",
+      "sourceColor": "#d97706"
+    },
+    {
+      "title": "EU countries team up for semiconductor push",
+      "link": "https://www.reuters.com/article/eu-tech-semiconductor-idUSKBN28H1HV",
+      "date": "2020-12-09T13:14:14Z",
+      "desc": "",
+      "source": "Hacker News",
+      "sourceId": "hn",
+      "sourceColor": "#d97706"
+    },
+    {
+      "title": "TSMC Announces Intention to Build and Operate Advanced Semiconductor Fab in U.S.",
+      "link": "https://www.tsmc.com/tsmcdotcom/PRListingNewsAction.do?action=detail&language=E&newsid=THGOANPGTH",
+      "date": "2020-05-15T01:05:16Z",
+      "desc": "",
+      "source": "Hacker News",
+      "sourceId": "hn",
+      "sourceColor": "#d97706"
+    },
+    {
+      "title": "A Taste of GPU Compute [video]",
+      "link": "https://www.youtube.com/watch?v=eqkAaplKBc4",
+      "date": "2020-04-15T17:26:43Z",
+      "desc": "",
+      "source": "Hacker News",
+      "sourceId": "hn",
+      "sourceColor": "#d97706"
+    },
+    {
+      "title": "AMD Announces Dual-Vega Radeon Pro V340 Card with 32GB of ECC HBM Memory",
+      "link": "https://www.tomshardware.com/news/amd-radeon-pro-dual-vega-v340,37694.html",
+      "date": "2018-08-27T12:33:12Z",
+      "desc": "",
+      "source": "Hacker News",
+      "sourceId": "hn",
+      "sourceColor": "#d97706"
+    },
+    {
+      "title": "Does not GPU compute",
+      "link": "http://www.alexvoica.com/does-not-gpu-compute/",
+      "date": "2016-06-02T21:20:40Z",
+      "desc": "",
+      "source": "Hacker News",
+      "sourceId": "hn",
+      "sourceColor": "#d97706"
+    },
+    {
+      "title": "AMD finally talks about HBM memory",
+      "link": "https://semiaccurate.com/2015/05/19/amd-finally-talks-hbm-memory/",
+      "date": "2015-05-19T22:48:47Z",
+      "desc": "",
+      "source": "Hacker News",
+      "sourceId": "hn",
+      "sourceColor": "#d97706"
+    }
+  ]
+}
