@@ -654,8 +654,11 @@ const SUBSTACK_FEEDS = [
   { id:'asianometry',  name:'Asianometry',     substack:'asianometry',     color:'#64748b' },
 ];
 
+const WORKER = 'https://semi-intel-proxy.mguntu.workers.dev';
+
 async function fetchSubstack(feed) {
-  const url = `https://${feed.substack}.substack.com/api/v1/posts?limit=15`;
+  const target = `https://${feed.substack}.substack.com/api/v1/posts?limit=15`;
+  const url = `${WORKER}?url=${encodeURIComponent(target)}`;
   const res = await fetch(url, { signal: AbortSignal.timeout(12000) });
   const posts = await res.json();
   return posts.map(post => ({
