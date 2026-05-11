@@ -1,6 +1,15 @@
 {
-  "updated": "2026-05-11T13:41:56.926723+00:00",
+  "updated": "2026-05-11T16:26:59.773969+00:00",
   "items": [
+    {
+      "title": "Import AI 456: RSI and economic growth; radical optionality for AI regulation; and a neural computer",
+      "link": "https://jack-clark.net/2026/05/11/import-ai-456-rsi-and-economic-growth-radical-optionality-for-ai-regulation-and-a-neural-computer/",
+      "date": "2026-05-11T12:46:12+00:00",
+      "desc": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Regulate? Don’t re",
+      "source": "Import AI",
+      "sourceId": "import-ai",
+      "sourceColor": "#7c3aed"
+    },
     {
       "title": "Notes from inside China's AI labs",
       "link": "https://www.interconnects.ai/p/notes-from-inside-chinas-ai-labs",
@@ -312,15 +321,6 @@
       "link": "https://jack-clark.net/2026/03/02/import-ai-447-the-agi-economy-testing-ais-with-generated-games-and-agent-ecologies/",
       "date": "2026-03-02T13:45:27+00:00",
       "desc": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv and feedback from readers. If you’d like to support this, please subscribe. Subscribe now The AGI economy &#8211; most lab",
-      "source": "Import AI",
-      "sourceId": "import-ai",
-      "sourceColor": "#7c3aed"
-    },
-    {
-      "title": "Import AI 446: Nuclear LLMs; China’s big AI benchmark; measurement and AI policy",
-      "link": "https://jack-clark.net/2026/02/23/import-ai-446-nuclear-llms-chinas-big-ai-benchmark-measurement-and-ai-policy/",
-      "date": "2026-02-23T13:31:18+00:00",
-      "desc": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Want to make AI go better? Figur",
       "source": "Import AI",
       "sourceId": "import-ai",
       "sourceColor": "#7c3aed"
