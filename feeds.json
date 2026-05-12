@@ -1,6 +1,15 @@
 {
-  "updated": "2026-05-12T11:15:44.052115+00:00",
+  "updated": "2026-05-12T13:18:49.415087+00:00",
   "items": [
+    {
+      "title": "Why your AI bills are going up (even as tokens get cheaper) 📉💸",
+      "link": "https://gradientflow.com/why-your-ai-bills-are-going-up-even-as-tokens-get-cheaper/",
+      "date": "2026-05-12T13:00:02+00:00",
+      "desc": "Subscribe • Previous Issues The End of the AI Experiment: Surviving the CFO’s New ROI Demands Why This Has Become an Executive Issue Why is AI spend no longer just an IT budget problem? AI has crossed",
+      "source": "Gradient Flow",
+      "sourceId": "gradient-flow",
+      "sourceColor": "#7c3aed"
+    },
     {
       "title": "Import AI 456: RSI and economic growth; radical optionality for AI regulation; and a neural computer",
       "link": "https://jack-clark.net/2026/05/11/import-ai-456-rsi-and-economic-growth-radical-optionality-for-ai-regulation-and-a-neural-computer/",
@@ -162,15 +171,6 @@
       "source": "Interconnects",
       "sourceId": "interconnects",
       "sourceColor": "#16a34a"
-    },
-    {
-      "title": "Shadow IT is back, and this time it has admin access",
-      "link": "https://gradientflow.com/your-employees-are-already-using-this-it-doesnt-know-yet/",
-      "date": "2026-04-14T13:00:28+00:00",
-      "desc": "Subscribe • Previous Issues What Is An AI Delegate? OpenClaw arrived with little fanfare and quickly became the fastest growing open source AI project on record. At its core, OpenClaw is a personal au",
-      "source": "Gradient Flow",
-      "sourceId": "gradient-flow",
-      "sourceColor": "#7c3aed"
     },
     {
       "title": "Import AI 453: Breaking AI agents; MirrorCode; and ten views on gradual disempowerment",
