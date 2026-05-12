@@ -1,6 +1,15 @@
 {
-  "updated": "2026-05-12T13:18:49.415087+00:00",
+  "updated": "2026-05-12T15:58:28.824094+00:00",
   "items": [
+    {
+      "title": "How open model ecosystems compound",
+      "link": "https://www.interconnects.ai/p/how-open-model-ecosystems-compound",
+      "date": "2026-05-12T15:54:47",
+      "desc": "Further reflections on China's high-participation, open-first AI ecosystem.",
+      "source": "Interconnects",
+      "sourceId": "interconnects",
+      "sourceColor": "#16a34a"
+    },
     {
       "title": "Why your AI bills are going up (even as tokens get cheaper) 📉💸",
       "link": "https://gradientflow.com/why-your-ai-bills-are-going-up-even-as-tokens-get-cheaper/",
@@ -303,15 +312,6 @@
       "link": "https://www.interconnects.ai/p/olmo-hybrid-and-future-llm-architectures",
       "date": "2026-03-05T16:16:44",
       "desc": "The latest Olmo model and discussions at the frontier of open-source post training tools.",
-      "source": "Interconnects",
-      "sourceId": "interconnects",
-      "sourceColor": "#16a34a"
-    },
-    {
-      "title": "Latest open artifacts (#19): Qwen 3.5, GLM 5, MiniMax 2.5 — Chinese labs' latest push of the frontier",
-      "link": "https://www.interconnects.ai/p/latest-open-artifacts-19-qwen-35",
-      "date": "2026-03-03T16:30:59",
-      "desc": "Welcome to the year of the horse!",
       "source": "Interconnects",
       "sourceId": "interconnects",
       "sourceColor": "#16a34a"
