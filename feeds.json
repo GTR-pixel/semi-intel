@@ -1,6 +1,15 @@
 {
-  "updated": "2026-05-13T11:39:00.371282+00:00",
+  "updated": "2026-05-13T14:14:17.370156+00:00",
   "items": [
+    {
+      "title": "The End of the AI Experiment: Surviving the CFO’s New ROI Demands",
+      "link": "https://gradientflow.com/the-end-of-the-ai-experiment-surviving-the-cfos-new-roi-demands/",
+      "date": "2026-05-13T12:47:55+00:00",
+      "desc": "Why This Has Become an Executive Issue Why is AI spend no longer just an IT budget problem? AI has crossed a threshold where aggregate spend across every department requires capital allocation discipl",
+      "source": "Gradient Flow",
+      "sourceId": "gradient-flow",
+      "sourceColor": "#7c3aed"
+    },
     {
       "title": "How open model ecosystems compound",
       "link": "https://www.interconnects.ai/p/how-open-model-ecosystems-compound",
@@ -162,15 +171,6 @@
       "source": "Interconnects",
       "sourceId": "interconnects",
       "sourceColor": "#16a34a"
-    },
-    {
-      "title": "What Is An AI Delegate?",
-      "link": "https://gradientflow.com/what-is-an-ai-delegate/",
-      "date": "2026-04-15T13:10:49+00:00",
-      "desc": "OpenClaw arrived with little fanfare and quickly became the fastest growing open source AI project on record. At its core, OpenClaw is a personal autonomous agent framework. It is software that connec",
-      "source": "Gradient Flow",
-      "sourceId": "gradient-flow",
-      "sourceColor": "#7c3aed"
     },
     {
       "title": "What I’ve been building: ATOM Report, post-training course, finishing my book, and ongoing research",
