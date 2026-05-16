@@ -1,6 +1,15 @@
 {
-  "updated": "2026-05-16T16:51:35.111849+00:00",
+  "updated": "2026-05-16T17:51:37.310494+00:00",
   "items": [
+    {
+      "title": "Latest open artifacts (#21): Open model bonanza! Gemma 4, DeepSeek V4, Kimi K2.6, MiMo 2.5, GLM-5.1 & others. On CAISI's V4 assessment.",
+      "link": "https://www.interconnects.ai/p/latest-open-artifacts-21-open-model",
+      "date": "2026-05-16T17:00:11",
+      "desc": "An eventful month with one flagship release after another",
+      "source": "Interconnects",
+      "sourceId": "interconnects",
+      "sourceColor": "#16a34a"
+    },
     {
       "title": "The End of the AI Experiment: Surviving the CFO’s New ROI Demands",
       "link": "https://gradientflow.com/the-end-of-the-ai-experiment-surviving-the-cfos-new-roi-demands/",
@@ -303,15 +312,6 @@
       "link": "https://www.interconnects.ai/p/how-anthropic-vs-dow-impacts-open",
       "date": "2026-03-06T14:03:27",
       "desc": "Subtle precedents on the future of open models set by the unfolding Anthropic v. Department of War case.",
-      "source": "Interconnects",
-      "sourceId": "interconnects",
-      "sourceColor": "#16a34a"
-    },
-    {
-      "title": "Olmo Hybrid and future LLM architectures",
-      "link": "https://www.interconnects.ai/p/olmo-hybrid-and-future-llm-architectures",
-      "date": "2026-03-05T16:16:44",
-      "desc": "The latest Olmo model and discussions at the frontier of open-source post training tools.",
       "source": "Interconnects",
       "sourceId": "interconnects",
       "sourceColor": "#16a34a"
