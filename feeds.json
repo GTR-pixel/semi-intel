@@ -1,6 +1,15 @@
 {
-  "updated": "2026-05-19T22:42:40.050709+00:00",
+  "updated": "2026-05-19T23:57:45.439163+00:00",
   "items": [
+    {
+      "title": "Google I/O 2026: The Agent Layer Takes Shape",
+      "link": "https://gradientflow.com/google-i-o-2026-unpacked/",
+      "date": "2026-05-19T23:30:59+00:00",
+      "desc": "The announcements at Google I/O 2026 landed today. I&#8217;ve gone through everything and pulled out what I think actually matters for people building products, running technical teams, or making bets",
+      "source": "Gradient Flow",
+      "sourceId": "gradient-flow",
+      "sourceColor": "#7c3aed"
+    },
     {
       "title": "Nvidia should buyback stock",
       "link": "https://www.fabricatedknowledge.com/p/nvidia-should-buyback-stock",
@@ -150,15 +159,6 @@
       "link": "https://gradientflow.com/us-china-frontier-models/",
       "date": "2026-04-28T12:00:17+00:00",
       "desc": "China is not out of the frontier AI race. Its open-weight models (models whose parameters are publicly released, allowing anyone to run or adapt them) remain genuinely competitive, and the overall cap",
-      "source": "Gradient Flow",
-      "sourceId": "gradient-flow",
-      "sourceColor": "#7c3aed"
-    },
-    {
-      "title": "The Missing Layer: Why Your AI Agent Fails — and What Actually Fixes It",
-      "link": "https://gradientflow.com/the-missing-layer-why-your-ai-agent-fails-and-what-actually-fixes-it/",
-      "date": "2026-04-22T12:49:34+00:00",
-      "desc": "As organizations move autonomous AI agents from experimental sandboxes into live production, a critical bottleneck has emerged. Foundation models are remarkably capable but structurally unsuited to co",
       "source": "Gradient Flow",
       "sourceId": "gradient-flow",
       "sourceColor": "#7c3aed"
