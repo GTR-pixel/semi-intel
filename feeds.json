@@ -1,6 +1,24 @@
 {
-  "updated": "2026-05-19T11:37:26.891798+00:00",
+  "updated": "2026-05-19T14:45:22.146586+00:00",
   "items": [
+    {
+      "title": "Nvidia should buyback stock",
+      "link": "https://www.fabricatedknowledge.com/p/nvidia-should-buyback-stock",
+      "date": "2026-05-19T14:34:11",
+      "desc": "A quick take into earnings",
+      "source": "Fabricated Knowledge",
+      "sourceId": "fab-know",
+      "sourceColor": "#2563eb"
+    },
+    {
+      "title": "Stop upgrading your LLM. Start fixing your data.",
+      "link": "https://gradientflow.com/stop-upgrading-your-llm-start-fixing-your-data/",
+      "date": "2026-05-19T13:00:51+00:00",
+      "desc": "Subscribe • Previous Issues Integration Is the New Moat: Moving Beyond the LLM The AI Agent Conference in New York was one of the better events I&#8217;ve attended to get a read on what&#8217;s actual",
+      "source": "Gradient Flow",
+      "sourceId": "gradient-flow",
+      "sourceColor": "#7c3aed"
+    },
     {
       "title": "Import AI 457: AI stuxnet; cursed Muon optimizer; and positive alignment",
       "link": "https://jack-clark.net/2026/05/18/import-ai-457-ai-stuxnet-cursed-muon-optimizer-and-positive-alignment/",
@@ -141,15 +159,6 @@
       "link": "https://gradientflow.com/the-missing-layer-why-your-ai-agent-fails-and-what-actually-fixes-it/",
       "date": "2026-04-22T12:49:34+00:00",
       "desc": "As organizations move autonomous AI agents from experimental sandboxes into live production, a critical bottleneck has emerged. Foundation models are remarkably capable but structurally unsuited to co",
-      "source": "Gradient Flow",
-      "sourceId": "gradient-flow",
-      "sourceColor": "#7c3aed"
-    },
-    {
-      "title": "Stop tweaking your AI models. Do this instead.",
-      "link": "https://gradientflow.com/your-ai-model-isnt-the-problem-its-environment-is/",
-      "date": "2026-04-21T13:00:49+00:00",
-      "desc": "Subscribe • Previous Issues The Missing Layer: Why Your AI Agent Fails — and What Actually Fixes It As organizations move autonomous AI agents from experimental sandboxes into live production, a criti",
       "source": "Gradient Flow",
       "sourceId": "gradient-flow",
       "sourceColor": "#7c3aed"
@@ -438,15 +447,6 @@
       "link": "https://www.fabricatedknowledge.com/p/earnings-hyperscalers-amd-alab-anet",
       "date": "2025-08-11T17:31:34",
       "desc": "",
-      "source": "Fabricated Knowledge",
-      "sourceId": "fab-know",
-      "sourceColor": "#2563eb"
-    },
-    {
-      "title": "Earnings: TSMC, NXPI, AEHR, GOOG, TXN, VAT, VICR",
-      "link": "https://www.fabricatedknowledge.com/p/earnings-tsmc-nxpi-aehr-goog-txn",
-      "date": "2025-07-25T15:13:09",
-      "desc": "Was way too late on AEHR",
       "source": "Fabricated Knowledge",
       "sourceId": "fab-know",
       "sourceColor": "#2563eb"
