@@ -1,6 +1,15 @@
 {
-  "updated": "2026-05-20T10:44:42.542105+00:00",
+  "updated": "2026-05-20T13:34:41.711785+00:00",
   "items": [
+    {
+      "title": "Integration Is the New Moat: Moving Beyond the LLM",
+      "link": "https://gradientflow.com/integration-is-the-new-moat-moving-beyond-the-llm/",
+      "date": "2026-05-20T13:07:34+00:00",
+      "desc": "The AI Agent Conference in New York was one of the better events I&#8217;ve attended to get a read on what&#8217;s actually happening with enterprise AI. The formal sessions were great, but the hallwa",
+      "source": "Gradient Flow",
+      "sourceId": "gradient-flow",
+      "sourceColor": "#7c3aed"
+    },
     {
       "title": "Google I/O 2026: The Agent Layer Takes Shape",
       "link": "https://gradientflow.com/google-i-o-2026-unpacked/",
@@ -150,15 +159,6 @@
       "link": "https://gradientflow.com/the-real-ai-bottleneck-isnt-generation-its-this/",
       "date": "2026-04-28T13:00:06+00:00",
       "desc": "Subscribe • Previous Issues What mathematicians figured out about AI that most enterprises haven&#8217;t Recent results suggest that research mathematics is no longer a purely speculative test case fo",
-      "source": "Gradient Flow",
-      "sourceId": "gradient-flow",
-      "sourceColor": "#7c3aed"
-    },
-    {
-      "title": "China’s AI Strengths Are Real. So Are the Structural Drags Behind Them.",
-      "link": "https://gradientflow.com/us-china-frontier-models/",
-      "date": "2026-04-28T12:00:17+00:00",
-      "desc": "China is not out of the frontier AI race. Its open-weight models (models whose parameters are publicly released, allowing anyone to run or adapt them) remain genuinely competitive, and the overall cap",
       "source": "Gradient Flow",
       "sourceId": "gradient-flow",
       "sourceColor": "#7c3aed"
