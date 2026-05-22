@@ -1,6 +1,15 @@
 {
-  "updated": "2026-05-22T10:20:26.250569+00:00",
+  "updated": "2026-05-22T12:38:00.078034+00:00",
   "items": [
+    {
+      "title": "Beyond the Hype: An AI Math Breakthrough and the New Division of Labor",
+      "link": "https://gradientflow.com/openai-erdos-discrete-geometry/",
+      "date": "2026-05-22T12:00:02+00:00",
+      "desc": "In a piece I wrote a few months ago, I argued that research mathematics had become an unexpectedly useful test case for AI, precisely because mathematical claims are either right or wrong, which makes",
+      "source": "Gradient Flow",
+      "sourceId": "gradient-flow",
+      "sourceColor": "#7c3aed"
+    },
     {
       "title": "Integration Is the New Moat: Moving Beyond the LLM",
       "link": "https://gradientflow.com/integration-is-the-new-moat-moving-beyond-the-llm/",
@@ -150,15 +159,6 @@
       "link": "https://gradientflow.com/ai-in-research-mathematics/",
       "date": "2026-04-29T12:36:50+00:00",
       "desc": "Recent results suggest that research mathematics is no longer a purely speculative test case for AI. A growing set of examples shows AI contributing not just to short contest puzzles, but to open-ende",
-      "source": "Gradient Flow",
-      "sourceId": "gradient-flow",
-      "sourceColor": "#7c3aed"
-    },
-    {
-      "title": "Generation is cheap. Evaluation is everything.",
-      "link": "https://gradientflow.com/the-real-ai-bottleneck-isnt-generation-its-this/",
-      "date": "2026-04-28T13:00:06+00:00",
-      "desc": "Subscribe • Previous Issues What mathematicians figured out about AI that most enterprises haven&#8217;t Recent results suggest that research mathematics is no longer a purely speculative test case fo",
       "source": "Gradient Flow",
       "sourceId": "gradient-flow",
       "sourceColor": "#7c3aed"
