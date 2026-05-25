@@ -1,6 +1,15 @@
 {
-  "updated": "2026-05-25T22:53:30.668868+00:00",
+  "updated": "2026-05-25T23:59:40.265481+00:00",
   "items": [
+    {
+      "title": "The Vatican’s AI Principles: What You Need to Know",
+      "link": "https://gradientflow.com/vatican-ai-encyclical/",
+      "date": "2026-05-25T23:00:09+00:00",
+      "desc": "The Vatican’s recent encyclical, Magnifica Humanitas, introduces a moral framework that challenges how technology leaders evaluate artificial intelligence. It treats AI as a test of human priorities. ",
+      "source": "Gradient Flow",
+      "sourceId": "gradient-flow",
+      "sourceColor": "#7c3aed"
+    },
     {
       "title": "An AI Math Breakthrough and the New Division of Labor",
       "link": "https://gradientflow.com/openai-erdos-discrete-geometry/",
@@ -152,15 +161,6 @@
       "desc": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv and feedback from readers. If you’d like to support this, please subscribe. Subscribe now AI systems are about to start bu",
       "source": "Import AI",
       "sourceId": "import-ai",
-      "sourceColor": "#7c3aed"
-    },
-    {
-      "title": "What mathematicians figured out about AI that most enterprises haven’t",
-      "link": "https://gradientflow.com/ai-in-research-mathematics/",
-      "date": "2026-04-29T12:36:50+00:00",
-      "desc": "Recent results suggest that research mathematics is no longer a purely speculative test case for AI. A growing set of examples shows AI contributing not just to short contest puzzles, but to open-ende",
-      "source": "Gradient Flow",
-      "sourceId": "gradient-flow",
       "sourceColor": "#7c3aed"
     },
     {
