@@ -1,6 +1,24 @@
 {
-  "updated": "2026-05-26T08:05:43.921728+00:00",
+  "updated": "2026-05-26T14:52:51.904723+00:00",
   "items": [
+    {
+      "title": "What Upwork, DoorDash, Meta, EY, and Fundrise reveal about agents",
+      "link": "https://gradientflow.com/ai-agents-outside-the-coding-world-and-what-makes-them-stick/",
+      "date": "2026-05-26T13:00:09+00:00",
+      "desc": "Subscribe • Previous Issues Beyond the Demo: What Real AI Agents Actually Do at Work I am always on the lookout for new AI agents and applications that operate outside the coding world. By agent, I me",
+      "source": "Gradient Flow",
+      "sourceId": "gradient-flow",
+      "sourceColor": "#7c3aed"
+    },
+    {
+      "title": "Import AI 458: Reckoning with the future; and a singularity story",
+      "link": "https://jack-clark.net/2026/05/26/import-ai-458-reckoning-with-the-future-and-a-singularity-story/",
+      "date": "2026-05-26T12:32:03+00:00",
+      "desc": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. This issue consists of a lengthy",
+      "source": "Import AI",
+      "sourceId": "import-ai",
+      "sourceColor": "#7c3aed"
+    },
     {
       "title": "The Vatican’s AI Principles: What You Need to Know",
       "link": "https://gradientflow.com/vatican-ai-encyclical/",
@@ -132,15 +150,6 @@
       "link": "https://gradientflow.com/your-ai-agent-looks-capable-but-can-it-actually-finish-the-job/",
       "date": "2026-05-05T13:00:21+00:00",
       "desc": "Subscribe • Previous Issues Why Your AI Agents Fail in Production (And How to Actually Test Them) In a previous post, I argued that deploying autonomous AI agents reliably is not primarily a model pro",
-      "source": "Gradient Flow",
-      "sourceId": "gradient-flow",
-      "sourceColor": "#7c3aed"
-    },
-    {
-      "title": "Quantum’s Weak Link: Why Supply Chains Will Determine Who Wins",
-      "link": "https://gradientflow.com/quantum-computing-supply-chains/",
-      "date": "2026-05-05T12:00:03+00:00",
-      "desc": "Quantum technologies are entering an industrialization phase. A recent CNAS report  argues that over the next three to five years, quantum sensors and computers will begin moving from laboratories int",
       "source": "Gradient Flow",
       "sourceId": "gradient-flow",
       "sourceColor": "#7c3aed"
@@ -312,15 +321,6 @@
       "link": "https://jack-clark.net/2026/03/16/importai-449-llms-training-other-llms-72b-distributed-training-run-computer-vision-is-harder-than-generative-text/",
       "date": "2026-03-16T12:30:50+00:00",
       "desc": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Can LLMs autonomously refine oth",
-      "source": "Import AI",
-      "sourceId": "import-ai",
-      "sourceColor": "#7c3aed"
-    },
-    {
-      "title": "Import AI 448: AI R&D; Bytedance’s CUDA-writing agent; on-device satellite AI",
-      "link": "https://jack-clark.net/2026/03/09/import-ai-448-ai-rd-bytedances-cuda-writing-agent-on-device-satellite-ai/",
-      "date": "2026-03-09T12:45:54+00:00",
-      "desc": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv and feedback from readers. If you’d like to support this, please subscribe. Subscribe now AI progress is moving faster tha",
       "source": "Import AI",
       "sourceId": "import-ai",
       "sourceColor": "#7c3aed"
