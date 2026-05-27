@@ -1,6 +1,15 @@
 {
-  "updated": "2026-05-27T10:56:56.970426+00:00",
+  "updated": "2026-05-27T14:26:31.642637+00:00",
   "items": [
+    {
+      "title": "Beyond the Demo: What Real AI Agents Actually Do at Work",
+      "link": "https://gradientflow.com/beyond-the-demo-what-real-ai-agents-actually-do-at-work/",
+      "date": "2026-05-27T13:11:42+00:00",
+      "desc": "I am always on the lookout for new AI agents and applications that operate outside the coding world. By agent, I mean a system that can take a goal, use tools, keep context, and work through several s",
+      "source": "Gradient Flow",
+      "sourceId": "gradient-flow",
+      "sourceColor": "#7c3aed"
+    },
     {
       "title": "Some ideas for what comes next, May 2026",
       "link": "https://www.interconnects.ai/p/some-ideas-for-what-comes-next-may",
@@ -150,15 +159,6 @@
       "link": "https://gradientflow.com/why-your-ai-agents-fail-in-production-and-how-to-actually-test-them/",
       "date": "2026-05-06T13:30:41+00:00",
       "desc": "In a previous post, I argued that deploying autonomous AI agents reliably is not primarily a model problem. It is an environment problem. The gap between a capable foundation model and a production-re",
-      "source": "Gradient Flow",
-      "sourceId": "gradient-flow",
-      "sourceColor": "#7c3aed"
-    },
-    {
-      "title": "Your AI agent looks capable. But can it actually finish the job?",
-      "link": "https://gradientflow.com/your-ai-agent-looks-capable-but-can-it-actually-finish-the-job/",
-      "date": "2026-05-05T13:00:21+00:00",
-      "desc": "Subscribe • Previous Issues Why Your AI Agents Fail in Production (And How to Actually Test Them) In a previous post, I argued that deploying autonomous AI agents reliably is not primarily a model pro",
       "source": "Gradient Flow",
       "sourceId": "gradient-flow",
       "sourceColor": "#7c3aed"
