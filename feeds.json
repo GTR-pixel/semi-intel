@@ -1,6 +1,24 @@
 {
-  "updated": "2026-06-01T10:36:25.646879+00:00",
+  "updated": "2026-06-01T16:33:29.166659+00:00",
   "items": [
+    {
+      "title": "Import AI 459: AI oversight is difficult; scaling laws for protein folding models; and pricing the extinction risk of AI systems",
+      "link": "https://jack-clark.net/2026/06/01/import-ai-459-ai-oversight-is-difficult-scaling-laws-for-protein-folding-models-and-pricing-the-extinction-risk-of-ai-systems/",
+      "date": "2026-06-01T13:31:56+00:00",
+      "desc": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now The AI economy in ",
+      "source": "Import AI",
+      "sourceId": "import-ai",
+      "sourceColor": "#7c3aed"
+    },
+    {
+      "title": "Open and closed models are on different exponentials",
+      "link": "https://www.interconnects.ai/p/open-and-closed-models-are-on-different",
+      "date": "2026-06-01T13:03:48",
+      "desc": "Where marginally higher intelligence drives value, and where it doesn't.",
+      "source": "Interconnects",
+      "sourceId": "interconnects",
+      "sourceColor": "#16a34a"
+    },
     {
       "title": "Beyond the Demo: What Real AI Agents Actually Do at Work",
       "link": "https://gradientflow.com/beyond-the-demo-what-real-ai-agents-actually-do-at-work/",
@@ -315,24 +333,6 @@
       "source": "Interconnects",
       "sourceId": "interconnects",
       "sourceColor": "#16a34a"
-    },
-    {
-      "title": "What comes next with open models",
-      "link": "https://www.interconnects.ai/p/the-next-phase-of-open-models",
-      "date": "2026-03-16T13:00:51",
-      "desc": "Markets, capabilities, cope, and bewilderment in the industrialization of language models.",
-      "source": "Interconnects",
-      "sourceId": "interconnects",
-      "sourceColor": "#16a34a"
-    },
-    {
-      "title": "ImportAI 449: LLMs training other LLMs; 72B distributed training run; computer vision is harder than generative text",
-      "link": "https://jack-clark.net/2026/03/16/importai-449-llms-training-other-llms-72b-distributed-training-run-computer-vision-is-harder-than-generative-text/",
-      "date": "2026-03-16T12:30:50+00:00",
-      "desc": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Can LLMs autonomously refine oth",
-      "source": "Import AI",
-      "sourceId": "import-ai",
-      "sourceColor": "#7c3aed"
     },
     {
       "title": "Another Conversation with Val Bercovici Memory Markets",
