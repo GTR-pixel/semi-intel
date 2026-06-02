@@ -1,8 +1,17 @@
 {
-  "updated": "2026-06-02T13:55:11.700010+00:00",
+  "updated": "2026-06-02T18:01:56.448250+00:00",
   "items": [
     {
-      "title": "LLMs won’t run your enterprise. Here’s what will.",
+      "title": "Farewell Ai2",
+      "link": "https://www.interconnects.ai/p/farewell-ai2",
+      "date": "2026-06-02T14:15:59",
+      "desc": "This was my last week at the Allen Institute for AI (Ai2), where I got the great privilege to work on the Olmo models, to grow, to learn, and to have broad lasting impacts.",
+      "source": "Interconnects",
+      "sourceId": "interconnects",
+      "sourceColor": "#16a34a"
+    },
+    {
+      "title": "The smartest AI teams are moving past chatbots",
       "link": "https://gradientflow.com/llms-wont-run-your-enterprise-heres-what-will/",
       "date": "2026-06-02T13:00:58+00:00",
       "desc": "Subscribe • Previous Issues Your Enterprise Data Deserves Better Than a Chatbot Large language models and their multimodal variants remain the foundation models most people encounter first. That makes",
@@ -321,15 +330,6 @@
       "link": "https://www.interconnects.ai/p/lossy-self-improvement",
       "date": "2026-03-22T19:39:40",
       "desc": "The case for why self-improvement is real but it doesn't lead to fast takeoff.",
-      "source": "Interconnects",
-      "sourceId": "interconnects",
-      "sourceColor": "#16a34a"
-    },
-    {
-      "title": "GPT 5.4 is a big step for Codex",
-      "link": "https://www.interconnects.ai/p/gpt-54-is-a-big-step-for-codex",
-      "date": "2026-03-18T13:02:54",
-      "desc": "On evaluating and understanding the frontier of agents, and why I still turn to Claude.",
       "source": "Interconnects",
       "sourceId": "interconnects",
       "sourceColor": "#16a34a"
