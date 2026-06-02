@@ -1,6 +1,15 @@
 {
-  "updated": "2026-06-02T09:46:38.511350+00:00",
+  "updated": "2026-06-02T13:55:11.700010+00:00",
   "items": [
+    {
+      "title": "LLMs won’t run your enterprise. Here’s what will.",
+      "link": "https://gradientflow.com/llms-wont-run-your-enterprise-heres-what-will/",
+      "date": "2026-06-02T13:00:58+00:00",
+      "desc": "Subscribe • Previous Issues Your Enterprise Data Deserves Better Than a Chatbot Large language models and their multimodal variants remain the foundation models most people encounter first. That makes",
+      "source": "Gradient Flow",
+      "sourceId": "gradient-flow",
+      "sourceColor": "#7c3aed"
+    },
     {
       "title": "Import AI 459: AI oversight is difficult; scaling laws for protein folding models; and pricing the extinction risk of AI systems",
       "link": "https://jack-clark.net/2026/06/01/import-ai-459-ai-oversight-is-difficult-scaling-laws-for-protein-folding-models-and-pricing-the-extinction-risk-of-ai-systems/",
@@ -171,15 +180,6 @@
       "source": "Interconnects",
       "sourceId": "interconnects",
       "sourceColor": "#16a34a"
-    },
-    {
-      "title": "Why Your AI Agents Fail in Production (And How to Actually Test Them)",
-      "link": "https://gradientflow.com/why-your-ai-agents-fail-in-production-and-how-to-actually-test-them/",
-      "date": "2026-05-06T13:30:41+00:00",
-      "desc": "In a previous post, I argued that deploying autonomous AI agents reliably is not primarily a model problem. It is an environment problem. The gap between a capable foundation model and a production-re",
-      "source": "Gradient Flow",
-      "sourceId": "gradient-flow",
-      "sourceColor": "#7c3aed"
     },
     {
       "title": "The distillation panic",
