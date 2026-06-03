@@ -1,6 +1,15 @@
 {
-  "updated": "2026-06-03T12:18:11.227347+00:00",
+  "updated": "2026-06-03T17:24:52.903160+00:00",
   "items": [
+    {
+      "title": "Your Enterprise Data Deserves Better Than a Chatbot",
+      "link": "https://gradientflow.com/your-enterprise-data-deserves-better-than-a-chatbot/",
+      "date": "2026-06-03T12:59:36+00:00",
+      "desc": "Large language models and their multimodal variants remain the foundation models most people encounter first. That makes sense. Text, images, audio, and video cover a huge range of knowledge-work task",
+      "source": "Gradient Flow",
+      "sourceId": "gradient-flow",
+      "sourceColor": "#7c3aed"
+    },
     {
       "title": "Farewell Ai2",
       "link": "https://www.interconnects.ai/p/farewell-ai2",
@@ -162,15 +171,6 @@
       "source": "Interconnects",
       "sourceId": "interconnects",
       "sourceColor": "#16a34a"
-    },
-    {
-      "title": "Why your AI bills are going up (even as tokens get cheaper) 📉💸",
-      "link": "https://gradientflow.com/why-your-ai-bills-are-going-up-even-as-tokens-get-cheaper/",
-      "date": "2026-05-12T13:00:02+00:00",
-      "desc": "Subscribe • Previous Issues The End of the AI Experiment: Surviving the CFO’s New ROI Demands Why This Has Become an Executive Issue Why is AI spend no longer just an IT budget problem? AI has crossed",
-      "source": "Gradient Flow",
-      "sourceId": "gradient-flow",
-      "sourceColor": "#7c3aed"
     },
     {
       "title": "Import AI 456: RSI and economic growth; radical optionality for AI regulation; and a neural computer",
