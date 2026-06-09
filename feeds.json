@@ -1,6 +1,15 @@
 {
-  "updated": "2026-06-09T10:30:41.236699+00:00",
+  "updated": "2026-06-09T13:40:36.333641+00:00",
   "items": [
+    {
+      "title": "The Data Center Rebellion just got a lawyer (and a ballot measure)",
+      "link": "https://gradientflow.com/the-data-center-rebellion-just-got-a-lawyer-and-a-ballot-measure/",
+      "date": "2026-06-09T13:00:20+00:00",
+      "desc": "Subscribe • Previous Issues The Gap Between the Press Release and the Power Grid Back in February, I wrote about what I called the “Data Center Rebellion,” the growing local resistance to the physical",
+      "source": "Gradient Flow",
+      "sourceId": "gradient-flow",
+      "sourceColor": "#7c3aed"
+    },
     {
       "title": "Import AI 460: Reward hacking society, RSI data from Anthropic; and RL-based quadcopter racing",
       "link": "https://jack-clark.net/2026/06/08/import-ai-460-reward-hacking-society-rsi-data-from-anthropic-and-rl-based-quadcopter-racing/",
@@ -162,15 +171,6 @@
       "source": "Interconnects",
       "sourceId": "interconnects",
       "sourceColor": "#16a34a"
-    },
-    {
-      "title": "The End of the AI Experiment: Surviving the CFO’s New ROI Demands",
-      "link": "https://gradientflow.com/the-end-of-the-ai-experiment-surviving-the-cfos-new-roi-demands/",
-      "date": "2026-05-13T12:47:55+00:00",
-      "desc": "Why This Has Become an Executive Issue Why is AI spend no longer just an IT budget problem? AI has crossed a threshold where aggregate spend across every department requires capital allocation discipl",
-      "source": "Gradient Flow",
-      "sourceId": "gradient-flow",
-      "sourceColor": "#7c3aed"
     },
     {
       "title": "How open model ecosystems compound",
