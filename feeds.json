@@ -1,6 +1,15 @@
 {
-  "updated": "2026-06-10T11:07:12.889623+00:00",
+  "updated": "2026-06-10T14:34:01.434647+00:00",
   "items": [
+    {
+      "title": "The Gap Between the Press Release and the Power Grid",
+      "link": "https://gradientflow.com/the-gap-between-the-press-release-and-the-power-grid/",
+      "date": "2026-06-10T13:28:36+00:00",
+      "desc": "Back in February, I wrote about what I called the “Data Center Rebellion,” the growing local resistance to the physical infrastructure behind AI. Since then, I have been asking tech people around the ",
+      "source": "Gradient Flow",
+      "sourceId": "gradient-flow",
+      "sourceColor": "#7c3aed"
+    },
     {
       "title": "Claude Fable 5 and new AI safety fables",
       "link": "https://www.interconnects.ai/p/claude-fable-5-and-new-ai-safety",
@@ -153,15 +162,6 @@
       "source": "Fabricated Knowledge",
       "sourceId": "fab-know",
       "sourceColor": "#2563eb"
-    },
-    {
-      "title": "Stop upgrading your LLM. Start fixing your data.",
-      "link": "https://gradientflow.com/stop-upgrading-your-llm-start-fixing-your-data/",
-      "date": "2026-05-19T13:00:51+00:00",
-      "desc": "Subscribe • Previous Issues Integration Is the New Moat: Moving Beyond the LLM The AI Agent Conference in New York was one of the better events I&#8217;ve attended to get a read on what&#8217;s actual",
-      "source": "Gradient Flow",
-      "sourceId": "gradient-flow",
-      "sourceColor": "#7c3aed"
     },
     {
       "title": "Import AI 457: AI stuxnet; cursed Muon optimizer; and positive alignment",
