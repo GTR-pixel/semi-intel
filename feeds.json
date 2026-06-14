@@ -1,6 +1,15 @@
 {
-  "updated": "2026-06-14T16:17:33.935622+00:00",
+  "updated": "2026-06-14T17:55:12.508803+00:00",
   "items": [
+    {
+      "title": "Welcome to the AGI era of AI governance",
+      "link": "https://www.interconnects.ai/p/welcome-to-the-agi-era-of-ai-governance",
+      "date": "2026-06-14T17:43:42",
+      "desc": "It's a one-way door and we weren't ready for it.",
+      "source": "Interconnects",
+      "sourceId": "interconnects",
+      "sourceColor": "#16a34a"
+    },
     {
       "title": "The Gap Between the Press Release and the Power Grid",
       "link": "https://gradientflow.com/the-gap-between-the-press-release-and-the-power-grid/",
@@ -312,15 +321,6 @@
       "link": "https://www.interconnects.ai/p/gemma-4-and-what-makes-an-open-model",
       "date": "2026-04-03T16:57:36",
       "desc": "Hint: it's not benchmark scores.",
-      "source": "Interconnects",
-      "sourceId": "interconnects",
-      "sourceColor": "#16a34a"
-    },
-    {
-      "title": "Latest open artifacts (#20): New orgs! New types of models! With Nemotron Super, Sarvam, Cohere Transcribe, & others",
-      "link": "https://www.interconnects.ai/p/latest-open-artifacts-20-new-orgs",
-      "date": "2026-03-30T13:02:45",
-      "desc": "New orgs! New types of models! With Nemotron Super, Sarvam, Cohere Transcribe, & others",
       "source": "Interconnects",
       "sourceId": "interconnects",
       "sourceColor": "#16a34a"
