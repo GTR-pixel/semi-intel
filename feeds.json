@@ -1,6 +1,15 @@
 {
-  "updated": "2026-06-15T09:44:23.756941+00:00",
+  "updated": "2026-06-15T15:39:35.260439+00:00",
   "items": [
+    {
+      "title": "Import AI 461: “Alignment is not on track”; FrontierCode; and synthetic research interns",
+      "link": "https://jack-clark.net/2026/06/15/import-ai-461-alignment-is-not-on-track-frontiercode-and-synthetic-research-interns/",
+      "date": "2026-06-15T11:30:53+00:00",
+      "desc": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now AI researchers lau",
+      "source": "Import AI",
+      "sourceId": "import-ai",
+      "sourceColor": "#7c3aed"
+    },
     {
       "title": "Welcome to the AGI era of AI governance",
       "link": "https://www.interconnects.ai/p/welcome-to-the-agi-era-of-ai-governance",
@@ -324,15 +333,6 @@
       "source": "Interconnects",
       "sourceId": "interconnects",
       "sourceColor": "#16a34a"
-    },
-    {
-      "title": "Import AI 451: Political superintelligence; Google’s society of minds, and a robot drummer",
-      "link": "https://jack-clark.net/2026/03/30/import-ai-451-political-superintelligence-googles-society-of-minds-and-a-robot-drummer/",
-      "date": "2026-03-30T12:28:13+00:00",
-      "desc": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv and feedback from readers. If you’d like to support this, please subscribe. Subscribe now AI might let us build “political",
-      "source": "Import AI",
-      "sourceId": "import-ai",
-      "sourceColor": "#7c3aed"
     },
     {
       "title": "Another Conversation with Val Bercovici Memory Markets",
