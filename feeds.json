@@ -1,6 +1,33 @@
 {
-  "updated": "2026-06-16T10:59:02.160096+00:00",
+  "updated": "2026-06-16T15:58:44.187568+00:00",
   "items": [
+    {
+      "title": "Frontier post-training recipe review with Finbarr Timbers",
+      "link": "https://www.interconnects.ai/p/frontier-post-training-recipe-review",
+      "date": "2026-06-16T13:29:30",
+      "desc": "\"Interview\" #18",
+      "source": "Interconnects",
+      "sourceId": "interconnects",
+      "sourceColor": "#16a34a"
+    },
+    {
+      "title": "Your AI bill is a tax on scale",
+      "link": "https://gradientflow.com/the-single-vendor-ai-stack-is-a-transitional-phase/",
+      "date": "2026-06-16T13:00:27+00:00",
+      "desc": "Subscribe • Previous Issues The Hybrid AI Stack Is Coming for the Pricing Power of OpenAI and Anthropic OpenAI and Anthropic are going public while still capturing much of the money spent on foundatio",
+      "source": "Gradient Flow",
+      "sourceId": "gradient-flow",
+      "sourceColor": "#7c3aed"
+    },
+    {
+      "title": "Tokenomics: AI’s New Design Constraint",
+      "link": "https://gradientflow.com/tokenomics-ais-new-design-constraint/",
+      "date": "2026-06-16T11:00:38+00:00",
+      "desc": "The Cost Reality of Running AI at Scale Budget shock is already happening. Multiple major players have pulled back on AI features or subscriptions due to unexpectedly high token costs. Amazon removed ",
+      "source": "Gradient Flow",
+      "sourceId": "gradient-flow",
+      "sourceColor": "#7c3aed"
+    },
     {
       "title": "Import AI 461: “Alignment is not on track”; FrontierCode; and synthetic research interns",
       "link": "https://jack-clark.net/2026/06/15/import-ai-461-alignment-is-not-on-track-frontiercode-and-synthetic-research-interns/",
@@ -150,24 +177,6 @@
       "link": "https://gradientflow.com/openai-erdos-discrete-geometry/",
       "date": "2026-05-22T12:00:02+00:00",
       "desc": "In a piece I wrote a few months ago, I argued that research mathematics had become an unexpectedly useful test case for AI, precisely because mathematical claims are either right or wrong, which makes",
-      "source": "Gradient Flow",
-      "sourceId": "gradient-flow",
-      "sourceColor": "#7c3aed"
-    },
-    {
-      "title": "Integration Is the New Moat: Moving Beyond the LLM",
-      "link": "https://gradientflow.com/integration-is-the-new-moat-moving-beyond-the-llm/",
-      "date": "2026-05-20T13:07:34+00:00",
-      "desc": "The AI Agent Conference in New York was one of the better events I&#8217;ve attended to get a read on what&#8217;s actually happening with enterprise AI. The formal sessions were great, but the hallwa",
-      "source": "Gradient Flow",
-      "sourceId": "gradient-flow",
-      "sourceColor": "#7c3aed"
-    },
-    {
-      "title": "Google I/O 2026: The Agent Layer Takes Shape",
-      "link": "https://gradientflow.com/google-i-o-2026-unpacked/",
-      "date": "2026-05-19T23:30:59+00:00",
-      "desc": "The announcements at Google I/O 2026 landed today. I&#8217;ve gone through everything and pulled out what I think actually matters for people building products, running technical teams, or making bets",
       "source": "Gradient Flow",
       "sourceId": "gradient-flow",
       "sourceColor": "#7c3aed"
@@ -324,15 +333,6 @@
       "source": "Import AI",
       "sourceId": "import-ai",
       "sourceColor": "#7c3aed"
-    },
-    {
-      "title": "Gemma 4 and what makes an open model succeed",
-      "link": "https://www.interconnects.ai/p/gemma-4-and-what-makes-an-open-model",
-      "date": "2026-04-03T16:57:36",
-      "desc": "Hint: it's not benchmark scores.",
-      "source": "Interconnects",
-      "sourceId": "interconnects",
-      "sourceColor": "#16a34a"
     },
     {
       "title": "Another Conversation with Val Bercovici Memory Markets",
