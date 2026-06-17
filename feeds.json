@@ -1,6 +1,24 @@
 {
-  "updated": "2026-06-17T12:46:40.948274+00:00",
+  "updated": "2026-06-17T16:34:02.888488+00:00",
   "items": [
+    {
+      "title": "State of the blog, mid-2026",
+      "link": "https://www.interconnects.ai/p/state-of-the-blog-mid-2026",
+      "date": "2026-06-17T14:29:06",
+      "desc": "About 3 years since I started writing weekly.",
+      "source": "Interconnects",
+      "sourceId": "interconnects",
+      "sourceColor": "#16a34a"
+    },
+    {
+      "title": "The Hybrid AI Stack Is Coming for the Pricing Power of OpenAI and Anthropic",
+      "link": "https://gradientflow.com/the-hybrid-ai-stack-is-coming-for-the-pricing-power-of-openai-and-anthropic/",
+      "date": "2026-06-17T13:22:37+00:00",
+      "desc": "OpenAI and Anthropic are going public while still capturing much of the money spent on foundation-model usage. But deployment patterns are starting to tell a more complicated story. Companies are buil",
+      "source": "Gradient Flow",
+      "sourceId": "gradient-flow",
+      "sourceColor": "#7c3aed"
+    },
     {
       "title": "Frontier post-training recipe review with Finbarr Timbers",
       "link": "https://www.interconnects.ai/p/frontier-post-training-recipe-review",
@@ -173,15 +191,6 @@
       "sourceColor": "#7c3aed"
     },
     {
-      "title": "An AI Math Breakthrough and the New Division of Labor",
-      "link": "https://gradientflow.com/openai-erdos-discrete-geometry/",
-      "date": "2026-05-22T12:00:02+00:00",
-      "desc": "In a piece I wrote a few months ago, I argued that research mathematics had become an unexpectedly useful test case for AI, precisely because mathematical claims are either right or wrong, which makes",
-      "source": "Gradient Flow",
-      "sourceId": "gradient-flow",
-      "sourceColor": "#7c3aed"
-    },
-    {
       "title": "Nvidia should buyback stock",
       "link": "https://www.fabricatedknowledge.com/p/nvidia-should-buyback-stock",
       "date": "2026-05-19T14:34:11",
@@ -312,15 +321,6 @@
       "link": "https://www.interconnects.ai/p/the-inevitable-need-for-an-open-model",
       "date": "2026-04-11T13:02:06",
       "desc": "And yes, I hate consortia too.",
-      "source": "Interconnects",
-      "sourceId": "interconnects",
-      "sourceColor": "#16a34a"
-    },
-    {
-      "title": "Claude Mythos and misguided open-weight fearmongering",
-      "link": "https://www.interconnects.ai/p/claude-mythos-and-misguided-open",
-      "date": "2026-04-09T21:28:39",
-      "desc": "Another dance around fears of open-source.",
       "source": "Interconnects",
       "sourceId": "interconnects",
       "sourceColor": "#16a34a"
