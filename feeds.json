@@ -1,6 +1,15 @@
 {
-  "updated": "2026-06-19T12:00:37.421431+00:00",
+  "updated": "2026-06-19T15:46:18.844080+00:00",
   "items": [
+    {
+      "title": "Banning Open Source AI Would Be A Mistake",
+      "link": "https://www.interconnects.ai/p/banning-open-source-ai-would-be-a",
+      "date": "2026-06-19T13:02:47",
+      "desc": "This post was originally an op-ed co-authored with Kevin Xu of Interconnected for a general, non-technical audience.",
+      "source": "Interconnects",
+      "sourceId": "interconnects",
+      "sourceColor": "#16a34a"
+    },
     {
       "title": "State of the blog, mid-2026",
       "link": "https://www.interconnects.ai/p/state-of-the-blog-mid-2026",
@@ -315,15 +324,6 @@
       "source": "Import AI",
       "sourceId": "import-ai",
       "sourceColor": "#7c3aed"
-    },
-    {
-      "title": "The inevitable need for an open model consortium",
-      "link": "https://www.interconnects.ai/p/the-inevitable-need-for-an-open-model",
-      "date": "2026-04-11T13:02:06",
-      "desc": "And yes, I hate consortia too.",
-      "source": "Interconnects",
-      "sourceId": "interconnects",
-      "sourceColor": "#16a34a"
     },
     {
       "title": "Import AI 452: Scaling laws for cyberwar; rising tides of AI automation; and a puzzle over gDP forecasting",
