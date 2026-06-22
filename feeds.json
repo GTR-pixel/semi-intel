@@ -1,6 +1,24 @@
 {
-  "updated": "2026-06-22T07:31:13.812870+00:00",
+  "updated": "2026-06-22T13:28:40.152342+00:00",
   "items": [
+    {
+      "title": "Import AI 462: Superpersuasion; self-sustaining AI; paths to ASI",
+      "link": "https://jack-clark.net/2026/06/22/import-ai-462-superpersuasion-self-sustaining-ai-paths-to-asi/",
+      "date": "2026-06-22T12:31:45+00:00",
+      "desc": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now AI can decisively ",
+      "source": "Import AI",
+      "sourceId": "import-ai",
+      "sourceColor": "#7c3aed"
+    },
+    {
+      "title": "The Bear Case for AI Data Centers",
+      "link": "https://gradientflow.com/the-bear-case-for-ai-data-centers/",
+      "date": "2026-06-22T11:00:43+00:00",
+      "desc": "The more I dig into the economics, the harder it is to see AI data centers as a good business, and they&#8217;re now my leading candidate for what pops the AI bubble in the next 6 to 12 months. The co",
+      "source": "Gradient Flow",
+      "sourceId": "gradient-flow",
+      "sourceColor": "#7c3aed"
+    },
     {
       "title": "Banning Open Source AI Would Be A Mistake",
       "link": "https://www.interconnects.ai/p/banning-open-source-ai-would-be-a",
@@ -191,15 +209,6 @@
       "sourceColor": "#7c3aed"
     },
     {
-      "title": "The Vatican’s AI Principles: What You Need to Know",
-      "link": "https://gradientflow.com/vatican-ai-encyclical/",
-      "date": "2026-05-25T23:00:09+00:00",
-      "desc": "The Vatican’s recent encyclical, Magnifica Humanitas, introduces a moral framework that challenges how technology leaders evaluate artificial intelligence. It treats AI as a test of human priorities. ",
-      "source": "Gradient Flow",
-      "sourceId": "gradient-flow",
-      "sourceColor": "#7c3aed"
-    },
-    {
       "title": "Nvidia should buyback stock",
       "link": "https://www.fabricatedknowledge.com/p/nvidia-should-buyback-stock",
       "date": "2026-05-19T14:34:11",
@@ -321,15 +330,6 @@
       "link": "https://jack-clark.net/2026/04/13/import-ai-453-breaking-ai-agents-mirrorcode-and-ten-views-on-gradual-disempowerment/",
       "date": "2026-04-13T10:02:22+00:00",
       "desc": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv and feedback from readers. If you’d like to support this, please subscribe. A shorter issue than usual as I was attending ",
-      "source": "Import AI",
-      "sourceId": "import-ai",
-      "sourceColor": "#7c3aed"
-    },
-    {
-      "title": "Import AI 452: Scaling laws for cyberwar; rising tides of AI automation; and a puzzle over gDP forecasting",
-      "link": "https://jack-clark.net/2026/04/06/import-ai-452-scaling-laws-for-cyberwar-rising-tides-of-ai-automation-and-a-puzzle-over-gdp-forecasting/",
-      "date": "2026-04-06T12:31:31+00:00",
-      "desc": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Uh oh, there’s a scaling war for",
       "source": "Import AI",
       "sourceId": "import-ai",
       "sourceColor": "#7c3aed"
