@@ -1,6 +1,15 @@
 {
-  "updated": "2026-06-23T11:36:58.332054+00:00",
+  "updated": "2026-06-23T14:33:54.633596+00:00",
   "items": [
+    {
+      "title": "What your base model doesn’t protect you from",
+      "link": "https://gradientflow.com/the-ai-data-problem-i-kept-avoiding-and-why-i-stopped/",
+      "date": "2026-06-23T13:00:40+00:00",
+      "desc": "Subscribe • Previous Issues The Data Compliance Problem AI Teams Keep Ignoring I’ve avoided writing about copyright and AI. Not because it isn&#8217;t important, but because it felt like a legal sides",
+      "source": "Gradient Flow",
+      "sourceId": "gradient-flow",
+      "sourceColor": "#7c3aed"
+    },
     {
       "title": "GLM-5.2 is the step change for open agents",
       "link": "https://www.interconnects.ai/p/glm-52-is-the-step-change-for-open",
@@ -198,15 +207,6 @@
       "source": "Interconnects",
       "sourceId": "interconnects",
       "sourceColor": "#16a34a"
-    },
-    {
-      "title": "What Upwork, DoorDash, Meta, EY, and Fundrise reveal about agents",
-      "link": "https://gradientflow.com/ai-agents-outside-the-coding-world-and-what-makes-them-stick/",
-      "date": "2026-05-26T13:00:09+00:00",
-      "desc": "Subscribe • Previous Issues Beyond the Demo: What Real AI Agents Actually Do at Work I am always on the lookout for new AI agents and applications that operate outside the coding world. By agent, I me",
-      "source": "Gradient Flow",
-      "sourceId": "gradient-flow",
-      "sourceColor": "#7c3aed"
     },
     {
       "title": "Import AI 458: Reckoning with the future; and a singularity story",
