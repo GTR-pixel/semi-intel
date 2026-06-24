@@ -1,6 +1,15 @@
 {
-  "updated": "2026-06-24T12:32:09.593102+00:00",
+  "updated": "2026-06-24T15:29:45.487770+00:00",
   "items": [
+    {
+      "title": "The Data Compliance Problem AI Teams Keep Ignoring",
+      "link": "https://gradientflow.com/the-data-compliance-problem-ai-teams-keep-ignoring/",
+      "date": "2026-06-24T13:03:49+00:00",
+      "desc": "I’ve avoided writing about copyright and AI. Not because it isn&#8217;t important, but because it felt like a legal sideshow compared to the engineering and business questions I find more interesting.",
+      "source": "Gradient Flow",
+      "sourceId": "gradient-flow",
+      "sourceColor": "#7c3aed"
+    },
     {
       "title": "What your base model doesn’t protect you from",
       "link": "https://gradientflow.com/the-ai-data-problem-i-kept-avoiding-and-why-i-stopped/",
@@ -189,15 +198,6 @@
       "source": "Interconnects",
       "sourceId": "interconnects",
       "sourceColor": "#16a34a"
-    },
-    {
-      "title": "Beyond the Demo: What Real AI Agents Actually Do at Work",
-      "link": "https://gradientflow.com/beyond-the-demo-what-real-ai-agents-actually-do-at-work/",
-      "date": "2026-05-27T13:11:42+00:00",
-      "desc": "I am always on the lookout for new AI agents and applications that operate outside the coding world. By agent, I mean a system that can take a goal, use tools, keep context, and work through several s",
-      "source": "Gradient Flow",
-      "sourceId": "gradient-flow",
-      "sourceColor": "#7c3aed"
     },
     {
       "title": "Some ideas for what comes next, May 2026",
