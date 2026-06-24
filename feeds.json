@@ -1,6 +1,15 @@
 {
-  "updated": "2026-06-24T19:11:12.438435+00:00",
+  "updated": "2026-06-24T21:08:05.172359+00:00",
   "items": [
+    {
+      "title": "IN-DEPTH: What Unitree's Evolution Means For Robotics",
+      "link": "https://www.fabricatedknowledge.com/p/in-depth-what-unitrees-evolution",
+      "date": "2026-06-24T20:28:30",
+      "desc": "Unitree Playbook, China's Scaling Law, Geopolitics, and Humanoids in the wild",
+      "source": "Fabricated Knowledge",
+      "sourceId": "fab-know",
+      "sourceColor": "#2563eb"
+    },
     {
       "title": "The Data Compliance Problem AI Teams Keep Ignoring",
       "link": "https://gradientflow.com/the-data-compliance-problem-ai-teams-keep-ignoring/",
@@ -438,15 +447,6 @@
       "link": "https://www.fabricatedknowledge.com/p/intels-one-true-stakeholder-is-here",
       "date": "2025-08-15T20:01:13",
       "desc": "What an Intel with Government help would look like.",
-      "source": "Fabricated Knowledge",
-      "sourceId": "fab-know",
-      "sourceColor": "#2563eb"
-    },
-    {
-      "title": "Earnings: Hyperscalers, AMD, ALAB, ANET",
-      "link": "https://www.fabricatedknowledge.com/p/earnings-hyperscalers-amd-alab-anet",
-      "date": "2025-08-11T17:31:34",
-      "desc": "",
       "source": "Fabricated Knowledge",
       "sourceId": "fab-know",
       "sourceColor": "#2563eb"
