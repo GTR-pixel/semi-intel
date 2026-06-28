@@ -1,6 +1,15 @@
 {
-  "updated": "2026-06-28T17:01:52.508201+00:00",
+  "updated": "2026-06-28T18:41:21.422313+00:00",
   "items": [
+    {
+      "title": "Latest open artifacts (#22): Zyphra, Cohere, and Poolside are expanding the breadth of the ecosystem",
+      "link": "https://www.interconnects.ai/p/artifacts-22-zyphra-cohere-and-poolside",
+      "date": "2026-06-28T17:03:07",
+      "desc": "An assessment of the open ecosystem and the motivations behind releasing models",
+      "source": "Interconnects",
+      "sourceId": "interconnects",
+      "sourceColor": "#16a34a"
+    },
     {
       "title": "IN-DEPTH: What Unitree's Evolution Means For Robotics",
       "link": "https://www.fabricatedknowledge.com/p/in-depth-what-unitrees-evolution",
@@ -324,15 +333,6 @@
       "source": "Fabricated Knowledge",
       "sourceId": "fab-know",
       "sourceColor": "#2563eb"
-    },
-    {
-      "title": "My bets on open models, mid-2026",
-      "link": "https://www.interconnects.ai/p/my-bets-on-open-models-mid-2026",
-      "date": "2026-04-15T18:20:00",
-      "desc": "What I expect to come next and why, focused on the open-closed gap.",
-      "source": "Interconnects",
-      "sourceId": "interconnects",
-      "sourceColor": "#16a34a"
     },
     {
       "title": "Import AI 453: Breaking AI agents; MirrorCode; and ten views on gradual disempowerment",
