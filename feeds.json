@@ -1,6 +1,15 @@
 {
-  "updated": "2026-06-29T10:05:20.319783+00:00",
+  "updated": "2026-06-29T14:32:10.331037+00:00",
   "items": [
+    {
+      "title": "Import AI 463: Self-improving robots; a 10k Chinese GPU cluster; and an elegiac essay for the human era",
+      "link": "https://jack-clark.net/2026/06/29/import-ai-463-self-improving-robots-a-10k-chinese-gpu-cluster-and-an-elegiac-essay-for-the-human-era/",
+      "date": "2026-06-29T13:03:27+00:00",
+      "desc": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now NVIDIA sets up a c",
+      "source": "Import AI",
+      "sourceId": "import-ai",
+      "sourceColor": "#7c3aed"
+    },
     {
       "title": "Latest open artifacts (#22): Zyphra, Cohere, and Poolside are expanding the breadth of the ecosystem",
       "link": "https://www.interconnects.ai/p/artifacts-22-zyphra-cohere-and-poolside",
@@ -333,15 +342,6 @@
       "source": "Fabricated Knowledge",
       "sourceId": "fab-know",
       "sourceColor": "#2563eb"
-    },
-    {
-      "title": "Import AI 453: Breaking AI agents; MirrorCode; and ten views on gradual disempowerment",
-      "link": "https://jack-clark.net/2026/04/13/import-ai-453-breaking-ai-agents-mirrorcode-and-ten-views-on-gradual-disempowerment/",
-      "date": "2026-04-13T10:02:22+00:00",
-      "desc": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv and feedback from readers. If you’d like to support this, please subscribe. A shorter issue than usual as I was attending ",
-      "source": "Import AI",
-      "sourceId": "import-ai",
-      "sourceColor": "#7c3aed"
     },
     {
       "title": "Another Conversation with Val Bercovici Memory Markets",
