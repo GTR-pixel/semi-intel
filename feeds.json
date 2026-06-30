@@ -1,6 +1,15 @@
 {
-  "updated": "2026-06-30T10:50:27.661741+00:00",
+  "updated": "2026-06-30T13:06:05.098514+00:00",
   "items": [
+    {
+      "title": "I talked to Google’s former AI head about messy data",
+      "link": "https://gradientflow.com/i-talked-to-googles-former-ai-head-about-messy-data/",
+      "date": "2026-06-30T13:00:36+00:00",
+      "desc": "Subscribe • Previous Issues Agents Need Maps, Not Bigger Context Windows Like everyone else, I&#8217;ve been enjoying the steady improvement in coding agents and the tooling around them, from framewor",
+      "source": "Gradient Flow",
+      "sourceId": "gradient-flow",
+      "sourceColor": "#7c3aed"
+    },
     {
       "title": "Import AI 463: Self-improving robots; a 10k Chinese GPU cluster; and an elegiac essay for the human era",
       "link": "https://jack-clark.net/2026/06/29/import-ai-463-self-improving-robots-a-10k-chinese-gpu-cluster-and-an-elegiac-essay-for-the-human-era/",
@@ -198,15 +207,6 @@
       "source": "Interconnects",
       "sourceId": "interconnects",
       "sourceColor": "#16a34a"
-    },
-    {
-      "title": "The smartest AI teams are moving past chatbots",
-      "link": "https://gradientflow.com/llms-wont-run-your-enterprise-heres-what-will/",
-      "date": "2026-06-02T13:00:58+00:00",
-      "desc": "Subscribe • Previous Issues Your Enterprise Data Deserves Better Than a Chatbot Large language models and their multimodal variants remain the foundation models most people encounter first. That makes",
-      "source": "Gradient Flow",
-      "sourceId": "gradient-flow",
-      "sourceColor": "#7c3aed"
     },
     {
       "title": "Import AI 459: AI oversight is difficult; scaling laws for protein folding models; and pricing the extinction risk of AI systems",
