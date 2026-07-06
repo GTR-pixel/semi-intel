@@ -1,6 +1,24 @@
 {
-  "updated": "2026-07-06T12:41:21.797678+00:00",
+  "updated": "2026-07-06T16:14:35.105726+00:00",
   "items": [
+    {
+      "title": "Does AI Actually Make Developers More Productive? The Evidence, For and Against",
+      "link": "https://gradientflow.com/ai-coding-tools-field-guide/",
+      "date": "2026-07-06T13:00:01+00:00",
+      "desc": "This guide is built from studies and reports published in recent months. Sources include a large matched study tracking more than 100,000 real GitHub developers, a meta-analysis pooling 23 separate pr",
+      "source": "Gradient Flow",
+      "sourceId": "gradient-flow",
+      "sourceColor": "#7c3aed"
+    },
+    {
+      "title": "Import AI 464: Fables writes GPU kernels; AI automation; and analog computation",
+      "link": "https://jack-clark.net/2026/07/06/import-ai-464-fables-writes-gpu-kernels-ai-automation-and-analog-computation/",
+      "date": "2026-07-06T12:31:05+00:00",
+      "desc": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Fable writes a dec",
+      "source": "Import AI",
+      "sourceId": "import-ai",
+      "sourceColor": "#7c3aed"
+    },
     {
       "title": "Agents Need Maps, Not Bigger Context Windows",
       "link": "https://gradientflow.com/agents-need-maps-not-bigger-context-windows/",
@@ -182,15 +200,6 @@
       "sourceColor": "#16a34a"
     },
     {
-      "title": "12 GW announced. 5 GW under construction. What happens next?",
-      "link": "https://gradientflow.com/the-data-center-rebellion-just-got-a-lawyer-and-a-ballot-measure/",
-      "date": "2026-06-09T13:00:20+00:00",
-      "desc": "Subscribe • Previous Issues The Gap Between the Press Release and the Power Grid Back in February, I wrote about what I called the “Data Center Rebellion,” the growing local resistance to the physical",
-      "source": "Gradient Flow",
-      "sourceId": "gradient-flow",
-      "sourceColor": "#7c3aed"
-    },
-    {
       "title": "Import AI 460: Reward hacking society, RSI data from Anthropic; and RL-based quadcopter racing",
       "link": "https://jack-clark.net/2026/06/08/import-ai-460-reward-hacking-society-rsi-data-from-anthropic-and-rl-based-quadcopter-racing/",
       "date": "2026-06-08T12:31:32+00:00",
@@ -324,15 +333,6 @@
       "source": "Interconnects",
       "sourceId": "interconnects",
       "sourceColor": "#16a34a"
-    },
-    {
-      "title": "Import AI 454: Automating alignment research; safety study of a Chinese model; HiFloat4",
-      "link": "https://jack-clark.net/2026/04/20/import-ai-454-automating-alignment-research-safety-study-of-a-chinese-model-hifloat4/",
-      "date": "2026-04-20T12:30:19+00:00",
-      "desc": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Huawei’s HiFloat4 training forma",
-      "source": "Import AI",
-      "sourceId": "import-ai",
-      "sourceColor": "#7c3aed"
     },
     {
       "title": "Engels' Pause and the Permanent Underclass",
