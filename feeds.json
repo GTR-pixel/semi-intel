@@ -1,6 +1,15 @@
 {
-  "updated": "2026-07-08T11:20:39.085048+00:00",
+  "updated": "2026-07-08T12:57:56.050405+00:00",
   "items": [
+    {
+      "title": "Your CLI Was Built for Humans, Not Agents",
+      "link": "https://gradientflow.com/your-cli-was-built-for-humans-not-agents/",
+      "date": "2026-07-08T12:17:28+00:00",
+      "desc": "There’s a friendly debate among developers about how to give AI agents reliable ways to use external tools, data, and services so they can do useful work beyond generating text. One side favors CLIs, ",
+      "source": "Gradient Flow",
+      "sourceId": "gradient-flow",
+      "sourceColor": "#7c3aed"
+    },
     {
       "title": "What happens when your agent can touch money",
       "link": "https://gradientflow.com/i-changed-my-mind-about-how-agents-use-tools/",
@@ -159,15 +168,6 @@
       "link": "https://gradientflow.com/the-single-vendor-ai-stack-is-a-transitional-phase/",
       "date": "2026-06-16T13:00:27+00:00",
       "desc": "Subscribe • Previous Issues The Hybrid AI Stack Is Coming for the Pricing Power of OpenAI and Anthropic OpenAI and Anthropic are going public while still capturing much of the money spent on foundatio",
-      "source": "Gradient Flow",
-      "sourceId": "gradient-flow",
-      "sourceColor": "#7c3aed"
-    },
-    {
-      "title": "Tokenomics: AI’s New Design Constraint",
-      "link": "https://gradientflow.com/tokenomics-ais-new-design-constraint/",
-      "date": "2026-06-16T11:00:38+00:00",
-      "desc": "The Cost Reality of Running AI at Scale Budget shock is already happening. Multiple major players have pulled back on AI features or subscriptions due to unexpectedly high token costs. Amazon removed ",
       "source": "Gradient Flow",
       "sourceId": "gradient-flow",
       "sourceColor": "#7c3aed"
