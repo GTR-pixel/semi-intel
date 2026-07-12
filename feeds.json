@@ -1,6 +1,15 @@
 {
-  "updated": "2026-07-12T15:52:50.741414+00:00",
+  "updated": "2026-07-12T16:51:36.856993+00:00",
   "items": [
+    {
+      "title": "6 months to live for open models",
+      "link": "https://www.interconnects.ai/p/6-months-to-live-for-open-models",
+      "date": "2026-07-12T16:47:42",
+      "desc": "The most serious test to date of open source AI&#8217;s viability is happening right now.",
+      "source": "Interconnects",
+      "sourceId": "interconnects",
+      "sourceColor": "#16a34a"
+    },
     {
       "title": "Your CLI Was Built for Humans, Not Agents",
       "link": "https://gradientflow.com/your-cli-was-built-for-humans-not-agents/",
@@ -324,15 +333,6 @@
       "source": "Import AI",
       "sourceId": "import-ai",
       "sourceColor": "#7c3aed"
-    },
-    {
-      "title": "Reading today's open-closed performance gap",
-      "link": "https://www.interconnects.ai/p/reading-todays-open-closed-performance",
-      "date": "2026-04-20T18:25:02",
-      "desc": "The complex factors that determine the single evaluation number so many focus on. Plus, how this changes in the future.",
-      "source": "Interconnects",
-      "sourceId": "interconnects",
-      "sourceColor": "#16a34a"
     },
     {
       "title": "Engels' Pause and the Permanent Underclass",
