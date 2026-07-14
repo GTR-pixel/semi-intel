@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-14T14:43:38.947202+00:00",
+  "updated": "2026-07-14T16:09:31.026751+00:00",
   "items": [
     {
       "title": "25+ startups all solving the same missing piece",
@@ -9,15 +9,6 @@
       "source": "Gradient Flow",
       "sourceId": "gradient-flow",
       "sourceColor": "#7c3aed"
-    },
-    {
-      "title": "6 months to live for open models",
-      "link": "https://www.interconnects.ai/p/6-months-to-live-for-open-models",
-      "date": "2026-07-12T16:47:42",
-      "desc": "The most serious test to date of open source AI&#8217;s viability is happening right now.",
-      "source": "Interconnects",
-      "sourceId": "interconnects",
-      "sourceColor": "#16a34a"
     },
     {
       "title": "Your CLI Was Built for Humans, Not Agents",
@@ -83,15 +74,6 @@
       "sourceColor": "#7c3aed"
     },
     {
-      "title": "Latest open artifacts (#22): Zyphra, Cohere, and Poolside are expanding the breadth of the ecosystem",
-      "link": "https://www.interconnects.ai/p/artifacts-22-zyphra-cohere-and-poolside",
-      "date": "2026-06-28T17:03:07",
-      "desc": "An assessment of the open ecosystem and the motivations behind releasing models",
-      "source": "Interconnects",
-      "sourceId": "interconnects",
-      "sourceColor": "#16a34a"
-    },
-    {
       "title": "IN-DEPTH: What Unitree's Evolution Means For Robotics",
       "link": "https://www.fabricatedknowledge.com/p/in-depth-what-unitrees-evolution",
       "date": "2026-06-24T20:28:30",
@@ -119,15 +101,6 @@
       "sourceColor": "#7c3aed"
     },
     {
-      "title": "GLM-5.2 is the step change for open agents",
-      "link": "https://www.interconnects.ai/p/glm-52-is-the-step-change-for-open",
-      "date": "2026-06-22T14:52:45",
-      "desc": "A capability threshold I've been carefully monitoring.",
-      "source": "Interconnects",
-      "sourceId": "interconnects",
-      "sourceColor": "#16a34a"
-    },
-    {
       "title": "Import AI 462: Superpersuasion; self-sustaining AI; paths to ASI",
       "link": "https://jack-clark.net/2026/06/22/import-ai-462-superpersuasion-self-sustaining-ai-paths-to-asi/",
       "date": "2026-06-22T12:31:45+00:00",
@@ -146,24 +119,6 @@
       "sourceColor": "#7c3aed"
     },
     {
-      "title": "Banning Open Source AI Would Be A Mistake",
-      "link": "https://www.interconnects.ai/p/banning-open-source-ai-would-be-a",
-      "date": "2026-06-19T13:02:47",
-      "desc": "This post was originally an op-ed co-authored with Kevin Xu of Interconnected for a general, non-technical audience.",
-      "source": "Interconnects",
-      "sourceId": "interconnects",
-      "sourceColor": "#16a34a"
-    },
-    {
-      "title": "State of the blog, mid-2026",
-      "link": "https://www.interconnects.ai/p/state-of-the-blog-mid-2026",
-      "date": "2026-06-17T14:29:06",
-      "desc": "About 3 years since I started writing weekly.",
-      "source": "Interconnects",
-      "sourceId": "interconnects",
-      "sourceColor": "#16a34a"
-    },
-    {
       "title": "The Hybrid AI Stack Is Coming for the Pricing Power of OpenAI and Anthropic",
       "link": "https://gradientflow.com/the-hybrid-ai-stack-is-coming-for-the-pricing-power-of-openai-and-anthropic/",
       "date": "2026-06-17T13:22:37+00:00",
@@ -171,15 +126,6 @@
       "source": "Gradient Flow",
       "sourceId": "gradient-flow",
       "sourceColor": "#7c3aed"
-    },
-    {
-      "title": "Frontier post-training recipe review with Finbarr Timbers",
-      "link": "https://www.interconnects.ai/p/frontier-post-training-recipe-review",
-      "date": "2026-06-16T13:29:30",
-      "desc": "\"Interview\" #18",
-      "source": "Interconnects",
-      "sourceId": "interconnects",
-      "sourceColor": "#16a34a"
     },
     {
       "title": "Import AI 461: “Alignment is not on track”; FrontierCode; and synthetic research interns",
@@ -191,24 +137,6 @@
       "sourceColor": "#7c3aed"
     },
     {
-      "title": "Welcome to the AGI era of AI governance",
-      "link": "https://www.interconnects.ai/p/welcome-to-the-agi-era-of-ai-governance",
-      "date": "2026-06-14T17:43:42",
-      "desc": "It's a one-way door and we weren't ready for it.",
-      "source": "Interconnects",
-      "sourceId": "interconnects",
-      "sourceColor": "#16a34a"
-    },
-    {
-      "title": "Claude Fable 5 and new AI safety fables",
-      "link": "https://www.interconnects.ai/p/claude-fable-5-and-new-ai-safety",
-      "date": "2026-06-09T22:59:35",
-      "desc": "One step further into the power politics of frontier AI systems.",
-      "source": "Interconnects",
-      "sourceId": "interconnects",
-      "sourceColor": "#16a34a"
-    },
-    {
       "title": "Import AI 460: Reward hacking society, RSI data from Anthropic; and RL-based quadcopter racing",
       "link": "https://jack-clark.net/2026/06/08/import-ai-460-reward-hacking-society-rsi-data-from-anthropic-and-rl-based-quadcopter-racing/",
       "date": "2026-06-08T12:31:32+00:00",
@@ -218,15 +146,6 @@
       "sourceColor": "#7c3aed"
     },
     {
-      "title": "Farewell Ai2",
-      "link": "https://www.interconnects.ai/p/farewell-ai2",
-      "date": "2026-06-02T14:15:59",
-      "desc": "This was my last week at the Allen Institute for AI (Ai2), where I got the great privilege to work on the Olmo models, to grow, to learn, and to have broad lasting impacts.",
-      "source": "Interconnects",
-      "sourceId": "interconnects",
-      "sourceColor": "#16a34a"
-    },
-    {
       "title": "Import AI 459: AI oversight is difficult; scaling laws for protein folding models; and pricing the extinction risk of AI systems",
       "link": "https://jack-clark.net/2026/06/01/import-ai-459-ai-oversight-is-difficult-scaling-laws-for-protein-folding-models-and-pricing-the-extinction-risk-of-ai-systems/",
       "date": "2026-06-01T13:31:56+00:00",
@@ -234,24 +153,6 @@
       "source": "Import AI",
       "sourceId": "import-ai",
       "sourceColor": "#7c3aed"
-    },
-    {
-      "title": "Open and closed models are on different exponentials",
-      "link": "https://www.interconnects.ai/p/open-and-closed-models-are-on-different",
-      "date": "2026-06-01T13:03:48",
-      "desc": "Where marginally higher intelligence drives value, and where it doesn't.",
-      "source": "Interconnects",
-      "sourceId": "interconnects",
-      "sourceColor": "#16a34a"
-    },
-    {
-      "title": "Some ideas for what comes next, May 2026",
-      "link": "https://www.interconnects.ai/p/some-ideas-for-what-comes-next-may",
-      "date": "2026-05-26T15:39:02",
-      "desc": "Gemini Flash 3.5, Mythos, open-closed balance, America's open-source surge, emerging power struggles and more.",
-      "source": "Interconnects",
-      "sourceId": "interconnects",
-      "sourceColor": "#16a34a"
     },
     {
       "title": "Import AI 458: Reckoning with the future; and a singularity story",
@@ -281,24 +182,6 @@
       "sourceColor": "#7c3aed"
     },
     {
-      "title": "Latest open artifacts (#21): Open model bonanza! Gemma 4, DeepSeek V4, Kimi K2.6, MiMo 2.5, GLM-5.1 & others. On CAISI's V4 assessment.",
-      "link": "https://www.interconnects.ai/p/latest-open-artifacts-21-open-model",
-      "date": "2026-05-16T17:00:11",
-      "desc": "An eventful month with one flagship release after another",
-      "source": "Interconnects",
-      "sourceId": "interconnects",
-      "sourceColor": "#16a34a"
-    },
-    {
-      "title": "How open model ecosystems compound",
-      "link": "https://www.interconnects.ai/p/how-open-model-ecosystems-compound",
-      "date": "2026-05-12T15:54:47",
-      "desc": "Further reflections on China's high-participation, open-first AI ecosystem.",
-      "source": "Interconnects",
-      "sourceId": "interconnects",
-      "sourceColor": "#16a34a"
-    },
-    {
       "title": "Import AI 456: RSI and economic growth; radical optionality for AI regulation; and a neural computer",
       "link": "https://jack-clark.net/2026/05/11/import-ai-456-rsi-and-economic-growth-radical-optionality-for-ai-regulation-and-a-neural-computer/",
       "date": "2026-05-11T12:46:12+00:00",
@@ -306,24 +189,6 @@
       "source": "Import AI",
       "sourceId": "import-ai",
       "sourceColor": "#7c3aed"
-    },
-    {
-      "title": "Notes from inside China's AI labs",
-      "link": "https://www.interconnects.ai/p/notes-from-inside-chinas-ai-labs",
-      "date": "2026-05-07T15:42:43",
-      "desc": "Lessons from my trip to talk to most of the leading AI labs in China.",
-      "source": "Interconnects",
-      "sourceId": "interconnects",
-      "sourceColor": "#16a34a"
-    },
-    {
-      "title": "The distillation panic",
-      "link": "https://www.interconnects.ai/p/the-distillation-panic",
-      "date": "2026-05-04T15:56:44",
-      "desc": "&#8216;Distillation attacks&#8217; is a horrible term for what is happening right now.",
-      "source": "Interconnects",
-      "sourceId": "interconnects",
-      "sourceColor": "#16a34a"
     },
     {
       "title": "Import AI 455: Automating AI Research",
