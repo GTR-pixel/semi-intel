@@ -1,6 +1,15 @@
 {
-  "updated": "2026-07-14T12:45:27.521899+00:00",
+  "updated": "2026-07-14T14:43:38.947202+00:00",
   "items": [
+    {
+      "title": "25+ startups all solving the same missing piece",
+      "link": "https://gradientflow.com/theyre-literally-building-tools-to-catch-agents-cheating/",
+      "date": "2026-07-14T13:00:27+00:00",
+      "desc": "Subscribe • Previous Issues What Startups Taught Me About the Next Layer of AI Infrastructure A little while back I wrote about how teams use reinforcement learning (RL) to make agents reliable. Since",
+      "source": "Gradient Flow",
+      "sourceId": "gradient-flow",
+      "sourceColor": "#7c3aed"
+    },
     {
       "title": "6 months to live for open models",
       "link": "https://www.interconnects.ai/p/6-months-to-live-for-open-models",
@@ -171,15 +180,6 @@
       "source": "Interconnects",
       "sourceId": "interconnects",
       "sourceColor": "#16a34a"
-    },
-    {
-      "title": "Your AI bill is a tax on scale",
-      "link": "https://gradientflow.com/the-single-vendor-ai-stack-is-a-transitional-phase/",
-      "date": "2026-06-16T13:00:27+00:00",
-      "desc": "Subscribe • Previous Issues The Hybrid AI Stack Is Coming for the Pricing Power of OpenAI and Anthropic OpenAI and Anthropic are going public while still capturing much of the money spent on foundatio",
-      "source": "Gradient Flow",
-      "sourceId": "gradient-flow",
-      "sourceColor": "#7c3aed"
     },
     {
       "title": "Import AI 461: “Alignment is not on track”; FrontierCode; and synthetic research interns",
