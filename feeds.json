@@ -1,6 +1,15 @@
 {
-  "updated": "2026-07-15T11:07:46.057544+00:00",
+  "updated": "2026-07-15T12:49:07.715753+00:00",
   "items": [
+    {
+      "title": "What Startups Taught Me About the Next Layer of AI Infrastructure",
+      "link": "https://gradientflow.com/reinforcement-learning-startups/",
+      "date": "2026-07-15T12:00:14+00:00",
+      "desc": "A little while back I wrote about how teams use reinforcement learning (RL) to make agents reliable. Since then I keep bumping into startups where RL is not a research footnote or a feature buried in ",
+      "source": "Gradient Flow",
+      "sourceId": "gradient-flow",
+      "sourceColor": "#7c3aed"
+    },
     {
       "title": "25+ startups all solving the same missing piece",
       "link": "https://gradientflow.com/theyre-literally-building-tools-to-catch-agents-cheating/",
@@ -162,15 +171,6 @@
       "source": "Interconnects",
       "sourceId": "interconnects",
       "sourceColor": "#16a34a"
-    },
-    {
-      "title": "The Hybrid AI Stack Is Coming for the Pricing Power of OpenAI and Anthropic",
-      "link": "https://gradientflow.com/the-hybrid-ai-stack-is-coming-for-the-pricing-power-of-openai-and-anthropic/",
-      "date": "2026-06-17T13:22:37+00:00",
-      "desc": "OpenAI and Anthropic are going public while still capturing much of the money spent on foundation-model usage. But deployment patterns are starting to tell a more complicated story. Companies are buil",
-      "source": "Gradient Flow",
-      "sourceId": "gradient-flow",
-      "sourceColor": "#7c3aed"
     },
     {
       "title": "Frontier post-training recipe review with Finbarr Timbers",
