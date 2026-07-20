@@ -1,6 +1,24 @@
 {
-  "updated": "2026-07-20T11:19:26.067074+00:00",
+  "updated": "2026-07-20T13:23:14.954261+00:00",
   "items": [
+    {
+      "title": "What We Actually Know About China’s AI Export Controls",
+      "link": "https://gradientflow.com/chinas-frontier-ai-export-controls/",
+      "date": "2026-07-20T12:48:31+00:00",
+      "desc": "Since June 2026, Chinese officials have been in closed door talks about restricting foreign access to the country&#8217;s most advanced AI models, both open and closed. The Ministry of Commerce is lea",
+      "source": "Gradient Flow",
+      "sourceId": "gradient-flow",
+      "sourceColor": "#7c3aed"
+    },
+    {
+      "title": "Import AI 465: Open vs closed gaps; Kimi K3; Demis’ big policy plan",
+      "link": "https://jack-clark.net/2026/07/20/import-ai-465-open-vs-closed-gaps-kimi-k3-demis-big-policy-plan/",
+      "date": "2026-07-20T12:31:45+00:00",
+      "desc": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now UK government: Gap",
+      "source": "Import AI",
+      "sourceId": "import-ai",
+      "sourceColor": "#7c3aed"
+    },
     {
       "title": "What Startups Taught Me About the Next Layer of AI Infrastructure",
       "link": "https://gradientflow.com/reinforcement-learning-startups/",
@@ -143,15 +161,6 @@
       "desc": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now AI can decisively ",
       "source": "Import AI",
       "sourceId": "import-ai",
-      "sourceColor": "#7c3aed"
-    },
-    {
-      "title": "The Bear Case for AI Data Centers",
-      "link": "https://gradientflow.com/the-bear-case-for-ai-data-centers/",
-      "date": "2026-06-22T11:00:43+00:00",
-      "desc": "The more I dig into the economics, the harder it is to see AI data centers as a good business, and they&#8217;re now my leading candidate for what pops the AI bubble in the next 6 to 12 months. The co",
-      "source": "Gradient Flow",
-      "sourceId": "gradient-flow",
       "sourceColor": "#7c3aed"
     },
     {
@@ -324,15 +333,6 @@
       "source": "Interconnects",
       "sourceId": "interconnects",
       "sourceColor": "#16a34a"
-    },
-    {
-      "title": "Import AI 455: Automating AI Research",
-      "link": "https://jack-clark.net/2026/05/04/import-ai-455-automating-ai-research/",
-      "date": "2026-05-04T12:32:09+00:00",
-      "desc": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv and feedback from readers. If you’d like to support this, please subscribe. Subscribe now AI systems are about to start bu",
-      "source": "Import AI",
-      "sourceId": "import-ai",
-      "sourceColor": "#7c3aed"
     },
     {
       "title": "Engels' Pause and the Permanent Underclass",
