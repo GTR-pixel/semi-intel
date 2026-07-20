@@ -1,6 +1,15 @@
 {
-  "updated": "2026-07-20T15:25:58.173417+00:00",
+  "updated": "2026-07-20T16:52:53.610292+00:00",
   "items": [
+    {
+      "title": "Kimi K3: The open-weights escalation",
+      "link": "https://www.interconnects.ai/p/kimi-k3-the-open-weights-escalation",
+      "date": "2026-07-20T15:48:28",
+      "desc": "The global implications on the AI ecosystem.",
+      "source": "Interconnects",
+      "sourceId": "interconnects",
+      "sourceColor": "#16a34a"
+    },
     {
       "title": "What We Actually Know About China’s AI Export Controls",
       "link": "https://gradientflow.com/chinas-frontier-ai-export-controls/",
@@ -321,15 +330,6 @@
       "link": "https://www.interconnects.ai/p/notes-from-inside-chinas-ai-labs",
       "date": "2026-05-07T15:42:43",
       "desc": "Lessons from my trip to talk to most of the leading AI labs in China.",
-      "source": "Interconnects",
-      "sourceId": "interconnects",
-      "sourceColor": "#16a34a"
-    },
-    {
-      "title": "The distillation panic",
-      "link": "https://www.interconnects.ai/p/the-distillation-panic",
-      "date": "2026-05-04T15:56:44",
-      "desc": "&#8216;Distillation attacks&#8217; is a horrible term for what is happening right now.",
       "source": "Interconnects",
       "sourceId": "interconnects",
       "sourceColor": "#16a34a"
