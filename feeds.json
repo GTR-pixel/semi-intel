@@ -1,6 +1,33 @@
 {
-  "updated": "2026-07-22T12:54:18.711958+00:00",
+  "updated": "2026-07-22T14:59:04.612212+00:00",
   "items": [
+    {
+      "title": "Open models recap: more on Kimi K3, Qwen 3.8, Xi's WAIC speech, distillation, the open-closed gap, and what's next",
+      "link": "https://www.interconnects.ai/p/open-models-recap-more-on-kimi-k3",
+      "date": "2026-07-22T14:09:04",
+      "desc": "A podcast with Florian Brand.",
+      "source": "Interconnects",
+      "sourceId": "interconnects",
+      "sourceColor": "#16a34a"
+    },
+    {
+      "title": "Three New Models, One Signal About Where AI Spending Goes Next",
+      "link": "https://gradientflow.com/glm-kimi-gemini/",
+      "date": "2026-07-22T13:22:29+00:00",
+      "desc": "Three frontier level models landed within weeks of each other this fall, GLM 5.2 from Zhipu, Kimi K3 from Moonshot, and Gemini 3.6 Flash from Google, and I wanted to capture early developer reaction s",
+      "source": "Gradient Flow",
+      "sourceId": "gradient-flow",
+      "sourceColor": "#7c3aed"
+    },
+    {
+      "title": "Open Models Will Absorb Most of the AI Spend",
+      "link": "https://gradientflow.com/open-models-will-absorb-most-of-the-ai-spend/",
+      "date": "2026-07-22T12:55:18+00:00",
+      "desc": "Here is my bet: open models (open weights and open source alike) will end up absorbing most of the money and compute the world spends on AI. The proprietary frontier models get the headlines and the I",
+      "source": "Gradient Flow",
+      "sourceId": "gradient-flow",
+      "sourceColor": "#7c3aed"
+    },
     {
       "title": "we need to talk about where AI spend is actually going",
       "link": "https://gradientflow.com/heres-my-uncomfortable-bet-on-openai-and-anthropic/",
@@ -110,15 +137,6 @@
       "sourceColor": "#7c3aed"
     },
     {
-      "title": "I talked to Google’s former AI head about messy data",
-      "link": "https://gradientflow.com/i-talked-to-googles-former-ai-head-about-messy-data/",
-      "date": "2026-06-30T13:00:36+00:00",
-      "desc": "Subscribe • Previous Issues Agents Need Maps, Not Bigger Context Windows Like everyone else, I&#8217;ve been enjoying the steady improvement in coding agents and the tooling around them, from framewor",
-      "source": "Gradient Flow",
-      "sourceId": "gradient-flow",
-      "sourceColor": "#7c3aed"
-    },
-    {
       "title": "Import AI 463: Self-improving robots; a 10k Chinese GPU cluster; and an elegiac essay for the human era",
       "link": "https://jack-clark.net/2026/06/29/import-ai-463-self-improving-robots-a-10k-chinese-gpu-cluster-and-an-elegiac-essay-for-the-human-era/",
       "date": "2026-06-29T13:03:27+00:00",
@@ -144,15 +162,6 @@
       "source": "Fabricated Knowledge",
       "sourceId": "fab-know",
       "sourceColor": "#2563eb"
-    },
-    {
-      "title": "The Data Compliance Problem AI Teams Keep Ignoring",
-      "link": "https://gradientflow.com/the-data-compliance-problem-ai-teams-keep-ignoring/",
-      "date": "2026-06-24T13:03:49+00:00",
-      "desc": "I’ve avoided writing about copyright and AI. Not because it isn&#8217;t important, but because it felt like a legal sideshow compared to the engineering and business questions I find more interesting.",
-      "source": "Gradient Flow",
-      "sourceId": "gradient-flow",
-      "sourceColor": "#7c3aed"
     },
     {
       "title": "GLM-5.2 is the step change for open agents",
@@ -324,15 +333,6 @@
       "source": "Import AI",
       "sourceId": "import-ai",
       "sourceColor": "#7c3aed"
-    },
-    {
-      "title": "Notes from inside China's AI labs",
-      "link": "https://www.interconnects.ai/p/notes-from-inside-chinas-ai-labs",
-      "date": "2026-05-07T15:42:43",
-      "desc": "Lessons from my trip to talk to most of the leading AI labs in China.",
-      "source": "Interconnects",
-      "sourceId": "interconnects",
-      "sourceColor": "#16a34a"
     },
     {
       "title": "Engels' Pause and the Permanent Underclass",
