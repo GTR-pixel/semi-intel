@@ -1,6 +1,15 @@
 {
-  "updated": "2026-07-27T20:16:21.620543+00:00",
+  "updated": "2026-07-27T21:35:48.726385+00:00",
   "items": [
+    {
+      "title": "Close but Not Quite",
+      "link": "https://www.fabricatedknowledge.com/p/close-but-not-quite",
+      "date": "2026-07-27T20:48:06",
+      "desc": "It's not the end of this washout.",
+      "source": "Fabricated Knowledge",
+      "sourceId": "fab-know",
+      "sourceColor": "#2563eb"
+    },
     {
       "title": "Multiple Dials, Not One: Reading an Open Model Release",
       "link": "https://gradientflow.com/open-weights-checklist/",
@@ -438,15 +447,6 @@
       "link": "https://www.fabricatedknowledge.com/p/foundry-ideas",
       "date": "2025-08-25T20:30:50",
       "desc": "Not one but two foundry ideas today.",
-      "source": "Fabricated Knowledge",
-      "sourceId": "fab-know",
-      "sourceColor": "#2563eb"
-    },
-    {
-      "title": "Intel's One True Stakeholder is Here",
-      "link": "https://www.fabricatedknowledge.com/p/intels-one-true-stakeholder-is-here",
-      "date": "2025-08-15T20:01:13",
-      "desc": "What an Intel with Government help would look like.",
       "source": "Fabricated Knowledge",
       "sourceId": "fab-know",
       "sourceColor": "#2563eb"
