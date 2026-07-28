@@ -1,6 +1,15 @@
 {
-  "updated": "2026-07-28T12:49:44.771935+00:00",
+  "updated": "2026-07-28T15:14:32.723649+00:00",
   "items": [
+    {
+      "title": "The Big AI Labs Are Suddenly Competing with Your Own Data",
+      "link": "https://gradientflow.com/the-big-ai-labs-are-suddenly-competing-with-your-own-data/",
+      "date": "2026-07-28T13:00:25+00:00",
+      "desc": "Subscribe • Previous Issues Specialized AI Is Getting Easier to Build Last week I argued that open models will absorb most of the money and compute the world spends on AI. A week later, open weights a",
+      "source": "Gradient Flow",
+      "sourceId": "gradient-flow",
+      "sourceColor": "#7c3aed"
+    },
     {
       "title": "Close but Not Quite",
       "link": "https://www.fabricatedknowledge.com/p/close-but-not-quite",
@@ -132,15 +141,6 @@
       "link": "https://gradientflow.com/your-cli-was-built-for-humans-not-agents/",
       "date": "2026-07-08T12:17:28+00:00",
       "desc": "There’s a friendly debate among developers about how to give AI agents reliable ways to use external tools, data, and services so they can do useful work beyond generating text. One side favors CLIs, ",
-      "source": "Gradient Flow",
-      "sourceId": "gradient-flow",
-      "sourceColor": "#7c3aed"
-    },
-    {
-      "title": "What happens when your agent can touch money",
-      "link": "https://gradientflow.com/i-changed-my-mind-about-how-agents-use-tools/",
-      "date": "2026-07-07T13:00:05+00:00",
-      "desc": "Subscribe • Previous Issues Your CLI Was Built for Humans, Not Agents There’s a friendly debate among developers about how to give AI agents reliable ways to use external tools, data, and services so ",
       "source": "Gradient Flow",
       "sourceId": "gradient-flow",
       "sourceColor": "#7c3aed"
