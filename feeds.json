@@ -1,6 +1,15 @@
 {
-  "updated": "2026-07-29T13:12:13.931679+00:00",
+  "updated": "2026-07-29T15:26:27.387879+00:00",
   "items": [
+    {
+      "title": "Specialized AI Is Getting Easier to Build",
+      "link": "https://gradientflow.com/specialized-ai-is-getting-easier-to-build/",
+      "date": "2026-07-29T13:22:35+00:00",
+      "desc": "Last week I argued that open models will absorb most of the money and compute the world spends on AI. A week later, open weights are even more central to the conversation. Recent releases have made th",
+      "source": "Gradient Flow",
+      "sourceId": "gradient-flow",
+      "sourceColor": "#7c3aed"
+    },
     {
       "title": "The Big AI Labs Are Suddenly Competing with Your Own Data",
       "link": "https://gradientflow.com/the-big-ai-labs-are-suddenly-competing-with-your-own-data/",
@@ -135,15 +144,6 @@
       "source": "Interconnects",
       "sourceId": "interconnects",
       "sourceColor": "#16a34a"
-    },
-    {
-      "title": "Your CLI Was Built for Humans, Not Agents",
-      "link": "https://gradientflow.com/your-cli-was-built-for-humans-not-agents/",
-      "date": "2026-07-08T12:17:28+00:00",
-      "desc": "There’s a friendly debate among developers about how to give AI agents reliable ways to use external tools, data, and services so they can do useful work beyond generating text. One side favors CLIs, ",
-      "source": "Gradient Flow",
-      "sourceId": "gradient-flow",
-      "sourceColor": "#7c3aed"
     },
     {
       "title": "Import AI 464: Fables writes GPU kernels; AI automation; and analog computation",
