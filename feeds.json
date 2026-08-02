@@ -1,6 +1,15 @@
 {
-  "updated": "2026-08-02T12:33:10.815273+00:00",
+  "updated": "2026-08-02T14:24:43.056577+00:00",
   "items": [
+    {
+      "title": "Latest open artifacts (#23): Laguna S2.1, Inkling, & Kimi K3 show the utility of open models on the Pareto frontier",
+      "link": "https://www.interconnects.ai/p/latest-open-artifacts-23-laguna-s21",
+      "date": "2026-08-02T13:01:40",
+      "desc": "Capacity to train strong models is proliferating.",
+      "source": "Interconnects",
+      "sourceId": "interconnects",
+      "sourceColor": "#16a34a"
+    },
     {
       "title": "Specialized AI Is Getting Easier to Build",
       "link": "https://gradientflow.com/specialized-ai-is-getting-easier-to-build/",
@@ -330,15 +339,6 @@
       "link": "https://www.interconnects.ai/p/latest-open-artifacts-21-open-model",
       "date": "2026-05-16T17:00:11",
       "desc": "An eventful month with one flagship release after another",
-      "source": "Interconnects",
-      "sourceId": "interconnects",
-      "sourceColor": "#16a34a"
-    },
-    {
-      "title": "How open model ecosystems compound",
-      "link": "https://www.interconnects.ai/p/how-open-model-ecosystems-compound",
-      "date": "2026-05-12T15:54:47",
-      "desc": "Further reflections on China's high-participation, open-first AI ecosystem.",
       "source": "Interconnects",
       "sourceId": "interconnects",
       "sourceColor": "#16a34a"
