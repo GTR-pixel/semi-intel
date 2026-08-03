@@ -1,6 +1,33 @@
 {
-  "updated": "2026-08-03T12:14:49.877914+00:00",
+  "updated": "2026-08-03T15:22:55.677182+00:00",
   "items": [
+    {
+      "title": "Introducing our Artifacts Hub and Adoption Dashboard",
+      "link": "https://www.interconnects.ai/p/introducing-our-artifacts-hub-and",
+      "date": "2026-08-03T14:03:08",
+      "desc": "Scaling our curation and measurement of the open ecosystem.",
+      "source": "Interconnects",
+      "sourceId": "interconnects",
+      "sourceColor": "#16a34a"
+    },
+    {
+      "title": "Import AI 467: Self-sustaining AI viruses; pacing AI progress; confusion about AI and creativity",
+      "link": "https://jack-clark.net/2026/08/03/import-ai-467-self-sustaining-ai-viruses-pacing-ai-progress-confusion-about-ai-and-creativity/",
+      "date": "2026-08-03T13:31:22+00:00",
+      "desc": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Self-sustaining an",
+      "source": "Import AI",
+      "sourceId": "import-ai",
+      "sourceColor": "#7c3aed"
+    },
+    {
+      "title": "Inside AMD’s AI Bet",
+      "link": "https://gradientflow.com/inside-amds-ai-bet/",
+      "date": "2026-08-03T13:00:16+00:00",
+      "desc": "Table of Contents What AMD Actually Sells Now The Software Story, Which Is the Whole Story The Open-Standards Bet Who&#8217;s Buying, and How the Money Actually Moves Where This Could Still Come Apart",
+      "source": "Gradient Flow",
+      "sourceId": "gradient-flow",
+      "sourceColor": "#7c3aed"
+    },
     {
       "title": "Latest open artifacts (#23): Laguna S2.1, Inkling, & Kimi K3 show the utility of open models on the Pareto frontier",
       "link": "https://www.interconnects.ai/p/latest-open-artifacts-23-laguna-s21",
@@ -132,15 +159,6 @@
       "link": "https://gradientflow.com/reinforcement-learning-startups/",
       "date": "2026-07-15T12:00:14+00:00",
       "desc": "A little while back I wrote about how teams use reinforcement learning (RL) to make agents reliable. Since then I keep bumping into startups where RL is not a research footnote or a feature buried in ",
-      "source": "Gradient Flow",
-      "sourceId": "gradient-flow",
-      "sourceColor": "#7c3aed"
-    },
-    {
-      "title": "25+ startups all solving the same missing piece",
-      "link": "https://gradientflow.com/theyre-literally-building-tools-to-catch-agents-cheating/",
-      "date": "2026-07-14T13:00:27+00:00",
-      "desc": "Subscribe • Previous Issues What Startups Taught Me About the Next Layer of AI Infrastructure A little while back I wrote about how teams use reinforcement learning (RL) to make agents reliable. Since",
       "source": "Gradient Flow",
       "sourceId": "gradient-flow",
       "sourceColor": "#7c3aed"
@@ -324,24 +342,6 @@
       "source": "Fabricated Knowledge",
       "sourceId": "fab-know",
       "sourceColor": "#2563eb"
-    },
-    {
-      "title": "Import AI 457: AI stuxnet; cursed Muon optimizer; and positive alignment",
-      "link": "https://jack-clark.net/2026/05/18/import-ai-457-ai-stuxnet-cursed-muon-optimizer-and-positive-alignment/",
-      "date": "2026-05-18T13:31:17+00:00",
-      "desc": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Stuxnet before Stu",
-      "source": "Import AI",
-      "sourceId": "import-ai",
-      "sourceColor": "#7c3aed"
-    },
-    {
-      "title": "Latest open artifacts (#21): Open model bonanza! Gemma 4, DeepSeek V4, Kimi K2.6, MiMo 2.5, GLM-5.1 & others. On CAISI's V4 assessment.",
-      "link": "https://www.interconnects.ai/p/latest-open-artifacts-21-open-model",
-      "date": "2026-05-16T17:00:11",
-      "desc": "An eventful month with one flagship release after another",
-      "source": "Interconnects",
-      "sourceId": "interconnects",
-      "sourceColor": "#16a34a"
     },
     {
       "title": "Engels' Pause and the Permanent Underclass",
