@@ -1,6 +1,15 @@
 {
-  "updated": "2026-08-04T12:26:21.406165+00:00",
+  "updated": "2026-08-04T14:58:44.670517+00:00",
   "items": [
+    {
+      "title": "What Workday, OpenAI, and a German court have in common",
+      "link": "https://gradientflow.com/your-ai-passed-its-evals-thats-the-problem/",
+      "date": "2026-08-04T13:00:04+00:00",
+      "desc": "Subscribe • Previous Issues Passing Your Evals Doesn&#8217;t Mean You&#8217;re Safe Evals are part of every serious conversation about putting AI into production. Teams define benchmarks, set threshol",
+      "source": "Gradient Flow",
+      "sourceId": "gradient-flow",
+      "sourceColor": "#7c3aed"
+    },
     {
       "title": "If the Labs Wobble, the Clouds Feel It First",
       "link": "https://gradientflow.com/if-the-labs-wobble-the-clouds-feel-it-first/",
@@ -144,15 +153,6 @@
       "source": "Interconnects",
       "sourceId": "interconnects",
       "sourceColor": "#16a34a"
-    },
-    {
-      "title": "What We Actually Know About China’s AI Export Controls",
-      "link": "https://gradientflow.com/chinas-frontier-ai-export-controls/",
-      "date": "2026-07-20T12:48:31+00:00",
-      "desc": "Since June 2026, Chinese officials have been in closed door talks about restricting foreign access to the country&#8217;s most advanced AI models, both open and closed. The Ministry of Commerce is lea",
-      "source": "Gradient Flow",
-      "sourceId": "gradient-flow",
-      "sourceColor": "#7c3aed"
     },
     {
       "title": "Import AI 465: Open vs closed gaps; Kimi K3; Demis’ big policy plan",
