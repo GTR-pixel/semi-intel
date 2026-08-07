@@ -1,6 +1,15 @@
 {
-  "updated": "2026-08-06T12:52:27.649853+00:00",
+  "updated": "2026-08-07T00:36:42.752188+00:00",
   "items": [
+    {
+      "title": "What Comes After Language Models",
+      "link": "https://gradientflow.com/what-comes-after-language-models/",
+      "date": "2026-08-06T13:00:00+00:00",
+      "desc": "I keep seeing scientific discovery framed as a sufficiently ambitious prediction or data-compression problem. A recent position paper by Tom Zahavy challenges that view by separating reasoning into th",
+      "source": "Gradient Flow",
+      "sourceId": "gradient-flow",
+      "sourceColor": "#7c3aed"
+    },
     {
       "title": "Passing Your Evals Doesn’t Mean You’re Safe",
       "link": "https://gradientflow.com/passing-your-evals-doesnt-mean-youre-safe/",
@@ -132,15 +141,6 @@
       "link": "https://gradientflow.com/glm-kimi-gemini/",
       "date": "2026-07-22T13:22:29+00:00",
       "desc": "Three frontier level models landed within weeks of each other this fall, GLM 5.2 from Zhipu, Kimi K3 from Moonshot, and Gemini 3.6 Flash from Google, and I wanted to capture early developer reaction s",
-      "source": "Gradient Flow",
-      "sourceId": "gradient-flow",
-      "sourceColor": "#7c3aed"
-    },
-    {
-      "title": "Open Models Will Absorb Most of the AI Spend",
-      "link": "https://gradientflow.com/open-models-will-absorb-most-of-the-ai-spend/",
-      "date": "2026-07-22T12:55:18+00:00",
-      "desc": "Here is my bet: open models (open weights and open source alike) will end up absorbing most of the money and compute the world spends on AI. The proprietary frontier models get the headlines and the I",
       "source": "Gradient Flow",
       "sourceId": "gradient-flow",
       "sourceColor": "#7c3aed"
