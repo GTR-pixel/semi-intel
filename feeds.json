@@ -1,6 +1,15 @@
 {
-  "updated": "2026-08-09T14:26:57.156400+00:00",
+  "updated": "2026-08-09T15:00:26.070027+00:00",
   "items": [
+    {
+      "title": "Lessons from the hacks",
+      "link": "https://www.interconnects.ai/p/lessons-from-the-hacks",
+      "date": "2026-08-09T14:57:11",
+      "desc": "Musings on model alignment, what determines safety, and where we go from here.",
+      "source": "Interconnects",
+      "sourceId": "interconnects",
+      "sourceColor": "#16a34a"
+    },
     {
       "title": "What Comes After Language Models",
       "link": "https://gradientflow.com/what-comes-after-language-models/",
@@ -312,15 +321,6 @@
       "link": "https://www.interconnects.ai/p/open-and-closed-models-are-on-different",
       "date": "2026-06-01T13:03:48",
       "desc": "Where marginally higher intelligence drives value, and where it doesn't.",
-      "source": "Interconnects",
-      "sourceId": "interconnects",
-      "sourceColor": "#16a34a"
-    },
-    {
-      "title": "Some ideas for what comes next, May 2026",
-      "link": "https://www.interconnects.ai/p/some-ideas-for-what-comes-next-may",
-      "date": "2026-05-26T15:39:02",
-      "desc": "Gemini Flash 3.5, Mythos, open-closed balance, America's open-source surge, emerging power struggles and more.",
       "source": "Interconnects",
       "sourceId": "interconnects",
       "sourceColor": "#16a34a"
