@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-10T13:51:42.592656+00:00",
+  "updated": "2026-08-10T14:51:25.461076+00:00",
   "items": [
     {
       "title": "5 useful things you'll learn in my new post-training textbook (shipping now!)",
@@ -17,6 +17,15 @@
       "desc": "AI is no longer being judged only as software. Once the buildout arrives as a massive industrial facility, new transmission lines, continuous power demand, and possible pressure on utility rates, the ",
       "source": "Gradient Flow",
       "sourceId": "gradient-flow",
+      "sourceColor": "#7c3aed"
+    },
+    {
+      "title": "Import AI 468: 23 RSI ideas; PostTrainBench+; and how trust and transparency interplay with AI racing",
+      "link": "https://jack-clark.net/2026/08/10/import-ai-468-23-rsi-ideas-posttrainbench-and-how-trust-and-transparency-interplay-with-ai-racing/",
+      "date": "2026-08-10T12:32:20+00:00",
+      "desc": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Want to be able to",
+      "source": "Import AI",
+      "sourceId": "import-ai",
       "sourceColor": "#7c3aed"
     },
     {
@@ -321,15 +330,6 @@
       "link": "https://jack-clark.net/2026/06/01/import-ai-459-ai-oversight-is-difficult-scaling-laws-for-protein-folding-models-and-pricing-the-extinction-risk-of-ai-systems/",
       "date": "2026-06-01T13:31:56+00:00",
       "desc": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now The AI economy in ",
-      "source": "Import AI",
-      "sourceId": "import-ai",
-      "sourceColor": "#7c3aed"
-    },
-    {
-      "title": "Import AI 458: Reckoning with the future; and a singularity story",
-      "link": "https://jack-clark.net/2026/05/26/import-ai-458-reckoning-with-the-future-and-a-singularity-story/",
-      "date": "2026-05-26T12:32:03+00:00",
-      "desc": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. This issue consists of a lengthy",
       "source": "Import AI",
       "sourceId": "import-ai",
       "sourceColor": "#7c3aed"
