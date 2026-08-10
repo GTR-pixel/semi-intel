@@ -1,6 +1,24 @@
 {
-  "updated": "2026-08-10T12:06:07.675914+00:00",
+  "updated": "2026-08-10T13:51:42.592656+00:00",
   "items": [
+    {
+      "title": "5 useful things you'll learn in my new post-training textbook (shipping now!)",
+      "link": "https://www.interconnects.ai/p/5-useful-things-youll-learn-in-my",
+      "date": "2026-08-10T13:02:42",
+      "desc": "After a few long years of finding time to document my lessons from training open models, my post-training book is done!",
+      "source": "Interconnects",
+      "sourceId": "interconnects",
+      "sourceColor": "#16a34a"
+    },
+    {
+      "title": "Why Data Centers Became the Face of the AI Backlash",
+      "link": "https://gradientflow.com/why-data-centers-became-the-face-of-the-ai-backlash/",
+      "date": "2026-08-10T13:00:48+00:00",
+      "desc": "AI is no longer being judged only as software. Once the buildout arrives as a massive industrial facility, new transmission lines, continuous power demand, and possible pressure on utility rates, the ",
+      "source": "Gradient Flow",
+      "sourceId": "gradient-flow",
+      "sourceColor": "#7c3aed"
+    },
     {
       "title": "Lessons from the hacks",
       "link": "https://www.interconnects.ai/p/lessons-from-the-hacks",
@@ -144,15 +162,6 @@
       "source": "Interconnects",
       "sourceId": "interconnects",
       "sourceColor": "#16a34a"
-    },
-    {
-      "title": "Three New Models, One Signal About Where AI Spending Goes Next",
-      "link": "https://gradientflow.com/glm-kimi-gemini/",
-      "date": "2026-07-22T13:22:29+00:00",
-      "desc": "Three frontier level models landed within weeks of each other this fall, GLM 5.2 from Zhipu, Kimi K3 from Moonshot, and Gemini 3.6 Flash from Google, and I wanted to capture early developer reaction s",
-      "source": "Gradient Flow",
-      "sourceId": "gradient-flow",
-      "sourceColor": "#7c3aed"
     },
     {
       "title": "Kimi K3: The open-weights escalation",
@@ -315,15 +324,6 @@
       "source": "Import AI",
       "sourceId": "import-ai",
       "sourceColor": "#7c3aed"
-    },
-    {
-      "title": "Open and closed models are on different exponentials",
-      "link": "https://www.interconnects.ai/p/open-and-closed-models-are-on-different",
-      "date": "2026-06-01T13:03:48",
-      "desc": "Where marginally higher intelligence drives value, and where it doesn't.",
-      "source": "Interconnects",
-      "sourceId": "interconnects",
-      "sourceColor": "#16a34a"
     },
     {
       "title": "Import AI 458: Reckoning with the future; and a singularity story",
