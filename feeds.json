@@ -1,6 +1,24 @@
 {
-  "updated": "2026-08-12T12:52:27.607537+00:00",
+  "updated": "2026-08-12T14:16:37.974114+00:00",
   "items": [
+    {
+      "title": "Continual Learning Is Arriving in Pieces",
+      "link": "https://gradientflow.com/continual-learning-is-arriving-in-pieces/",
+      "date": "2026-08-12T13:05:11+00:00",
+      "desc": "A while back I wrote about how startups are using reinforcement learning to make agents more reliable. A deeper problem behind that whole trend keeps resurfacing: a model can improve during training, ",
+      "source": "Gradient Flow",
+      "sourceId": "gradient-flow",
+      "sourceColor": "#7c3aed"
+    },
+    {
+      "title": "I wrote an AI textbook — how long until AI can do it better?",
+      "link": "https://www.interconnects.ai/p/i-wrote-an-ai-textbook-how-long-until",
+      "date": "2026-08-12T13:01:16",
+      "desc": "Reflections on AI's writing ability and how AI models get more capable.",
+      "source": "Interconnects",
+      "sourceId": "interconnects",
+      "sourceColor": "#16a34a"
+    },
     {
       "title": "Why do our AI models stop learning the second we deploy them?",
       "link": "https://gradientflow.com/your-ai-should-be-better-on-day-500/",
@@ -144,15 +162,6 @@
       "source": "Fabricated Knowledge",
       "sourceId": "fab-know",
       "sourceColor": "#2563eb"
-    },
-    {
-      "title": "Multiple Dials, Not One: Reading an Open Model Release",
-      "link": "https://gradientflow.com/open-weights-checklist/",
-      "date": "2026-07-27T19:00:35+00:00",
-      "desc": "The most useful thing I&#8217;ve learned watching this latest round of open model releases is that &#8220;open&#8221; has stopped predicting anything. It used to be a reliable shorthand for cheap and ",
-      "source": "Gradient Flow",
-      "sourceId": "gradient-flow",
-      "sourceColor": "#7c3aed"
     },
     {
       "title": "Import AI 466: The bitter lesson for robotics, AIs complete week-long programming tasks; and OpenAI’s accidental AI hacker",
@@ -315,15 +324,6 @@
       "source": "Import AI",
       "sourceId": "import-ai",
       "sourceColor": "#7c3aed"
-    },
-    {
-      "title": "Farewell Ai2",
-      "link": "https://www.interconnects.ai/p/farewell-ai2",
-      "date": "2026-06-02T14:15:59",
-      "desc": "This was my last week at the Allen Institute for AI (Ai2), where I got the great privilege to work on the Olmo models, to grow, to learn, and to have broad lasting impacts.",
-      "source": "Interconnects",
-      "sourceId": "interconnects",
-      "sourceColor": "#16a34a"
     },
     {
       "title": "Import AI 459: AI oversight is difficult; scaling laws for protein folding models; and pricing the extinction risk of AI systems",
