@@ -1,6 +1,15 @@
 {
-  "updated": "2026-08-14T21:18:08.441731+00:00",
+  "updated": "2026-08-14T21:47:14.050751+00:00",
   "items": [
+    {
+      "title": "GLM-5.3: How Chinese labs keep stride with the frontier",
+      "link": "https://www.interconnects.ai/p/glm-53-how-chinese-labs-keep-stride",
+      "date": "2026-08-14T21:23:35",
+      "desc": "Hint: It&#8217;s really not a distillation story.",
+      "source": "Interconnects",
+      "sourceId": "interconnects",
+      "sourceColor": "#16a34a"
+    },
     {
       "title": "The Cost of Time and AI Timelines",
       "link": "https://www.fabricatedknowledge.com/p/the-cost-of-time-and-ai-timelines",
@@ -312,15 +321,6 @@
       "link": "https://www.interconnects.ai/p/welcome-to-the-agi-era-of-ai-governance",
       "date": "2026-06-14T17:43:42",
       "desc": "It's a one-way door and we weren't ready for it.",
-      "source": "Interconnects",
-      "sourceId": "interconnects",
-      "sourceColor": "#16a34a"
-    },
-    {
-      "title": "Claude Fable 5 and new AI safety fables",
-      "link": "https://www.interconnects.ai/p/claude-fable-5-and-new-ai-safety",
-      "date": "2026-06-09T22:59:35",
-      "desc": "One step further into the power politics of frontier AI systems.",
       "source": "Interconnects",
       "sourceId": "interconnects",
       "sourceColor": "#16a34a"
