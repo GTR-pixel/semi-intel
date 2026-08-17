@@ -1,6 +1,24 @@
 {
-  "updated": "2026-08-17T14:31:34.129187+00:00",
+  "updated": "2026-08-17T15:18:17.840470+00:00",
   "items": [
+    {
+      "title": "Teaching Everyone to Fish for Tokens",
+      "link": "https://www.interconnects.ai/p/teaching-everyone-to-fish-for-tokens",
+      "date": "2026-08-17T15:07:49",
+      "desc": "Nvidia wants you building your own model, not buying from Anthropic/OpenAI.",
+      "source": "Interconnects",
+      "sourceId": "interconnects",
+      "sourceColor": "#16a34a"
+    },
+    {
+      "title": "Import AI 469: Science AI; RSI simulator; and Zuck’s technological pessimism",
+      "link": "https://jack-clark.net/2026/08/17/import-ai-469-science-ai-rsi-simulator-and-zucks-technological-pessimism/",
+      "date": "2026-08-17T13:05:36+00:00",
+      "desc": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now DiG-bench shows th",
+      "source": "Import AI",
+      "sourceId": "import-ai",
+      "sourceColor": "#7c3aed"
+    },
     {
       "title": "How AI Is Changing Mathematical Research",
       "link": "https://gradientflow.com/ai-in-math-2026-08/",
@@ -317,28 +335,10 @@
       "sourceColor": "#7c3aed"
     },
     {
-      "title": "Welcome to the AGI era of AI governance",
-      "link": "https://www.interconnects.ai/p/welcome-to-the-agi-era-of-ai-governance",
-      "date": "2026-06-14T17:43:42",
-      "desc": "It's a one-way door and we weren't ready for it.",
-      "source": "Interconnects",
-      "sourceId": "interconnects",
-      "sourceColor": "#16a34a"
-    },
-    {
       "title": "Import AI 460: Reward hacking society, RSI data from Anthropic; and RL-based quadcopter racing",
       "link": "https://jack-clark.net/2026/06/08/import-ai-460-reward-hacking-society-rsi-data-from-anthropic-and-rl-based-quadcopter-racing/",
       "date": "2026-06-08T12:31:32+00:00",
       "desc": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Society can be rew",
-      "source": "Import AI",
-      "sourceId": "import-ai",
-      "sourceColor": "#7c3aed"
-    },
-    {
-      "title": "Import AI 459: AI oversight is difficult; scaling laws for protein folding models; and pricing the extinction risk of AI systems",
-      "link": "https://jack-clark.net/2026/06/01/import-ai-459-ai-oversight-is-difficult-scaling-laws-for-protein-folding-models-and-pricing-the-extinction-risk-of-ai-systems/",
-      "date": "2026-06-01T13:31:56+00:00",
-      "desc": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now The AI economy in ",
       "source": "Import AI",
       "sourceId": "import-ai",
       "sourceColor": "#7c3aed"
