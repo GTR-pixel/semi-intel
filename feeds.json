@@ -1,6 +1,15 @@
 {
-  "updated": "2026-08-17T11:47:43.238571+00:00",
+  "updated": "2026-08-17T12:28:40.402077+00:00",
   "items": [
+    {
+      "title": "How AI Is Changing Mathematical Research",
+      "link": "https://gradientflow.com/ai-in-math-2026-08/",
+      "date": "2026-08-17T12:26:13+00:00",
+      "desc": "With all the recent headlines about AI systems solving research math problems, I decided it was time to update a piece I wrote on this topic a while back. Outside of coding and programming, research m",
+      "source": "Gradient Flow",
+      "sourceId": "gradient-flow",
+      "sourceColor": "#7c3aed"
+    },
     {
       "title": "GLM-5.3: How Chinese labs keep stride with the frontier",
       "link": "https://www.interconnects.ai/p/glm-53-how-chinese-labs-keep-stride",
@@ -159,15 +168,6 @@
       "link": "https://gradientflow.com/specialized-ai-is-getting-easier-to-build/",
       "date": "2026-07-29T13:22:35+00:00",
       "desc": "Last week I argued that open models will absorb most of the money and compute the world spends on AI. A week later, open weights are even more central to the conversation. Recent releases have made th",
-      "source": "Gradient Flow",
-      "sourceId": "gradient-flow",
-      "sourceColor": "#7c3aed"
-    },
-    {
-      "title": "The Big AI Labs Are Suddenly Competing with Your Own Data",
-      "link": "https://gradientflow.com/the-big-ai-labs-are-suddenly-competing-with-your-own-data/",
-      "date": "2026-07-28T13:00:25+00:00",
-      "desc": "Subscribe • Previous Issues Specialized AI Is Getting Easier to Build Last week I argued that open models will absorb most of the money and compute the world spends on AI. A week later, open weights a",
       "source": "Gradient Flow",
       "sourceId": "gradient-flow",
       "sourceColor": "#7c3aed"
