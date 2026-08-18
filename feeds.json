@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-18T12:30:56.098029+00:00",
+  "updated": "2026-08-18T13:36:26.454990+00:00",
   "items": [
     {
       "title": "Teaching Everyone to Fish for Tokens",
@@ -17,15 +17,6 @@
       "desc": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now DiG-bench shows th",
       "source": "Import AI",
       "sourceId": "import-ai",
-      "sourceColor": "#7c3aed"
-    },
-    {
-      "title": "How AI Is Changing Mathematical Research",
-      "link": "https://gradientflow.com/ai-in-math-2026-08/",
-      "date": "2026-08-17T12:26:13+00:00",
-      "desc": "With all the recent headlines about AI systems solving research math problems, I decided it was time to update a piece I wrote on this topic a while back. Outside of coding and programming, research m",
-      "source": "Gradient Flow",
-      "sourceId": "gradient-flow",
       "sourceColor": "#7c3aed"
     },
     {
@@ -47,15 +38,6 @@
       "sourceColor": "#2563eb"
     },
     {
-      "title": "Continual Learning Is Arriving in Pieces",
-      "link": "https://gradientflow.com/continual-learning-is-arriving-in-pieces/",
-      "date": "2026-08-12T13:05:11+00:00",
-      "desc": "A while back I wrote about how startups are using reinforcement learning to make agents more reliable. A deeper problem behind that whole trend keeps resurfacing: a model can improve during training, ",
-      "source": "Gradient Flow",
-      "sourceId": "gradient-flow",
-      "sourceColor": "#7c3aed"
-    },
-    {
       "title": "I wrote an AI textbook — how long until AI can do it better?",
       "link": "https://www.interconnects.ai/p/i-wrote-an-ai-textbook-how-long-until",
       "date": "2026-08-12T13:01:16",
@@ -65,15 +47,6 @@
       "sourceColor": "#16a34a"
     },
     {
-      "title": "Why do our AI models stop learning the second we deploy them?",
-      "link": "https://gradientflow.com/your-ai-should-be-better-on-day-500/",
-      "date": "2026-08-11T13:00:09+00:00",
-      "desc": "Subscribe • Previous Issues Continual Learning Is Arriving in Pieces A while back I wrote about how startups are using reinforcement learning to make agents more reliable. A deeper problem behind that",
-      "source": "Gradient Flow",
-      "sourceId": "gradient-flow",
-      "sourceColor": "#7c3aed"
-    },
-    {
       "title": "5 useful things you'll learn in my new post-training textbook (shipping now!)",
       "link": "https://www.interconnects.ai/p/5-useful-things-youll-learn-in-my",
       "date": "2026-08-10T13:02:42",
@@ -81,15 +54,6 @@
       "source": "Interconnects",
       "sourceId": "interconnects",
       "sourceColor": "#16a34a"
-    },
-    {
-      "title": "Why Data Centers Became the Face of the AI Backlash",
-      "link": "https://gradientflow.com/why-data-centers-became-the-face-of-the-ai-backlash/",
-      "date": "2026-08-10T13:00:48+00:00",
-      "desc": "AI is no longer being judged only as software. Once the buildout arrives as a massive industrial facility, new transmission lines, continuous power demand, and possible pressure on utility rates, the ",
-      "source": "Gradient Flow",
-      "sourceId": "gradient-flow",
-      "sourceColor": "#7c3aed"
     },
     {
       "title": "Import AI 468: 23 RSI ideas; PostTrainBench+; and how trust and transparency interplay with AI racing",
@@ -110,42 +74,6 @@
       "sourceColor": "#16a34a"
     },
     {
-      "title": "What Comes After Language Models",
-      "link": "https://gradientflow.com/what-comes-after-language-models/",
-      "date": "2026-08-06T13:00:00+00:00",
-      "desc": "I keep seeing scientific discovery framed as a sufficiently ambitious prediction or data-compression problem. A recent position paper by Tom Zahavy challenges that view by separating reasoning into th",
-      "source": "Gradient Flow",
-      "sourceId": "gradient-flow",
-      "sourceColor": "#7c3aed"
-    },
-    {
-      "title": "Passing Your Evals Doesn’t Mean You’re Safe",
-      "link": "https://gradientflow.com/passing-your-evals-doesnt-mean-youre-safe/",
-      "date": "2026-08-05T12:33:43+00:00",
-      "desc": "Evals are part of every serious conversation about putting AI into production. Teams define benchmarks, set thresholds, and increasingly run red teams to see how the system holds up against someone ac",
-      "source": "Gradient Flow",
-      "sourceId": "gradient-flow",
-      "sourceColor": "#7c3aed"
-    },
-    {
-      "title": "What Workday, OpenAI, and a German court have in common",
-      "link": "https://gradientflow.com/your-ai-passed-its-evals-thats-the-problem/",
-      "date": "2026-08-04T13:00:04+00:00",
-      "desc": "Subscribe • Previous Issues Passing Your Evals Doesn&#8217;t Mean You&#8217;re Safe Evals are part of every serious conversation about putting AI into production. Teams define benchmarks, set threshol",
-      "source": "Gradient Flow",
-      "sourceId": "gradient-flow",
-      "sourceColor": "#7c3aed"
-    },
-    {
-      "title": "If the Labs Wobble, the Clouds Feel It First",
-      "link": "https://gradientflow.com/if-the-labs-wobble-the-clouds-feel-it-first/",
-      "date": "2026-08-03T19:00:54+00:00",
-      "desc": "I have written separately about the shaky economics behind the data center boom and the growing pressure on the frontier labs. This post connects the two. Microsoft reported $24.1 billion of revenue f",
-      "source": "Gradient Flow",
-      "sourceId": "gradient-flow",
-      "sourceColor": "#7c3aed"
-    },
-    {
       "title": "Introducing our Artifacts Hub and Adoption Dashboard",
       "link": "https://www.interconnects.ai/p/introducing-our-artifacts-hub-and",
       "date": "2026-08-03T14:03:08",
@@ -164,15 +92,6 @@
       "sourceColor": "#7c3aed"
     },
     {
-      "title": "Inside AMD’s AI Bet",
-      "link": "https://gradientflow.com/inside-amds-ai-bet/",
-      "date": "2026-08-03T13:00:16+00:00",
-      "desc": "Table of Contents What AMD Actually Sells Now The Software Story, Which Is the Whole Story The Open-Standards Bet Who&#8217;s Buying, and How the Money Actually Moves Where This Could Still Come Apart",
-      "source": "Gradient Flow",
-      "sourceId": "gradient-flow",
-      "sourceColor": "#7c3aed"
-    },
-    {
       "title": "Latest open artifacts (#23): Laguna S2.1, Inkling, & Kimi K3 show the utility of open models on the Pareto frontier",
       "link": "https://www.interconnects.ai/p/latest-open-artifacts-23-laguna-s21",
       "date": "2026-08-02T13:01:40",
@@ -180,15 +99,6 @@
       "source": "Interconnects",
       "sourceId": "interconnects",
       "sourceColor": "#16a34a"
-    },
-    {
-      "title": "Specialized AI Is Getting Easier to Build",
-      "link": "https://gradientflow.com/specialized-ai-is-getting-easier-to-build/",
-      "date": "2026-07-29T13:22:35+00:00",
-      "desc": "Last week I argued that open models will absorb most of the money and compute the world spends on AI. A week later, open weights are even more central to the conversation. Recent releases have made th",
-      "source": "Gradient Flow",
-      "sourceId": "gradient-flow",
-      "sourceColor": "#7c3aed"
     },
     {
       "title": "Close but Not Quite",
