@@ -1,6 +1,15 @@
 {
-  "updated": "2026-08-19T12:31:07.706613+00:00",
+  "updated": "2026-08-19T13:37:51.022433+00:00",
   "items": [
+    {
+      "title": "The biggest AI risks sit outside the model",
+      "link": "https://gradientflow.com/the-biggest-ai-risks-sit-outside-the-model/",
+      "date": "2026-08-19T13:19:45+00:00",
+      "desc": "The most revealing AI failures right now are not stories about models becoming too capable. They are stories about everything around the model. One system received more access than its test environmen",
+      "source": "Gradient Flow",
+      "sourceId": "gradient-flow",
+      "sourceColor": "#7c3aed"
+    },
     {
       "title": "The model may not be your biggest risk",
       "link": "https://gradientflow.com/i-think-we-are-looking-for-ai-risk-in-the-wrong-place/",
@@ -170,15 +179,6 @@
       "desc": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Self-sustaining an",
       "source": "Import AI",
       "sourceId": "import-ai",
-      "sourceColor": "#7c3aed"
-    },
-    {
-      "title": "Inside AMD’s AI Bet",
-      "link": "https://gradientflow.com/inside-amds-ai-bet/",
-      "date": "2026-08-03T13:00:16+00:00",
-      "desc": "Table of Contents What AMD Actually Sells Now The Software Story, Which Is the Whole Story The Open-Standards Bet Who&#8217;s Buying, and How the Money Actually Moves Where This Could Still Come Apart",
-      "source": "Gradient Flow",
-      "sourceId": "gradient-flow",
       "sourceColor": "#7c3aed"
     },
     {
