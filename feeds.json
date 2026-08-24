@@ -1,6 +1,15 @@
 {
-  "updated": "2026-08-24T13:43:51.941270+00:00",
+  "updated": "2026-08-24T14:33:47.511815+00:00",
   "items": [
+    {
+      "title": "Import AI 470: No rights for machines; automating environment generation with SPADE; and building better GPU kernels with Hawkeye",
+      "link": "https://jack-clark.net/2026/08/24/import-ai-470-no-rights-for-machines-automating-environment-generation-with-spade-and-building-better-gpu-kernels-with-hawkeye/",
+      "date": "2026-08-24T13:12:40+00:00",
+      "desc": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now AI is accelerating",
+      "source": "Import AI",
+      "sourceId": "import-ai",
+      "sourceColor": "#7c3aed"
+    },
     {
       "title": "The AI Data Center Backlash Has a Blind Spot",
       "link": "https://gradientflow.com/the-ai-data-center-backlash-has-a-blind-spot/",
@@ -330,15 +339,6 @@
       "link": "https://jack-clark.net/2026/06/15/import-ai-461-alignment-is-not-on-track-frontiercode-and-synthetic-research-interns/",
       "date": "2026-06-15T11:30:53+00:00",
       "desc": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now AI researchers lau",
-      "source": "Import AI",
-      "sourceId": "import-ai",
-      "sourceColor": "#7c3aed"
-    },
-    {
-      "title": "Import AI 460: Reward hacking society, RSI data from Anthropic; and RL-based quadcopter racing",
-      "link": "https://jack-clark.net/2026/06/08/import-ai-460-reward-hacking-society-rsi-data-from-anthropic-and-rl-based-quadcopter-racing/",
-      "date": "2026-06-08T12:31:32+00:00",
-      "desc": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Society can be rew",
       "source": "Import AI",
       "sourceId": "import-ai",
       "sourceColor": "#7c3aed"
