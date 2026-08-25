@@ -1,6 +1,15 @@
 {
-  "updated": "2026-08-25T10:57:18.511483+00:00",
+  "updated": "2026-08-25T11:25:25.165875+00:00",
   "items": [
+    {
+      "title": "What AI Teams Should Know About HBF and Tiered Memory",
+      "link": "https://gradientflow.com/hbf-ai-inference/",
+      "date": "2026-08-25T11:00:33+00:00",
+      "desc": "For years, most of the AI memory conversation has been about bandwidth: can memory feed GPUs fast enough? Frontier inference is adding a second problem. Model weights, KV caches, and expert weights ar",
+      "source": "Gradient Flow",
+      "sourceId": "gradient-flow",
+      "sourceColor": "#7c3aed"
+    },
     {
       "title": "Import AI 470: No rights for machines; automating environment generation with SPADE; and building better GPU kernels with Hawkeye",
       "link": "https://jack-clark.net/2026/08/24/import-ai-470-no-rights-for-machines-automating-environment-generation-with-spade-and-building-better-gpu-kernels-with-hawkeye/",
@@ -159,15 +168,6 @@
       "link": "https://gradientflow.com/passing-your-evals-doesnt-mean-youre-safe/",
       "date": "2026-08-05T12:33:43+00:00",
       "desc": "Evals are part of every serious conversation about putting AI into production. Teams define benchmarks, set thresholds, and increasingly run red teams to see how the system holds up against someone ac",
-      "source": "Gradient Flow",
-      "sourceId": "gradient-flow",
-      "sourceColor": "#7c3aed"
-    },
-    {
-      "title": "What Workday, OpenAI, and a German court have in common",
-      "link": "https://gradientflow.com/your-ai-passed-its-evals-thats-the-problem/",
-      "date": "2026-08-04T13:00:04+00:00",
-      "desc": "Subscribe • Previous Issues Passing Your Evals Doesn&#8217;t Mean You&#8217;re Safe Evals are part of every serious conversation about putting AI into production. Teams define benchmarks, set threshol",
       "source": "Gradient Flow",
       "sourceId": "gradient-flow",
       "sourceColor": "#7c3aed"
