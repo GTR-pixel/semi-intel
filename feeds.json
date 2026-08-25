@@ -1,6 +1,15 @@
 {
-  "updated": "2026-08-25T12:33:28.935466+00:00",
+  "updated": "2026-08-25T13:42:05.027686+00:00",
   "items": [
+    {
+      "title": "I keep hearing the same advice about agents",
+      "link": "https://gradientflow.com/i-keep-hearing-the-same-advice-about-agents/",
+      "date": "2026-08-25T13:00:22+00:00",
+      "desc": "Subscribe • Previous Issues Nine Practical Rules for Agents Doing Real Work In recent conversations with crews building agents, I keep hearing the same lessons. Teams with very different products are ",
+      "source": "Gradient Flow",
+      "sourceId": "gradient-flow",
+      "sourceColor": "#7c3aed"
+    },
     {
       "title": "What AI Teams Should Know About HBF and Tiered Memory",
       "link": "https://gradientflow.com/hbf-ai-inference/",
@@ -159,15 +168,6 @@
       "link": "https://gradientflow.com/what-comes-after-language-models/",
       "date": "2026-08-06T13:00:00+00:00",
       "desc": "I keep seeing scientific discovery framed as a sufficiently ambitious prediction or data-compression problem. A recent position paper by Tom Zahavy challenges that view by separating reasoning into th",
-      "source": "Gradient Flow",
-      "sourceId": "gradient-flow",
-      "sourceColor": "#7c3aed"
-    },
-    {
-      "title": "Passing Your Evals Doesn’t Mean You’re Safe",
-      "link": "https://gradientflow.com/passing-your-evals-doesnt-mean-youre-safe/",
-      "date": "2026-08-05T12:33:43+00:00",
-      "desc": "Evals are part of every serious conversation about putting AI into production. Teams define benchmarks, set thresholds, and increasingly run red teams to see how the system holds up against someone ac",
       "source": "Gradient Flow",
       "sourceId": "gradient-flow",
       "sourceColor": "#7c3aed"
