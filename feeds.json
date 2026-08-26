@@ -1,6 +1,15 @@
 {
-  "updated": "2026-08-26T12:36:45.358529+00:00",
+  "updated": "2026-08-26T13:48:08.283596+00:00",
   "items": [
+    {
+      "title": "Nine Practical Rules for Agents Doing Real Work",
+      "link": "https://gradientflow.com/nine-practical-rules-for-agents-doing-real-work/",
+      "date": "2026-08-26T13:16:06+00:00",
+      "desc": "In recent conversations with crews building agents, I keep hearing the same lessons. Teams with very different products are arriving independently at almost the same architectural choices. That conver",
+      "source": "Gradient Flow",
+      "sourceId": "gradient-flow",
+      "sourceColor": "#7c3aed"
+    },
     {
       "title": "I keep hearing the same advice about agents",
       "link": "https://gradientflow.com/i-keep-hearing-the-same-advice-about-agents/",
@@ -162,15 +171,6 @@
       "source": "Interconnects",
       "sourceId": "interconnects",
       "sourceColor": "#16a34a"
-    },
-    {
-      "title": "What Comes After Language Models",
-      "link": "https://gradientflow.com/what-comes-after-language-models/",
-      "date": "2026-08-06T13:00:00+00:00",
-      "desc": "I keep seeing scientific discovery framed as a sufficiently ambitious prediction or data-compression problem. A recent position paper by Tom Zahavy challenges that view by separating reasoning into th",
-      "source": "Gradient Flow",
-      "sourceId": "gradient-flow",
-      "sourceColor": "#7c3aed"
     },
     {
       "title": "Introducing our Artifacts Hub and Adoption Dashboard",
