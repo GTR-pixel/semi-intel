@@ -1,6 +1,24 @@
 {
-  "updated": "2026-08-31T09:10:29.391597+00:00",
+  "updated": "2026-08-31T17:09:20.887966+00:00",
   "items": [
+    {
+      "title": "AI and the Job Market: What We Know So Far",
+      "link": "https://gradientflow.com/ai-and-the-job-market-what-we-know-so-far/",
+      "date": "2026-08-31T13:34:02+00:00",
+      "desc": "Table of Contents AI Is Changing Work Faster Than Employment The Entry-Level Squeeze Watch Hiring, Not Just Layoffs Automation and Augmentation Are Different Productivity Does Not Automatically Mean F",
+      "source": "Gradient Flow",
+      "sourceId": "gradient-flow",
+      "sourceColor": "#7c3aed"
+    },
+    {
+      "title": "Import AI 471: Why Hugging Face worries me; space mining; FIve Eyes on AI",
+      "link": "https://jack-clark.net/2026/08/31/import-ai-471-why-hugging-face-worries-me-space-mining-five-eyes-on-ai/",
+      "date": "2026-08-31T13:31:06+00:00",
+      "desc": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Import AI reader g",
+      "source": "Import AI",
+      "sourceId": "import-ai",
+      "sourceColor": "#7c3aed"
+    },
     {
       "title": "Nine Practical Rules for Agents Doing Real Work",
       "link": "https://gradientflow.com/nine-practical-rules-for-agents-doing-real-work/",
@@ -144,15 +162,6 @@
       "source": "Interconnects",
       "sourceId": "interconnects",
       "sourceColor": "#16a34a"
-    },
-    {
-      "title": "Why Data Centers Became the Face of the AI Backlash",
-      "link": "https://gradientflow.com/why-data-centers-became-the-face-of-the-ai-backlash/",
-      "date": "2026-08-10T13:00:48+00:00",
-      "desc": "AI is no longer being judged only as software. Once the buildout arrives as a massive industrial facility, new transmission lines, continuous power demand, and possible pressure on utility rates, the ",
-      "source": "Gradient Flow",
-      "sourceId": "gradient-flow",
-      "sourceColor": "#7c3aed"
     },
     {
       "title": "Import AI 468: 23 RSI ideas; PostTrainBench+; and how trust and transparency interplay with AI racing",
@@ -333,15 +342,6 @@
       "source": "Interconnects",
       "sourceId": "interconnects",
       "sourceColor": "#16a34a"
-    },
-    {
-      "title": "Import AI 461: “Alignment is not on track”; FrontierCode; and synthetic research interns",
-      "link": "https://jack-clark.net/2026/06/15/import-ai-461-alignment-is-not-on-track-frontiercode-and-synthetic-research-interns/",
-      "date": "2026-06-15T11:30:53+00:00",
-      "desc": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now AI researchers lau",
-      "source": "Import AI",
-      "sourceId": "import-ai",
-      "sourceColor": "#7c3aed"
     },
     {
       "title": "Nvidia should buyback stock",
