@@ -1,6 +1,15 @@
 {
-  "updated": "2026-09-01T06:25:32.942925+00:00",
+  "updated": "2026-09-01T11:52:28.792632+00:00",
   "items": [
+    {
+      "title": "The AI Boom’s Hidden Payment Schedule",
+      "link": "https://gradientflow.com/the-ai-booms-hidden-payment-schedule/",
+      "date": "2026-09-01T11:00:57+00:00",
+      "desc": "A recent article, “Why the AI Boom Is Hitting a Reset Wall,” makes an argument I think is more useful than the usual debate over whether AI is a bubble. The question is not whether AI demand is real. ",
+      "source": "Gradient Flow",
+      "sourceId": "gradient-flow",
+      "sourceColor": "#7c3aed"
+    },
     {
       "title": "AI and the Job Market: What We Know So Far",
       "link": "https://gradientflow.com/ai-and-the-job-market-what-we-know-so-far/",
@@ -144,15 +153,6 @@
       "source": "Interconnects",
       "sourceId": "interconnects",
       "sourceColor": "#16a34a"
-    },
-    {
-      "title": "Why do our AI models stop learning the second we deploy them?",
-      "link": "https://gradientflow.com/your-ai-should-be-better-on-day-500/",
-      "date": "2026-08-11T13:00:09+00:00",
-      "desc": "Subscribe • Previous Issues Continual Learning Is Arriving in Pieces A while back I wrote about how startups are using reinforcement learning to make agents more reliable. A deeper problem behind that",
-      "source": "Gradient Flow",
-      "sourceId": "gradient-flow",
-      "sourceColor": "#7c3aed"
     },
     {
       "title": "5 useful things you'll learn in my new post-training textbook (shipping now!)",
