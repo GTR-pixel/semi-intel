@@ -1,6 +1,15 @@
 {
-  "updated": "2026-09-01T11:52:28.792632+00:00",
+  "updated": "2026-09-01T15:52:34.114600+00:00",
   "items": [
+    {
+      "title": "if everyone rents the same intelligence, what’s left?",
+      "link": "https://gradientflow.com/i-think-ai-teams-are-defending-the-wrong-thing/",
+      "date": "2026-09-01T13:00:20+00:00",
+      "desc": "Subscribe • Previous Issues Your Model Is Not Your Moat In a recent article, I wrote about companies turning their own data, workflows, and production feedback into specialized intelligence they incre",
+      "source": "Gradient Flow",
+      "sourceId": "gradient-flow",
+      "sourceColor": "#7c3aed"
+    },
     {
       "title": "The AI Boom’s Hidden Payment Schedule",
       "link": "https://gradientflow.com/the-ai-booms-hidden-payment-schedule/",
@@ -135,15 +144,6 @@
       "source": "Fabricated Knowledge",
       "sourceId": "fab-know",
       "sourceColor": "#2563eb"
-    },
-    {
-      "title": "Continual Learning Is Arriving in Pieces",
-      "link": "https://gradientflow.com/continual-learning-is-arriving-in-pieces/",
-      "date": "2026-08-12T13:05:11+00:00",
-      "desc": "A while back I wrote about how startups are using reinforcement learning to make agents more reliable. A deeper problem behind that whole trend keeps resurfacing: a model can improve during training, ",
-      "source": "Gradient Flow",
-      "sourceId": "gradient-flow",
-      "sourceColor": "#7c3aed"
     },
     {
       "title": "I wrote an AI textbook — how long until AI can do it better?",
