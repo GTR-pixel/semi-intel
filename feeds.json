@@ -1,6 +1,15 @@
 {
-  "updated": "2026-09-02T12:11:55.122420+00:00",
+  "updated": "2026-09-02T16:44:31.767830+00:00",
   "items": [
+    {
+      "title": "Your Model Is Not Your Moat",
+      "link": "https://gradientflow.com/your-model-is-not-your-moat/",
+      "date": "2026-09-02T12:59:09+00:00",
+      "desc": "In a recent article, I wrote about companies turning their own data, workflows, and production feedback into specialized intelligence they increasingly control. The deeper idea was compounding. What m",
+      "source": "Gradient Flow",
+      "sourceId": "gradient-flow",
+      "sourceColor": "#7c3aed"
+    },
     {
       "title": "if everyone rents the same intelligence, what’s left?",
       "link": "https://gradientflow.com/i-think-ai-teams-are-defending-the-wrong-thing/",
@@ -116,15 +125,6 @@
       "desc": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now DiG-bench shows th",
       "source": "Import AI",
       "sourceId": "import-ai",
-      "sourceColor": "#7c3aed"
-    },
-    {
-      "title": "How AI Is Changing Mathematical Research",
-      "link": "https://gradientflow.com/ai-in-math-2026-08/",
-      "date": "2026-08-17T12:26:13+00:00",
-      "desc": "With all the recent headlines about AI systems solving research math problems, I decided it was time to update a piece I wrote on this topic a while back. Outside of coding and programming, research m",
-      "source": "Gradient Flow",
-      "sourceId": "gradient-flow",
       "sourceColor": "#7c3aed"
     },
     {
