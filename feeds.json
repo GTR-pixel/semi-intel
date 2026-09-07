@@ -1,6 +1,24 @@
 {
-  "updated": "2026-09-07T11:15:06.683753+00:00",
+  "updated": "2026-09-07T16:34:15.301775+00:00",
   "items": [
+    {
+      "title": "China’s AI Involution",
+      "link": "https://gradientflow.com/chinas-ai-involution/",
+      "date": "2026-09-07T12:41:25+00:00",
+      "desc": "AI has made me pay more attention to a Chinese term that has been circulating for years: involution (内卷). The basic idea is hyper-competition in which everyone has to work harder and improve constantl",
+      "source": "Gradient Flow",
+      "sourceId": "gradient-flow",
+      "sourceColor": "#7c3aed"
+    },
+    {
+      "title": "Import AI 472: DeepMind’s cheating math agents; populist AI policies; and Forethought theorizes a nightwatchman",
+      "link": "https://jack-clark.net/2026/09/07/import-ai-472-deepminds-cheating-math-agents-populist-ai-policies-and-forethought-theorizes-a-nightwatchman/",
+      "date": "2026-09-07T12:26:31+00:00",
+      "desc": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Researchers discov",
+      "source": "Import AI",
+      "sourceId": "import-ai",
+      "sourceColor": "#7c3aed"
+    },
     {
       "title": "Your Model Is Not Your Moat",
       "link": "https://gradientflow.com/your-model-is-not-your-moat/",
@@ -96,15 +114,6 @@
       "link": "https://gradientflow.com/the-biggest-ai-risks-sit-outside-the-model/",
       "date": "2026-08-19T13:19:45+00:00",
       "desc": "The most revealing AI failures right now are not stories about models becoming too capable. They are stories about everything around the model. One system received more access than its test environmen",
-      "source": "Gradient Flow",
-      "sourceId": "gradient-flow",
-      "sourceColor": "#7c3aed"
-    },
-    {
-      "title": "The model may not be your biggest risk",
-      "link": "https://gradientflow.com/i-think-we-are-looking-for-ai-risk-in-the-wrong-place/",
-      "date": "2026-08-18T13:00:21+00:00",
-      "desc": "Subscribe • Previous Issues The biggest AI risks sit outside the model The most revealing AI failures right now are not stories about models becoming too capable. They are stories about everything aro",
       "source": "Gradient Flow",
       "sourceId": "gradient-flow",
       "sourceColor": "#7c3aed"
@@ -306,15 +315,6 @@
       "source": "Interconnects",
       "sourceId": "interconnects",
       "sourceColor": "#16a34a"
-    },
-    {
-      "title": "Import AI 462: Superpersuasion; self-sustaining AI; paths to ASI",
-      "link": "https://jack-clark.net/2026/06/22/import-ai-462-superpersuasion-self-sustaining-ai-paths-to-asi/",
-      "date": "2026-06-22T12:31:45+00:00",
-      "desc": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now AI can decisively ",
-      "source": "Import AI",
-      "sourceId": "import-ai",
-      "sourceColor": "#7c3aed"
     },
     {
       "title": "Banning Open Source AI Would Be A Mistake",
