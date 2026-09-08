@@ -1,6 +1,24 @@
 {
-  "updated": "2026-09-08T10:23:14.575351+00:00",
+  "updated": "2026-09-08T14:40:15.579882+00:00",
   "items": [
+    {
+      "title": "Latest open artifacts (#24): Motif-3, GLM-5.3, Hy4-preview and open model licenses",
+      "link": "https://www.interconnects.ai/p/latest-open-artifacts-24-motif-3",
+      "date": "2026-09-08T14:15:25",
+      "desc": "The open model ecosystem continues to expand in its breadth",
+      "source": "Interconnects",
+      "sourceId": "interconnects",
+      "sourceColor": "#16a34a"
+    },
+    {
+      "title": "Your AI model is a rental (but the loop is an asset)",
+      "link": "https://gradientflow.com/this-is-how-self-improving-ai-actually-starts/",
+      "date": "2026-09-08T13:00:09+00:00",
+      "desc": "Subscribe • Previous Issues Self-Improvement Without the Science Fiction A few weeks ago I wrote about AI systems that keep learning after deployment instead of treating every interaction as a fresh s",
+      "source": "Gradient Flow",
+      "sourceId": "gradient-flow",
+      "sourceColor": "#7c3aed"
+    },
     {
       "title": "China’s AI Involution",
       "link": "https://gradientflow.com/chinas-ai-involution/",
@@ -105,15 +123,6 @@
       "link": "https://gradientflow.com/the-ai-data-center-backlash-has-a-blind-spot/",
       "date": "2026-08-24T13:00:37+00:00",
       "desc": "Within my own network, I was early in flagging the growing local opposition to AI data centers. Since then, it has moved fast, from scattered zoning fights to outright moratoriums and statewide politi",
-      "source": "Gradient Flow",
-      "sourceId": "gradient-flow",
-      "sourceColor": "#7c3aed"
-    },
-    {
-      "title": "The biggest AI risks sit outside the model",
-      "link": "https://gradientflow.com/the-biggest-ai-risks-sit-outside-the-model/",
-      "date": "2026-08-19T13:19:45+00:00",
-      "desc": "The most revealing AI failures right now are not stories about models becoming too capable. They are stories about everything around the model. One system received more access than its test environmen",
       "source": "Gradient Flow",
       "sourceId": "gradient-flow",
       "sourceColor": "#7c3aed"
@@ -330,15 +339,6 @@
       "link": "https://www.interconnects.ai/p/state-of-the-blog-mid-2026",
       "date": "2026-06-17T14:29:06",
       "desc": "About 3 years since I started writing weekly.",
-      "source": "Interconnects",
-      "sourceId": "interconnects",
-      "sourceColor": "#16a34a"
-    },
-    {
-      "title": "Frontier post-training recipe review with Finbarr Timbers",
-      "link": "https://www.interconnects.ai/p/frontier-post-training-recipe-review",
-      "date": "2026-06-16T13:29:30",
-      "desc": "\"Interview\" #18",
       "source": "Interconnects",
       "sourceId": "interconnects",
       "sourceColor": "#16a34a"
