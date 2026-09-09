@@ -1,6 +1,15 @@
 {
-  "updated": "2026-09-09T11:38:25.901349+00:00",
+  "updated": "2026-09-09T15:42:38.357998+00:00",
   "items": [
+    {
+      "title": "Self-Improvement Without the Science Fiction",
+      "link": "https://gradientflow.com/self-improvement-without-the-science-fiction/",
+      "date": "2026-09-09T12:33:42+00:00",
+      "desc": "A few weeks ago I wrote about AI systems that keep learning after deployment instead of treating every interaction as a fresh start. That prompted a few readers to ask about recursive self-improvement",
+      "source": "Gradient Flow",
+      "sourceId": "gradient-flow",
+      "sourceColor": "#7c3aed"
+    },
     {
       "title": "When will average people feel AI’s impact?",
       "link": "https://www.interconnects.ai/p/when-will-average-people-feel-ais",
@@ -125,15 +134,6 @@
       "desc": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now AI is accelerating",
       "source": "Import AI",
       "sourceId": "import-ai",
-      "sourceColor": "#7c3aed"
-    },
-    {
-      "title": "The AI Data Center Backlash Has a Blind Spot",
-      "link": "https://gradientflow.com/the-ai-data-center-backlash-has-a-blind-spot/",
-      "date": "2026-08-24T13:00:37+00:00",
-      "desc": "Within my own network, I was early in flagging the growing local opposition to AI data centers. Since then, it has moved fast, from scattered zoning fights to outright moratoriums and statewide politi",
-      "source": "Gradient Flow",
-      "sourceId": "gradient-flow",
       "sourceColor": "#7c3aed"
     },
     {
