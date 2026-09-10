@@ -1,6 +1,15 @@
 {
-  "updated": "2026-09-10T12:19:17.970674+00:00",
+  "updated": "2026-09-10T16:34:24.820495+00:00",
   "items": [
+    {
+      "title": "One resignation turned the embers of AI fear into a wildfire",
+      "link": "https://www.interconnects.ai/p/one-resignation-turned-the-embers",
+      "date": "2026-09-10T15:28:52",
+      "desc": "Some quick notes on a truly weird week.",
+      "source": "Interconnects",
+      "sourceId": "interconnects",
+      "sourceColor": "#16a34a"
+    },
     {
       "title": "Self-Improvement Without the Science Fiction",
       "link": "https://gradientflow.com/self-improvement-without-the-science-fiction/",
@@ -330,15 +339,6 @@
       "link": "https://www.interconnects.ai/p/glm-52-is-the-step-change-for-open",
       "date": "2026-06-22T14:52:45",
       "desc": "A capability threshold I've been carefully monitoring.",
-      "source": "Interconnects",
-      "sourceId": "interconnects",
-      "sourceColor": "#16a34a"
-    },
-    {
-      "title": "Banning Open Source AI Would Be A Mistake",
-      "link": "https://www.interconnects.ai/p/banning-open-source-ai-would-be-a",
-      "date": "2026-06-19T13:02:47",
-      "desc": "This post was originally an op-ed co-authored with Kevin Xu of Interconnected for a general, non-technical audience.",
       "source": "Interconnects",
       "sourceId": "interconnects",
       "sourceColor": "#16a34a"
