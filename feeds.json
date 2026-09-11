@@ -1,6 +1,15 @@
 {
-  "updated": "2026-09-11T12:16:50.359751+00:00",
+  "updated": "2026-09-11T16:39:00.427840+00:00",
   "items": [
+    {
+      "title": "Open-Source AI & Open Models Reading List",
+      "link": "https://www.interconnects.ai/p/open-source-ai-reading-list",
+      "date": "2026-09-11T12:36:25",
+      "desc": "How to get up to speed on open models and their implications.",
+      "source": "Interconnects",
+      "sourceId": "interconnects",
+      "sourceColor": "#16a34a"
+    },
     {
       "title": "One resignation turned the embers of AI fear into a wildfire",
       "link": "https://www.interconnects.ai/p/one-resignation-turned-the-embers",
@@ -333,15 +342,6 @@
       "source": "Fabricated Knowledge",
       "sourceId": "fab-know",
       "sourceColor": "#2563eb"
-    },
-    {
-      "title": "GLM-5.2 is the step change for open agents",
-      "link": "https://www.interconnects.ai/p/glm-52-is-the-step-change-for-open",
-      "date": "2026-06-22T14:52:45",
-      "desc": "A capability threshold I've been carefully monitoring.",
-      "source": "Interconnects",
-      "sourceId": "interconnects",
-      "sourceColor": "#16a34a"
     },
     {
       "title": "Nvidia should buyback stock",
