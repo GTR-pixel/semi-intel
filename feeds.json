@@ -1,6 +1,15 @@
 {
-  "updated": "2026-09-14T09:26:53.673504+00:00",
+  "updated": "2026-09-14T15:57:44.901109+00:00",
   "items": [
+    {
+      "title": "Water, Noise,Power: The Real Costs of Data Centers",
+      "link": "https://gradientflow.com/ai-data-centers-water-noise-power/",
+      "date": "2026-09-14T12:54:34+00:00",
+      "desc": "I expect AI data centers to become a major issue in the 2028 presidential primaries, particularly on the Democratic side. I recently argued that the case for building more data centers and compute is ",
+      "source": "Gradient Flow",
+      "sourceId": "gradient-flow",
+      "sourceColor": "#7c3aed"
+    },
     {
       "title": "Open-Source AI & Open Models Reading List",
       "link": "https://www.interconnects.ai/p/open-source-ai-reading-list",
@@ -132,15 +141,6 @@
       "link": "https://gradientflow.com/i-keep-hearing-the-same-advice-about-agents/",
       "date": "2026-08-25T13:00:22+00:00",
       "desc": "Subscribe • Previous Issues Nine Practical Rules for Agents Doing Real Work In recent conversations with crews building agents, I keep hearing the same lessons. Teams with very different products are ",
-      "source": "Gradient Flow",
-      "sourceId": "gradient-flow",
-      "sourceColor": "#7c3aed"
-    },
-    {
-      "title": "What AI Teams Should Know About HBF and Tiered Memory",
-      "link": "https://gradientflow.com/hbf-ai-inference/",
-      "date": "2026-08-25T11:00:33+00:00",
-      "desc": "For years, most of the AI memory conversation has been about bandwidth: can memory feed GPUs fast enough? Frontier inference is adding a second problem. Model weights, KV caches, and expert weights ar",
       "source": "Gradient Flow",
       "sourceId": "gradient-flow",
       "sourceColor": "#7c3aed"
