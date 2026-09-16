@@ -1,6 +1,15 @@
 {
-  "updated": "2026-09-16T11:52:38.530194+00:00",
+  "updated": "2026-09-16T15:53:37.671605+00:00",
   "items": [
+    {
+      "title": "When Work History Becomes an AI Asset",
+      "link": "https://gradientflow.com/when-work-history-becomes-an-ai-asset/",
+      "date": "2026-09-16T13:11:40+00:00",
+      "desc": "Google recently agreed to pay $10 million for the internal business data of Spirit Airlines. The airline is bankrupt, but its emails, Teams messages, software, spreadsheets, and operating records appa",
+      "source": "Gradient Flow",
+      "sourceId": "gradient-flow",
+      "sourceColor": "#7c3aed"
+    },
     {
       "title": "so Google just paid $10 million for an airline’s Teams messages",
       "link": "https://gradientflow.com/what-counts-as-valuable-company-data-is-changing/",
@@ -134,15 +143,6 @@
       "desc": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Import AI reader g",
       "source": "Import AI",
       "sourceId": "import-ai",
-      "sourceColor": "#7c3aed"
-    },
-    {
-      "title": "Nine Practical Rules for Agents Doing Real Work",
-      "link": "https://gradientflow.com/nine-practical-rules-for-agents-doing-real-work/",
-      "date": "2026-08-26T13:16:06+00:00",
-      "desc": "In recent conversations with crews building agents, I keep hearing the same lessons. Teams with very different products are arriving independently at almost the same architectural choices. That conver",
-      "source": "Gradient Flow",
-      "sourceId": "gradient-flow",
       "sourceColor": "#7c3aed"
     },
     {
