@@ -1,6 +1,15 @@
 {
-  "updated": "2026-09-19T13:37:26.631519+00:00",
+  "updated": "2026-09-19T16:57:26.455307+00:00",
   "items": [
+    {
+      "title": "Why I still haven’t bought into true RSI",
+      "link": "https://www.interconnects.ai/p/where-i-stand-on-rsi",
+      "date": "2026-09-19T15:42:20",
+      "desc": "An &#8220;AI moderate&#8217;s&#8221; view on recent events and the trajectory of frontier models.",
+      "source": "Interconnects",
+      "sourceId": "interconnects",
+      "sourceColor": "#16a34a"
+    },
     {
       "title": "When Work History Becomes an AI Asset",
       "link": "https://gradientflow.com/when-work-history-becomes-an-ai-asset/",
@@ -324,15 +333,6 @@
       "source": "Import AI",
       "sourceId": "import-ai",
       "sourceColor": "#7c3aed"
-    },
-    {
-      "title": "Latest open artifacts (#22): Zyphra, Cohere, and Poolside are expanding the breadth of the ecosystem",
-      "link": "https://www.interconnects.ai/p/artifacts-22-zyphra-cohere-and-poolside",
-      "date": "2026-06-28T17:03:07",
-      "desc": "An assessment of the open ecosystem and the motivations behind releasing models",
-      "source": "Interconnects",
-      "sourceId": "interconnects",
-      "sourceColor": "#16a34a"
     },
     {
       "title": "IN-DEPTH: What Unitree's Evolution Means For Robotics",
