@@ -1,6 +1,24 @@
 {
-  "updated": "2026-09-21T08:26:44.921481+00:00",
+  "updated": "2026-09-21T15:14:43.967059+00:00",
   "items": [
+    {
+      "title": "Import AI 473: The US’s superintelligence strategy; human brain in a mouse skull; and machine hermeneutics",
+      "link": "https://jack-clark.net/2026/09/21/import-ai-473-the-uss-superintelligence-strategy-human-brain-in-a-mouse-skull-and-machine-hermeneutics/",
+      "date": "2026-09-21T12:31:04+00:00",
+      "desc": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now RAND thinks the be",
+      "source": "Import AI",
+      "sourceId": "import-ai",
+      "sourceColor": "#7c3aed"
+    },
+    {
+      "title": "The current balance of power in open models",
+      "link": "https://www.interconnects.ai/p/the-current-balance-of-power-in-open",
+      "date": "2026-09-21T11:56:56",
+      "desc": "The expanded form of a testimony I prepared for Congress.",
+      "source": "Interconnects",
+      "sourceId": "interconnects",
+      "sourceColor": "#16a34a"
+    },
     {
       "title": "Why I still haven’t bought into true RSI",
       "link": "https://www.interconnects.ai/p/where-i-stand-on-rsi",
@@ -308,28 +326,10 @@
       "sourceColor": "#7c3aed"
     },
     {
-      "title": "6 months to live for open models",
-      "link": "https://www.interconnects.ai/p/6-months-to-live-for-open-models",
-      "date": "2026-07-12T16:47:42",
-      "desc": "The most serious test to date of open source AI&#8217;s viability is happening right now.",
-      "source": "Interconnects",
-      "sourceId": "interconnects",
-      "sourceColor": "#16a34a"
-    },
-    {
       "title": "Import AI 464: Fables writes GPU kernels; AI automation; and analog computation",
       "link": "https://jack-clark.net/2026/07/06/import-ai-464-fables-writes-gpu-kernels-ai-automation-and-analog-computation/",
       "date": "2026-07-06T12:31:05+00:00",
       "desc": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Fable writes a dec",
-      "source": "Import AI",
-      "sourceId": "import-ai",
-      "sourceColor": "#7c3aed"
-    },
-    {
-      "title": "Import AI 463: Self-improving robots; a 10k Chinese GPU cluster; and an elegiac essay for the human era",
-      "link": "https://jack-clark.net/2026/06/29/import-ai-463-self-improving-robots-a-10k-chinese-gpu-cluster-and-an-elegiac-essay-for-the-human-era/",
-      "date": "2026-06-29T13:03:27+00:00",
-      "desc": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now NVIDIA sets up a c",
       "source": "Import AI",
       "sourceId": "import-ai",
       "sourceColor": "#7c3aed"
