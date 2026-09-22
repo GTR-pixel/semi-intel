@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-22T17:28:13.294255+00:00",
+  "updated": "2026-09-22T20:25:38.479515+00:00",
   "items": [
     {
       "title": "Debating RSI, the US-China Gap, and Jaggedness with JS Denain of Epoch AI",
@@ -11,7 +11,7 @@
       "sourceColor": "#16a34a"
     },
     {
-      "title": "Your AI might be fine but your data is lying to it",
+      "title": "why your data stack is about to get less forgiving",
       "link": "https://gradientflow.com/your-ai-might-be-fine-but-your-data-is-lying-to-it/",
       "date": "2026-09-22T13:00:25+00:00",
       "desc": "Subscribe • Previous Issues Stale Data Used to Be Annoying Imagine a procurement agent checking inventory and deciding that stock has fallen below the reorder threshold. It places another order. The p",
