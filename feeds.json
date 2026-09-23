@@ -1,6 +1,15 @@
 {
-  "updated": "2026-09-23T07:06:36.382438+00:00",
+  "updated": "2026-09-23T12:50:26.495866+00:00",
   "items": [
+    {
+      "title": "Stale Data Used to Be Annoying",
+      "link": "https://gradientflow.com/stale-data-used-to-be-annoying/",
+      "date": "2026-09-23T12:10:32+00:00",
+      "desc": "Imagine a procurement agent checking inventory and deciding that stock has fallen below the reorder threshold. It places another order. The problem is that a large delivery was recorded a few minutes ",
+      "source": "Gradient Flow",
+      "sourceId": "gradient-flow",
+      "sourceColor": "#7c3aed"
+    },
     {
       "title": "Debating RSI, the US-China Gap, and Jaggedness with JS Denain of Epoch AI",
       "link": "https://www.interconnects.ai/p/debating-rsi-the-us-china-gap-and",
@@ -159,15 +168,6 @@
       "link": "https://gradientflow.com/i-think-ai-teams-are-defending-the-wrong-thing/",
       "date": "2026-09-01T13:00:20+00:00",
       "desc": "Subscribe • Previous Issues Your Model Is Not Your Moat In a recent article, I wrote about companies turning their own data, workflows, and production feedback into specialized intelligence they incre",
-      "source": "Gradient Flow",
-      "sourceId": "gradient-flow",
-      "sourceColor": "#7c3aed"
-    },
-    {
-      "title": "The AI Boom’s Hidden Payment Schedule",
-      "link": "https://gradientflow.com/the-ai-booms-hidden-payment-schedule/",
-      "date": "2026-09-01T11:00:57+00:00",
-      "desc": "A recent article, “Why the AI Boom Is Hitting a Reset Wall,” makes an argument I think is more useful than the usual debate over whether AI is a bubble. The question is not whether AI demand is real. ",
       "source": "Gradient Flow",
       "sourceId": "gradient-flow",
       "sourceColor": "#7c3aed"
