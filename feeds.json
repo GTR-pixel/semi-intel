@@ -1,6 +1,15 @@
 {
-  "updated": "2026-09-23T17:37:39.394859+00:00",
+  "updated": "2026-09-23T20:55:41.752866+00:00",
   "items": [
+    {
+      "title": "Not Every AI Task Needs an LLM",
+      "link": "https://gradientflow.com/jev-unpacked/",
+      "date": "2026-09-23T18:39:16+00:00",
+      "desc": "LLMs are built to generate text, but a surprising amount of AI automation does not need text at all. It needs a small decision: Is this spam? Which team should get this ticket? How urgent is it? We ca",
+      "source": "Gradient Flow",
+      "sourceId": "gradient-flow",
+      "sourceColor": "#7c3aed"
+    },
     {
       "title": "Stale Data Used to Be Annoying",
       "link": "https://gradientflow.com/stale-data-used-to-be-annoying/",
@@ -159,15 +168,6 @@
       "link": "https://gradientflow.com/your-model-is-not-your-moat/",
       "date": "2026-09-02T12:59:09+00:00",
       "desc": "In a recent article, I wrote about companies turning their own data, workflows, and production feedback into specialized intelligence they increasingly control. The deeper idea was compounding. What m",
-      "source": "Gradient Flow",
-      "sourceId": "gradient-flow",
-      "sourceColor": "#7c3aed"
-    },
-    {
-      "title": "if everyone rents the same intelligence, what’s left?",
-      "link": "https://gradientflow.com/i-think-ai-teams-are-defending-the-wrong-thing/",
-      "date": "2026-09-01T13:00:20+00:00",
-      "desc": "Subscribe • Previous Issues Your Model Is Not Your Moat In a recent article, I wrote about companies turning their own data, workflows, and production feedback into specialized intelligence they incre",
       "source": "Gradient Flow",
       "sourceId": "gradient-flow",
       "sourceColor": "#7c3aed"
