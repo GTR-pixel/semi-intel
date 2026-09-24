@@ -1,24 +1,6 @@
 {
-  "updated": "2026-09-24T17:40:52.026207+00:00",
+  "updated": "2026-09-24T21:00:02.265997+00:00",
   "items": [
-    {
-      "title": "Not Every AI Task Needs an LLM",
-      "link": "https://gradientflow.com/jev-unpacked/",
-      "date": "2026-09-23T18:39:16+00:00",
-      "desc": "LLMs are built to generate text, but a surprising amount of AI automation does not need text at all. It needs a small decision: Is this spam? Which team should get this ticket? How urgent is it? We ca",
-      "source": "Gradient Flow",
-      "sourceId": "gradient-flow",
-      "sourceColor": "#7c3aed"
-    },
-    {
-      "title": "Stale Data Used to Be Annoying",
-      "link": "https://gradientflow.com/stale-data-used-to-be-annoying/",
-      "date": "2026-09-23T12:10:32+00:00",
-      "desc": "Imagine a procurement agent checking inventory and deciding that stock has fallen below the reorder threshold. It places another order. The problem is that a large delivery was recorded a few minutes ",
-      "source": "Gradient Flow",
-      "sourceId": "gradient-flow",
-      "sourceColor": "#7c3aed"
-    },
     {
       "title": "Debating RSI, the US-China Gap, and Jaggedness with JS Denain of Epoch AI",
       "link": "https://www.interconnects.ai/p/debating-rsi-the-us-china-gap-and",
@@ -27,15 +9,6 @@
       "source": "Interconnects",
       "sourceId": "interconnects",
       "sourceColor": "#16a34a"
-    },
-    {
-      "title": "why your data stack is about to get less forgiving",
-      "link": "https://gradientflow.com/your-ai-might-be-fine-but-your-data-is-lying-to-it/",
-      "date": "2026-09-22T13:00:25+00:00",
-      "desc": "Subscribe • Previous Issues Stale Data Used to Be Annoying Imagine a procurement agent checking inventory and deciding that stock has fallen below the reorder threshold. It places another order. The p",
-      "source": "Gradient Flow",
-      "sourceId": "gradient-flow",
-      "sourceColor": "#7c3aed"
     },
     {
       "title": "Import AI 473: The US’s superintelligence strategy; human brain in a mouse skull; and machine hermeneutics",
@@ -65,33 +38,6 @@
       "sourceColor": "#16a34a"
     },
     {
-      "title": "When Work History Becomes an AI Asset",
-      "link": "https://gradientflow.com/when-work-history-becomes-an-ai-asset/",
-      "date": "2026-09-16T13:11:40+00:00",
-      "desc": "Google recently agreed to pay $10 million for the internal business data of Spirit Airlines. The airline is bankrupt, but its emails, Teams messages, software, spreadsheets, and operating records appa",
-      "source": "Gradient Flow",
-      "sourceId": "gradient-flow",
-      "sourceColor": "#7c3aed"
-    },
-    {
-      "title": "so Google just paid $10 million for an airline’s Teams messages",
-      "link": "https://gradientflow.com/what-counts-as-valuable-company-data-is-changing/",
-      "date": "2026-09-15T13:00:45+00:00",
-      "desc": "Subscribe • Previous Issues When Work History Becomes an AI Asset Google recently agreed to pay $10 million for the internal business data of Spirit Airlines. The airline is bankrupt, but its emails, ",
-      "source": "Gradient Flow",
-      "sourceId": "gradient-flow",
-      "sourceColor": "#7c3aed"
-    },
-    {
-      "title": "Water, Noise,Power: The Real Costs of Data Centers",
-      "link": "https://gradientflow.com/ai-data-centers-water-noise-power/",
-      "date": "2026-09-14T12:54:34+00:00",
-      "desc": "I expect AI data centers to become a major issue in the 2028 presidential primaries, particularly on the Democratic side. I recently argued that the case for building more data centers and compute is ",
-      "source": "Gradient Flow",
-      "sourceId": "gradient-flow",
-      "sourceColor": "#7c3aed"
-    },
-    {
       "title": "Open-Source AI & Open Models Reading List",
       "link": "https://www.interconnects.ai/p/open-source-ai-reading-list",
       "date": "2026-09-11T12:36:25",
@@ -108,15 +54,6 @@
       "source": "Interconnects",
       "sourceId": "interconnects",
       "sourceColor": "#16a34a"
-    },
-    {
-      "title": "Self-Improvement Without the Science Fiction",
-      "link": "https://gradientflow.com/self-improvement-without-the-science-fiction/",
-      "date": "2026-09-09T12:33:42+00:00",
-      "desc": "A few weeks ago I wrote about AI systems that keep learning after deployment instead of treating every interaction as a fresh start. That prompted a few readers to ask about recursive self-improvement",
-      "source": "Gradient Flow",
-      "sourceId": "gradient-flow",
-      "sourceColor": "#7c3aed"
     },
     {
       "title": "When will average people feel AI’s impact?",
@@ -137,39 +74,12 @@
       "sourceColor": "#16a34a"
     },
     {
-      "title": "Your AI model is a rental (but the loop is an asset)",
-      "link": "https://gradientflow.com/this-is-how-self-improving-ai-actually-starts/",
-      "date": "2026-09-08T13:00:09+00:00",
-      "desc": "Subscribe • Previous Issues Self-Improvement Without the Science Fiction A few weeks ago I wrote about AI systems that keep learning after deployment instead of treating every interaction as a fresh s",
-      "source": "Gradient Flow",
-      "sourceId": "gradient-flow",
-      "sourceColor": "#7c3aed"
-    },
-    {
-      "title": "China’s AI Involution",
-      "link": "https://gradientflow.com/chinas-ai-involution/",
-      "date": "2026-09-07T12:41:25+00:00",
-      "desc": "AI has made me pay more attention to a Chinese term that has been circulating for years: involution (内卷). The basic idea is hyper-competition in which everyone has to work harder and improve constantl",
-      "source": "Gradient Flow",
-      "sourceId": "gradient-flow",
-      "sourceColor": "#7c3aed"
-    },
-    {
       "title": "Import AI 472: DeepMind’s cheating math agents; populist AI policies; and Forethought theorizes a nightwatchman",
       "link": "https://jack-clark.net/2026/09/07/import-ai-472-deepminds-cheating-math-agents-populist-ai-policies-and-forethought-theorizes-a-nightwatchman/",
       "date": "2026-09-07T12:26:31+00:00",
       "desc": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Researchers discov",
       "source": "Import AI",
       "sourceId": "import-ai",
-      "sourceColor": "#7c3aed"
-    },
-    {
-      "title": "Your Model Is Not Your Moat",
-      "link": "https://gradientflow.com/your-model-is-not-your-moat/",
-      "date": "2026-09-02T12:59:09+00:00",
-      "desc": "In a recent article, I wrote about companies turning their own data, workflows, and production feedback into specialized intelligence they increasingly control. The deeper idea was compounding. What m",
-      "source": "Gradient Flow",
-      "sourceId": "gradient-flow",
       "sourceColor": "#7c3aed"
     },
     {
