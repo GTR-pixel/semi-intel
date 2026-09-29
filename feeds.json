@@ -1,6 +1,15 @@
 {
-  "updated": "2026-09-29T12:09:13.247247+00:00",
+  "updated": "2026-09-29T18:10:19.403414+00:00",
   "items": [
+    {
+      "title": "Something changed in how AI gets fed",
+      "link": "https://gradientflow.com/your-model-is-easy-to-buy-your-data-pipeline-is-not/",
+      "date": "2026-09-29T13:00:17+00:00",
+      "desc": "Subscribe • Previous Issues The AI Data Problem Moved Downstream Last year I wrote that robotics had a data problem language models were lucky enough to avoid. Text, images, and code had accumulated f",
+      "source": "Gradient Flow",
+      "sourceId": "gradient-flow",
+      "sourceColor": "#7c3aed"
+    },
     {
       "title": "Six Reasons I Think Open AI Models Will Win",
       "link": "https://gradientflow.com/six-reasons-i-think-open-ai-models-will-win/",
@@ -159,15 +168,6 @@
       "link": "https://gradientflow.com/this-is-how-self-improving-ai-actually-starts/",
       "date": "2026-09-08T13:00:09+00:00",
       "desc": "Subscribe • Previous Issues Self-Improvement Without the Science Fiction A few weeks ago I wrote about AI systems that keep learning after deployment instead of treating every interaction as a fresh s",
-      "source": "Gradient Flow",
-      "sourceId": "gradient-flow",
-      "sourceColor": "#7c3aed"
-    },
-    {
-      "title": "China’s AI Involution",
-      "link": "https://gradientflow.com/chinas-ai-involution/",
-      "date": "2026-09-07T12:41:25+00:00",
-      "desc": "AI has made me pay more attention to a Chinese term that has been circulating for years: involution (内卷). The basic idea is hyper-competition in which everyone has to work harder and improve constantl",
       "source": "Gradient Flow",
       "sourceId": "gradient-flow",
       "sourceColor": "#7c3aed"
