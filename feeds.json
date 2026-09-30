@@ -1,6 +1,15 @@
 {
-  "updated": "2026-09-30T07:00:18.933830+00:00",
+  "updated": "2026-09-30T14:00:36.963189+00:00",
   "items": [
+    {
+      "title": "The AI Data Problem Moved Downstream",
+      "link": "https://gradientflow.com/the-ai-data-problem-moved-downstream/",
+      "date": "2026-09-30T12:57:49+00:00",
+      "desc": "Last year I wrote that robotics had a data problem language models were lucky enough to avoid. Text, images, and code had accumulated for decades before anyone decided to train models on them. Robots ",
+      "source": "Gradient Flow",
+      "sourceId": "gradient-flow",
+      "sourceColor": "#7c3aed"
+    },
     {
       "title": "Something changed in how AI gets fed",
       "link": "https://gradientflow.com/your-model-is-easy-to-buy-your-data-pipeline-is-not/",
@@ -162,15 +171,6 @@
       "source": "Interconnects",
       "sourceId": "interconnects",
       "sourceColor": "#16a34a"
-    },
-    {
-      "title": "Your AI model is a rental (but the loop is an asset)",
-      "link": "https://gradientflow.com/this-is-how-self-improving-ai-actually-starts/",
-      "date": "2026-09-08T13:00:09+00:00",
-      "desc": "Subscribe • Previous Issues Self-Improvement Without the Science Fiction A few weeks ago I wrote about AI systems that keep learning after deployment instead of treating every interaction as a fresh s",
-      "source": "Gradient Flow",
-      "sourceId": "gradient-flow",
-      "sourceColor": "#7c3aed"
     },
     {
       "title": "Import AI 472: DeepMind’s cheating math agents; populist AI policies; and Forethought theorizes a nightwatchman",
