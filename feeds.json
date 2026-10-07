@@ -1,6 +1,15 @@
 {
-  "updated": "2026-10-07T06:15:02.296771+00:00",
+  "updated": "2026-10-07T13:40:24.810245+00:00",
   "items": [
+    {
+      "title": "Eight Security Assumptions AI Agents Quietly Break",
+      "link": "https://gradientflow.com/eight-security-assumptions-ai-agents-quietly-break/",
+      "date": "2026-10-07T12:42:59+00:00",
+      "desc": "If you check Ethics.Dev regularly, you may have noticed how often AI agents and cybersecurity have been colliding lately. Some of the stories sound straight out of movies: agents escaping test environ",
+      "source": "Gradient Flow",
+      "sourceId": "gradient-flow",
+      "sourceColor": "#7c3aed"
+    },
     {
       "title": "The Cyber Risk Discourse is Broken",
       "link": "https://www.interconnects.ai/p/the-cyber-risk-discourse-is-broken",
@@ -141,15 +150,6 @@
       "link": "https://gradientflow.com/what-counts-as-valuable-company-data-is-changing/",
       "date": "2026-09-15T13:00:45+00:00",
       "desc": "Subscribe • Previous Issues When Work History Becomes an AI Asset Google recently agreed to pay $10 million for the internal business data of Spirit Airlines. The airline is bankrupt, but its emails, ",
-      "source": "Gradient Flow",
-      "sourceId": "gradient-flow",
-      "sourceColor": "#7c3aed"
-    },
-    {
-      "title": "Water, Noise,Power: The Real Costs of Data Centers",
-      "link": "https://gradientflow.com/ai-data-centers-water-noise-power/",
-      "date": "2026-09-14T12:54:34+00:00",
-      "desc": "I expect AI data centers to become a major issue in the 2028 presidential primaries, particularly on the Democratic side. I recently argued that the case for building more data centers and compute is ",
       "source": "Gradient Flow",
       "sourceId": "gradient-flow",
       "sourceColor": "#7c3aed"
