@@ -1,15 +1,6 @@
 {
-  "updated": "2026-10-07T23:57:32.585902+00:00",
+  "updated": "2026-10-08T04:45:02.133245+00:00",
   "items": [
-    {
-      "title": "Eight Security Assumptions AI Agents Quietly Break",
-      "link": "https://gradientflow.com/eight-security-assumptions-ai-agents-quietly-break/",
-      "date": "2026-10-07T12:42:59+00:00",
-      "desc": "If you check Ethics.Dev regularly, you may have noticed how often AI agents and cybersecurity have been colliding lately. Some of the stories sound straight out of movies: agents escaping test environ",
-      "source": "Gradient Flow",
-      "sourceId": "gradient-flow",
-      "sourceColor": "#7c3aed"
-    },
     {
       "title": "The Cyber Risk Discourse is Broken",
       "link": "https://www.interconnects.ai/p/the-cyber-risk-discourse-is-broken",
@@ -20,48 +11,12 @@
       "sourceColor": "#16a34a"
     },
     {
-      "title": "I keep thinking about these 17,600 attempts",
-      "link": "https://gradientflow.com/the-part-of-the-ai-security-story-i-keep-thinking-about/",
-      "date": "2026-10-06T13:00:28+00:00",
-      "desc": "Subscribe • Previous Issues Eight Security Assumptions AI Agents Quietly Break If you check Ethics.Dev regularly, you may have noticed how often AI agents and cybersecurity have been colliding lately.",
-      "source": "Gradient Flow",
-      "sourceId": "gradient-flow",
-      "sourceColor": "#7c3aed"
-    },
-    {
       "title": "Import AI 475: Swarm scaling; Google DeepMind watermarks biology; and the AI science economy",
       "link": "https://jack-clark.net/2026/10/05/import-ai-475-swarm-scaling-google-deepmind-watermarks-biology-and-the-ai-science-economy/",
       "date": "2026-10-05T12:32:30+00:00",
       "desc": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now When should you us",
       "source": "Import AI",
       "sourceId": "import-ai",
-      "sourceColor": "#7c3aed"
-    },
-    {
-      "title": "The AI Data Problem Moved Downstream",
-      "link": "https://gradientflow.com/the-ai-data-problem-moved-downstream/",
-      "date": "2026-09-30T12:57:49+00:00",
-      "desc": "Last year I wrote that robotics had a data problem language models were lucky enough to avoid. Text, images, and code had accumulated for decades before anyone decided to train models on them. Robots ",
-      "source": "Gradient Flow",
-      "sourceId": "gradient-flow",
-      "sourceColor": "#7c3aed"
-    },
-    {
-      "title": "Something changed in how AI gets fed",
-      "link": "https://gradientflow.com/your-model-is-easy-to-buy-your-data-pipeline-is-not/",
-      "date": "2026-09-29T13:00:17+00:00",
-      "desc": "Subscribe • Previous Issues The AI Data Problem Moved Downstream Last year I wrote that robotics had a data problem language models were lucky enough to avoid. Text, images, and code had accumulated f",
-      "source": "Gradient Flow",
-      "sourceId": "gradient-flow",
-      "sourceColor": "#7c3aed"
-    },
-    {
-      "title": "Six Reasons I Think Open AI Models Will Win",
-      "link": "https://gradientflow.com/six-reasons-i-think-open-ai-models-will-win/",
-      "date": "2026-09-28T13:53:52+00:00",
-      "desc": "In my conversations with developers and AI teams, I&#8217;m struck by how many are exploring moving more of their inference workloads to open models. I&#8217;ve touched on some of their reasons before",
-      "source": "Gradient Flow",
-      "sourceId": "gradient-flow",
       "sourceColor": "#7c3aed"
     },
     {
@@ -74,24 +29,6 @@
       "sourceColor": "#7c3aed"
     },
     {
-      "title": "Not Every AI Task Needs an LLM",
-      "link": "https://gradientflow.com/jev-unpacked/",
-      "date": "2026-09-23T18:39:16+00:00",
-      "desc": "LLMs are built to generate text, but a surprising amount of AI automation does not need text at all. It needs a small decision: Is this spam? Which team should get this ticket? How urgent is it? We ca",
-      "source": "Gradient Flow",
-      "sourceId": "gradient-flow",
-      "sourceColor": "#7c3aed"
-    },
-    {
-      "title": "Stale Data Used to Be Annoying",
-      "link": "https://gradientflow.com/stale-data-used-to-be-annoying/",
-      "date": "2026-09-23T12:10:32+00:00",
-      "desc": "Imagine a procurement agent checking inventory and deciding that stock has fallen below the reorder threshold. It places another order. The problem is that a large delivery was recorded a few minutes ",
-      "source": "Gradient Flow",
-      "sourceId": "gradient-flow",
-      "sourceColor": "#7c3aed"
-    },
-    {
       "title": "Debating RSI, the US-China Gap, and Jaggedness with JS Denain of Epoch AI",
       "link": "https://www.interconnects.ai/p/debating-rsi-the-us-china-gap-and",
       "date": "2026-09-22T13:37:45",
@@ -99,15 +36,6 @@
       "source": "Interconnects",
       "sourceId": "interconnects",
       "sourceColor": "#16a34a"
-    },
-    {
-      "title": "why your data stack is about to get less forgiving",
-      "link": "https://gradientflow.com/your-ai-might-be-fine-but-your-data-is-lying-to-it/",
-      "date": "2026-09-22T13:00:25+00:00",
-      "desc": "Subscribe • Previous Issues Stale Data Used to Be Annoying Imagine a procurement agent checking inventory and deciding that stock has fallen below the reorder threshold. It places another order. The p",
-      "source": "Gradient Flow",
-      "sourceId": "gradient-flow",
-      "sourceColor": "#7c3aed"
     },
     {
       "title": "Import AI 473: The US’s superintelligence strategy; human brain in a mouse skull; and machine hermeneutics",
@@ -135,24 +63,6 @@
       "source": "Interconnects",
       "sourceId": "interconnects",
       "sourceColor": "#16a34a"
-    },
-    {
-      "title": "When Work History Becomes an AI Asset",
-      "link": "https://gradientflow.com/when-work-history-becomes-an-ai-asset/",
-      "date": "2026-09-16T13:11:40+00:00",
-      "desc": "Google recently agreed to pay $10 million for the internal business data of Spirit Airlines. The airline is bankrupt, but its emails, Teams messages, software, spreadsheets, and operating records appa",
-      "source": "Gradient Flow",
-      "sourceId": "gradient-flow",
-      "sourceColor": "#7c3aed"
-    },
-    {
-      "title": "so Google just paid $10 million for an airline’s Teams messages",
-      "link": "https://gradientflow.com/what-counts-as-valuable-company-data-is-changing/",
-      "date": "2026-09-15T13:00:45+00:00",
-      "desc": "Subscribe • Previous Issues When Work History Becomes an AI Asset Google recently agreed to pay $10 million for the internal business data of Spirit Airlines. The airline is bankrupt, but its emails, ",
-      "source": "Gradient Flow",
-      "sourceId": "gradient-flow",
-      "sourceColor": "#7c3aed"
     },
     {
       "title": "Open-Source AI & Open Models Reading List",
