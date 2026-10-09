@@ -1,6 +1,15 @@
 {
-  "updated": "2026-10-09T17:15:26.346596+00:00",
+  "updated": "2026-10-09T21:47:58.411263+00:00",
   "items": [
+    {
+      "title": "I expect rapid progress but not towards general superintelligence",
+      "link": "https://www.interconnects.ai/p/i-expect-rapid-progress-but-not-towards",
+      "date": "2026-10-09T21:33:47",
+      "desc": "I&#8217;ve often been surprised when I hear from top researchers in industry that they think AI will be better than them at their job in a few years, and I didn&#8217;t really know why I doubted it.",
+      "source": "Interconnects",
+      "sourceId": "interconnects",
+      "sourceColor": "#16a34a"
+    },
     {
       "title": "Eight Security Assumptions AI Agents Quietly Break",
       "link": "https://gradientflow.com/eight-security-assumptions-ai-agents-quietly-break/",
@@ -306,15 +315,6 @@
       "source": "Import AI",
       "sourceId": "import-ai",
       "sourceColor": "#7c3aed"
-    },
-    {
-      "title": "Latest open artifacts (#23): Laguna S2.1, Inkling, & Kimi K3 show the utility of open models on the Pareto frontier",
-      "link": "https://www.interconnects.ai/p/latest-open-artifacts-23-laguna-s21",
-      "date": "2026-08-02T13:01:40",
-      "desc": "Capacity to train strong models is proliferating.",
-      "source": "Interconnects",
-      "sourceId": "interconnects",
-      "sourceColor": "#16a34a"
     },
     {
       "title": "Close but Not Quite",
