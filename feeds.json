@@ -1,6 +1,15 @@
 {
-  "updated": "2026-10-13T07:15:45.436147+00:00",
+  "updated": "2026-10-13T15:10:41.361397+00:00",
   "items": [
+    {
+      "title": "The local AI question I had backwards",
+      "link": "https://gradientflow.com/the-local-ai-question-i-had-backwards/",
+      "date": "2026-10-13T13:00:24+00:00",
+      "desc": "Subscribe • Previous Issues Local AI Is a Routing Problem, Not a Privacy Feature I’ve had a longstanding interest in local AI for a simple reason. I would rather not send proprietary code, unpublished",
+      "source": "Gradient Flow",
+      "sourceId": "gradient-flow",
+      "sourceColor": "#7c3aed"
+    },
     {
       "title": "Import AI 476: Creativity and RSI; worse-than-China open weight models; AI goes to space",
       "link": "https://jack-clark.net/2026/10/12/import-ai-476-creativity-and-rsi-worse-than-china-open-weight-models-ai-goes-to-space/",
@@ -159,15 +168,6 @@
       "link": "https://gradientflow.com/when-work-history-becomes-an-ai-asset/",
       "date": "2026-09-16T13:11:40+00:00",
       "desc": "Google recently agreed to pay $10 million for the internal business data of Spirit Airlines. The airline is bankrupt, but its emails, Teams messages, software, spreadsheets, and operating records appa",
-      "source": "Gradient Flow",
-      "sourceId": "gradient-flow",
-      "sourceColor": "#7c3aed"
-    },
-    {
-      "title": "so Google just paid $10 million for an airline’s Teams messages",
-      "link": "https://gradientflow.com/what-counts-as-valuable-company-data-is-changing/",
-      "date": "2026-09-15T13:00:45+00:00",
-      "desc": "Subscribe • Previous Issues When Work History Becomes an AI Asset Google recently agreed to pay $10 million for the internal business data of Spirit Airlines. The airline is bankrupt, but its emails, ",
       "source": "Gradient Flow",
       "sourceId": "gradient-flow",
       "sourceColor": "#7c3aed"
