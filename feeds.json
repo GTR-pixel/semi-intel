@@ -1,6 +1,15 @@
 {
-  "updated": "2026-10-14T10:23:32.379655+00:00",
+  "updated": "2026-10-14T15:17:33.089783+00:00",
   "items": [
+    {
+      "title": "Local AI Is a Routing Problem, Not a Privacy Feature",
+      "link": "https://gradientflow.com/local-ai-is-a-routing-problem-not-a-privacy-feature/",
+      "date": "2026-10-14T12:53:20+00:00",
+      "desc": "I’ve had a longstanding interest in local AI for a simple reason. I would rather not send proprietary code, unpublished plans, or knowledge about how a business operates to an outside model provider w",
+      "source": "Gradient Flow",
+      "sourceId": "gradient-flow",
+      "sourceColor": "#7c3aed"
+    },
     {
       "title": "The local AI question I had backwards",
       "link": "https://gradientflow.com/the-local-ai-question-i-had-backwards/",
@@ -162,15 +171,6 @@
       "source": "Interconnects",
       "sourceId": "interconnects",
       "sourceColor": "#16a34a"
-    },
-    {
-      "title": "When Work History Becomes an AI Asset",
-      "link": "https://gradientflow.com/when-work-history-becomes-an-ai-asset/",
-      "date": "2026-09-16T13:11:40+00:00",
-      "desc": "Google recently agreed to pay $10 million for the internal business data of Spirit Airlines. The airline is bankrupt, but its emails, Teams messages, software, spreadsheets, and operating records appa",
-      "source": "Gradient Flow",
-      "sourceId": "gradient-flow",
-      "sourceColor": "#7c3aed"
     },
     {
       "title": "Open-Source AI & Open Models Reading List",
