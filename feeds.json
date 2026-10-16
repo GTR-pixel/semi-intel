@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-15T22:52:23.975381+00:00",
+  "updated": "2026-10-16T00:55:13.172026+00:00",
   "items": [
     {
       "title": "Local AI Is a Routing Problem, Not a Privacy Feature",
@@ -14,7 +14,7 @@
       "title": "The local AI question I had backwards",
       "link": "https://gradientflow.com/the-local-ai-question-i-had-backwards/",
       "date": "2026-10-13T13:00:24+00:00",
-      "desc": "Subscribe • Previous Issues Local AI Is a Routing Problem, Not a Privacy Feature I’ve had a longstanding interest in local AI for a simple reason. I would rather not send proprietary code, unpublished",
+      "desc": "Local AI Is a Routing Problem, Not a Privacy Feature I’ve had a longstanding interest in local AI for a simple reason. I would rather not send proprietary code, unpublished plans, or knowledge about h",
       "source": "Gradient Flow",
       "sourceId": "gradient-flow",
       "sourceColor": "#7c3aed"
@@ -59,7 +59,7 @@
       "title": "I keep thinking about these 17,600 attempts",
       "link": "https://gradientflow.com/the-part-of-the-ai-security-story-i-keep-thinking-about/",
       "date": "2026-10-06T13:00:28+00:00",
-      "desc": "Subscribe • Previous Issues Eight Security Assumptions AI Agents Quietly Break If you check Ethics.Dev regularly, you may have noticed how often AI agents and cybersecurity have been colliding lately.",
+      "desc": "Eight Security Assumptions AI Agents Quietly Break If you check Ethics.Dev regularly, you may have noticed how often AI agents and cybersecurity have been colliding lately. Some of the stories sound s",
       "source": "Gradient Flow",
       "sourceId": "gradient-flow",
       "sourceColor": "#7c3aed"
@@ -86,7 +86,7 @@
       "title": "Something changed in how AI gets fed",
       "link": "https://gradientflow.com/your-model-is-easy-to-buy-your-data-pipeline-is-not/",
       "date": "2026-09-29T13:00:17+00:00",
-      "desc": "Subscribe • Previous Issues The AI Data Problem Moved Downstream Last year I wrote that robotics had a data problem language models were lucky enough to avoid. Text, images, and code had accumulated f",
+      "desc": "The AI Data Problem Moved Downstream Last year I wrote that robotics had a data problem language models were lucky enough to avoid. Text, images, and code had accumulated for decades before anyone dec",
       "source": "Gradient Flow",
       "sourceId": "gradient-flow",
       "sourceColor": "#7c3aed"
@@ -140,7 +140,7 @@
       "title": "why your data stack is about to get less forgiving",
       "link": "https://gradientflow.com/your-ai-might-be-fine-but-your-data-is-lying-to-it/",
       "date": "2026-09-22T13:00:25+00:00",
-      "desc": "Subscribe • Previous Issues Stale Data Used to Be Annoying Imagine a procurement agent checking inventory and deciding that stock has fallen below the reorder threshold. It places another order. The p",
+      "desc": "Stale Data Used to Be Annoying Imagine a procurement agent checking inventory and deciding that stock has fallen below the reorder threshold. It places another order. The problem is that a large deliv",
       "source": "Gradient Flow",
       "sourceId": "gradient-flow",
       "sourceColor": "#7c3aed"
