@@ -1,6 +1,15 @@
 {
-  "updated": "2026-10-17T12:41:17.547939+00:00",
+  "updated": "2026-10-17T16:03:26.074943+00:00",
   "items": [
+    {
+      "title": "Meta shakes up the frontiers, open and closed",
+      "link": "https://www.interconnects.ai/p/meta-shakes-up-the-frontiers-open",
+      "date": "2026-10-17T14:06:54",
+      "desc": "US open weights are back!",
+      "source": "Interconnects",
+      "sourceId": "interconnects",
+      "sourceColor": "#16a34a"
+    },
     {
       "title": "Local AI Is a Routing Problem, Not a Privacy Feature",
       "link": "https://gradientflow.com/local-ai-is-a-routing-problem-not-a-privacy-feature/",
@@ -303,15 +312,6 @@
       "link": "https://www.interconnects.ai/p/lessons-from-the-hacks",
       "date": "2026-08-09T14:57:11",
       "desc": "Musings on model alignment, what determines safety, and where we go from here.",
-      "source": "Interconnects",
-      "sourceId": "interconnects",
-      "sourceColor": "#16a34a"
-    },
-    {
-      "title": "Introducing our Artifacts Hub and Adoption Dashboard",
-      "link": "https://www.interconnects.ai/p/introducing-our-artifacts-hub-and",
-      "date": "2026-08-03T14:03:08",
-      "desc": "Scaling our curation and measurement of the open ecosystem.",
       "source": "Interconnects",
       "sourceId": "interconnects",
       "sourceColor": "#16a34a"
