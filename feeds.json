@@ -1,6 +1,15 @@
 {
-  "updated": "2026-10-20T10:45:44.370509+00:00",
+  "updated": "2026-10-20T15:30:35.117361+00:00",
   "items": [
+    {
+      "title": "What I learned from companies training their own models",
+      "link": "https://gradientflow.com/are-you-building-a-model-or-a-model-factory/",
+      "date": "2026-10-20T13:00:43+00:00",
+      "desc": "The Model Factory Matters More Than the Model A couple of months ago, I wrote about the growing post-training stack that lets teams turn general-purpose models into something better suited to their ow",
+      "source": "Gradient Flow",
+      "sourceId": "gradient-flow",
+      "sourceColor": "#7c3aed"
+    },
     {
       "title": "Import AI 477: In which I tell the IMF the Singularity has begun",
       "link": "https://jack-clark.net/2026/10/19/import-ai-477-in-which-i-tell-the-imf-the-singularity-has-begun/",
@@ -153,15 +162,6 @@
       "source": "Interconnects",
       "sourceId": "interconnects",
       "sourceColor": "#16a34a"
-    },
-    {
-      "title": "why your data stack is about to get less forgiving",
-      "link": "https://gradientflow.com/your-ai-might-be-fine-but-your-data-is-lying-to-it/",
-      "date": "2026-09-22T13:00:25+00:00",
-      "desc": "Stale Data Used to Be Annoying Imagine a procurement agent checking inventory and deciding that stock has fallen below the reorder threshold. It places another order. The problem is that a large deliv",
-      "source": "Gradient Flow",
-      "sourceId": "gradient-flow",
-      "sourceColor": "#7c3aed"
     },
     {
       "title": "Import AI 473: The US’s superintelligence strategy; human brain in a mouse skull; and machine hermeneutics",
