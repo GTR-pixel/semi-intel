@@ -1,6 +1,15 @@
 {
-  "updated": "2026-10-20T15:30:35.117361+00:00",
+  "updated": "2026-10-20T19:46:19.900031+00:00",
   "items": [
+    {
+      "title": "Latest open artifacts (#25): DeepSeek V4.1 Flash 1017, American-made models, and new regulatory controls in the US & China",
+      "link": "https://www.interconnects.ai/p/latest-open-artifacts-25-deepseek",
+      "date": "2026-10-20T17:04:21",
+      "desc": "Western open models strike back",
+      "source": "Interconnects",
+      "sourceId": "interconnects",
+      "sourceColor": "#16a34a"
+    },
     {
       "title": "What I learned from companies training their own models",
       "link": "https://gradientflow.com/are-you-building-a-model-or-a-model-factory/",
@@ -315,15 +324,6 @@
       "source": "Import AI",
       "sourceId": "import-ai",
       "sourceColor": "#7c3aed"
-    },
-    {
-      "title": "Lessons from the hacks",
-      "link": "https://www.interconnects.ai/p/lessons-from-the-hacks",
-      "date": "2026-08-09T14:57:11",
-      "desc": "Musings on model alignment, what determines safety, and where we go from here.",
-      "source": "Interconnects",
-      "sourceId": "interconnects",
-      "sourceColor": "#16a34a"
     },
     {
       "title": "Close but Not Quite",
