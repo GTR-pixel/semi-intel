@@ -1,6 +1,15 @@
 {
-  "updated": "2026-10-21T12:08:20.988383+00:00",
+  "updated": "2026-10-21T17:28:41.339849+00:00",
   "items": [
+    {
+      "title": "The Model Factory Matters More Than the Model",
+      "link": "https://gradientflow.com/the-model-factory-matters-more-than-the-model/",
+      "date": "2026-10-21T12:48:55+00:00",
+      "desc": "A couple of months ago, I wrote about the growing post-training stack that lets teams turn general-purpose models into something better suited to their own work. I recently spoke with Joel Hron, CTO o",
+      "source": "Gradient Flow",
+      "sourceId": "gradient-flow",
+      "sourceColor": "#7c3aed"
+    },
     {
       "title": "Latest open artifacts (#25): DeepSeek V4.1 Flash 1017, American-made models, and new regulatory controls in the US & China",
       "link": "https://www.interconnects.ai/p/latest-open-artifacts-25-deepseek",
@@ -150,15 +159,6 @@
       "link": "https://gradientflow.com/jev-unpacked/",
       "date": "2026-09-23T18:39:16+00:00",
       "desc": "LLMs are built to generate text, but a surprising amount of AI automation does not need text at all. It needs a small decision: Is this spam? Which team should get this ticket? How urgent is it? We ca",
-      "source": "Gradient Flow",
-      "sourceId": "gradient-flow",
-      "sourceColor": "#7c3aed"
-    },
-    {
-      "title": "Stale Data Used to Be Annoying",
-      "link": "https://gradientflow.com/stale-data-used-to-be-annoying/",
-      "date": "2026-09-23T12:10:32+00:00",
-      "desc": "Imagine a procurement agent checking inventory and deciding that stock has fallen below the reorder threshold. It places another order. The problem is that a large delivery was recorded a few minutes ",
       "source": "Gradient Flow",
       "sourceId": "gradient-flow",
       "sourceColor": "#7c3aed"
