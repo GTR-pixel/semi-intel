@@ -1,6 +1,15 @@
 {
-  "updated": "2026-10-25T09:58:18.056126+00:00",
+  "updated": "2026-10-25T14:08:15.131625+00:00",
   "items": [
+    {
+      "title": "Podcast: Kimi K3.1 Pro, the new cyber reality, and Muse musings",
+      "link": "https://www.interconnects.ai/p/podcast-kimi-k31-pro-the-new-cyber",
+      "date": "2026-10-25T11:49:00",
+      "desc": "#20",
+      "source": "Interconnects",
+      "sourceId": "interconnects",
+      "sourceColor": "#16a34a"
+    },
     {
       "title": "The Model Factory Matters More Than the Model",
       "link": "https://gradientflow.com/the-model-factory-matters-more-than-the-model/",
@@ -303,15 +312,6 @@
       "link": "https://www.interconnects.ai/p/i-wrote-an-ai-textbook-how-long-until",
       "date": "2026-08-12T13:01:16",
       "desc": "Reflections on AI's writing ability and how AI models get more capable.",
-      "source": "Interconnects",
-      "sourceId": "interconnects",
-      "sourceColor": "#16a34a"
-    },
-    {
-      "title": "5 useful things you'll learn in my new post-training textbook (shipping now!)",
-      "link": "https://www.interconnects.ai/p/5-useful-things-youll-learn-in-my",
-      "date": "2026-08-10T13:02:42",
-      "desc": "After a few long years of finding time to document my lessons from training open models, my post-training book is done!",
       "source": "Interconnects",
       "sourceId": "interconnects",
       "sourceColor": "#16a34a"
