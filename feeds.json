@@ -1,8 +1,17 @@
 {
-  "updated": "2026-10-27T13:26:43.710657+00:00",
+  "updated": "2026-10-27T18:49:28.594519+00:00",
   "items": [
     {
-      "title": "This robotics result surprised me.",
+      "title": "Anthropic’s IPO: The Business Is Real. The Hard Part Comes Next",
+      "link": "https://gradientflow.com/anthropic-ipo/",
+      "date": "2026-10-27T18:25:01+00:00",
+      "desc": "If you had asked me a year ago which frontier AI lab would go public first, I would have said OpenAI. Instead, Anthropic has filed for one of the most anticipated technology IPOs in years. The numbers",
+      "source": "Gradient Flow",
+      "sourceId": "gradient-flow",
+      "sourceColor": "#7c3aed"
+    },
+    {
+      "title": "I changed my mind about world models",
       "link": "https://gradientflow.com/this-robotics-result-surprised-me/",
       "date": "2026-10-27T13:00:25+00:00",
       "desc": "What If AI Builds the Robot Instead of Controlling It? Last year I wrote about robotics moving from bespoke machines toward reusable foundation models, essentially an attempt to build a general-purpos",
@@ -159,15 +168,6 @@
       "link": "https://gradientflow.com/the-ai-data-problem-moved-downstream/",
       "date": "2026-09-30T12:57:49+00:00",
       "desc": "Last year I wrote that robotics had a data problem language models were lucky enough to avoid. Text, images, and code had accumulated for decades before anyone decided to train models on them. Robots ",
-      "source": "Gradient Flow",
-      "sourceId": "gradient-flow",
-      "sourceColor": "#7c3aed"
-    },
-    {
-      "title": "Something changed in how AI gets fed",
-      "link": "https://gradientflow.com/your-model-is-easy-to-buy-your-data-pipeline-is-not/",
-      "date": "2026-09-29T13:00:17+00:00",
-      "desc": "The AI Data Problem Moved Downstream Last year I wrote that robotics had a data problem language models were lucky enough to avoid. Text, images, and code had accumulated for decades before anyone dec",
       "source": "Gradient Flow",
       "sourceId": "gradient-flow",
       "sourceColor": "#7c3aed"
