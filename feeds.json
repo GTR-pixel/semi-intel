@@ -1,6 +1,24 @@
 {
-  "updated": "2026-10-28T07:55:45.833485+00:00",
+  "updated": "2026-10-28T14:46:59.190344+00:00",
   "items": [
+    {
+      "title": "What If AI Builds the Robot Instead of Controlling It?",
+      "link": "https://gradientflow.com/what-if-ai-builds-the-robot-instead-of-controlling-it/",
+      "date": "2026-10-28T13:10:48+00:00",
+      "desc": "Last year I wrote about robotics moving from bespoke machines toward reusable foundation models, essentially an attempt to build a general-purpose robot brain. More recently, I argued that models are ",
+      "source": "Gradient Flow",
+      "sourceId": "gradient-flow",
+      "sourceColor": "#7c3aed"
+    },
+    {
+      "title": "Artificial Analysis v5 and the benchmarker's dilemma",
+      "link": "https://www.interconnects.ai/p/artificial-analysis-v5-and-the-benchmarkers",
+      "date": "2026-10-28T12:58:39",
+      "desc": "A sort of review of the benchmarking industry and what's missing.",
+      "source": "Interconnects",
+      "sourceId": "interconnects",
+      "sourceColor": "#16a34a"
+    },
     {
       "title": "Anthropic’s IPO: The Business Is Real. The Hard Part Comes Next",
       "link": "https://gradientflow.com/anthropic-ipo/",
@@ -164,15 +182,6 @@
       "sourceColor": "#7c3aed"
     },
     {
-      "title": "The AI Data Problem Moved Downstream",
-      "link": "https://gradientflow.com/the-ai-data-problem-moved-downstream/",
-      "date": "2026-09-30T12:57:49+00:00",
-      "desc": "Last year I wrote that robotics had a data problem language models were lucky enough to avoid. Text, images, and code had accumulated for decades before anyone decided to train models on them. Robots ",
-      "source": "Gradient Flow",
-      "sourceId": "gradient-flow",
-      "sourceColor": "#7c3aed"
-    },
-    {
       "title": "Import AI 474: Platonic mindspace; TPUs in space; Zhipu starts an outer RSI loop",
       "link": "https://jack-clark.net/2026/09/28/import-ai-474-platonic-mindspace-tpus-in-space-zhipu-starts-an-outer-rsi-loop/",
       "date": "2026-09-28T12:32:03+00:00",
@@ -315,15 +324,6 @@
       "source": "Fabricated Knowledge",
       "sourceId": "fab-know",
       "sourceColor": "#2563eb"
-    },
-    {
-      "title": "I wrote an AI textbook — how long until AI can do it better?",
-      "link": "https://www.interconnects.ai/p/i-wrote-an-ai-textbook-how-long-until",
-      "date": "2026-08-12T13:01:16",
-      "desc": "Reflections on AI's writing ability and how AI models get more capable.",
-      "source": "Interconnects",
-      "sourceId": "interconnects",
-      "sourceColor": "#16a34a"
     },
     {
       "title": "Close but Not Quite",
