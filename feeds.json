@@ -1,6 +1,15 @@
 {
-  "updated": "2026-10-30T16:06:21.020113+00:00",
+  "updated": "2026-10-30T20:56:34.761117+00:00",
   "items": [
+    {
+      "title": "Was I wrong about open models & cyber risks?",
+      "link": "https://www.interconnects.ai/p/was-i-wrong-about-open-models-and",
+      "date": "2026-10-30T17:36:56",
+      "desc": "Last week coined the term &#8220;Black October&#8220; after an onslaught of critical vulnerability disclosures, including PHP2Shell and GitLab, signified the moment when the cyber risks of AI models s",
+      "source": "Interconnects",
+      "sourceId": "interconnects",
+      "sourceColor": "#16a34a"
+    },
     {
       "title": "What If AI Builds the Robot Instead of Controlling It?",
       "link": "https://gradientflow.com/what-if-ai-builds-the-robot-instead-of-controlling-it/",
@@ -306,15 +315,6 @@
       "source": "Import AI",
       "sourceId": "import-ai",
       "sourceColor": "#7c3aed"
-    },
-    {
-      "title": "GLM-5.3: How Chinese labs keep stride with the frontier",
-      "link": "https://www.interconnects.ai/p/glm-53-how-chinese-labs-keep-stride",
-      "date": "2026-08-14T21:23:35",
-      "desc": "Hint: It&#8217;s really not a distillation story.",
-      "source": "Interconnects",
-      "sourceId": "interconnects",
-      "sourceColor": "#16a34a"
     },
     {
       "title": "The Cost of Time and AI Timelines",
