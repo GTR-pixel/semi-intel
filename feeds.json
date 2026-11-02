@@ -1,6 +1,24 @@
 {
-  "updated": "2026-11-02T07:05:30.685755+00:00",
+  "updated": "2026-11-02T17:16:53.520183+00:00",
   "items": [
+    {
+      "title": "Import AI 479: Spacewar; low-latency tasks versus LLMs; Genie 4",
+      "link": "https://jack-clark.net/2026/11/02/import-ai-479-spacewar-low-latency-tasks-versus-llms-genie-4/",
+      "date": "2026-11-02T14:30:54+00:00",
+      "desc": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now LLMs are very bad ",
+      "source": "Import AI",
+      "sourceId": "import-ai",
+      "sourceColor": "#7c3aed"
+    },
+    {
+      "title": "Previewing the Debate Over Frontier AI Regulation",
+      "link": "https://gradientflow.com/proposals-to-regulate-frontier-ai-labs/",
+      "date": "2026-11-02T13:00:11+00:00",
+      "desc": "If Democrats take control of at least one chamber of Congress and pick up a few governorships in the midterms, proposals to regulate frontier AI labs could get a more serious hearing. So I wanted to l",
+      "source": "Gradient Flow",
+      "sourceId": "gradient-flow",
+      "sourceColor": "#7c3aed"
+    },
     {
       "title": "Was I wrong about open models & cyber risks?",
       "link": "https://www.interconnects.ai/p/was-i-wrong-about-open-models-and",
@@ -173,15 +191,6 @@
       "sourceColor": "#16a34a"
     },
     {
-      "title": "I keep thinking about these 17,600 attempts",
-      "link": "https://gradientflow.com/the-part-of-the-ai-security-story-i-keep-thinking-about/",
-      "date": "2026-10-06T13:00:28+00:00",
-      "desc": "Eight Security Assumptions AI Agents Quietly Break If you check Ethics.Dev regularly, you may have noticed how often AI agents and cybersecurity have been colliding lately. Some of the stories sound s",
-      "source": "Gradient Flow",
-      "sourceId": "gradient-flow",
-      "sourceColor": "#7c3aed"
-    },
-    {
       "title": "Import AI 475: Swarm scaling; Google DeepMind watermarks biology; and the AI science economy",
       "link": "https://jack-clark.net/2026/10/05/import-ai-475-swarm-scaling-google-deepmind-watermarks-biology-and-the-ai-science-economy/",
       "date": "2026-10-05T12:32:30+00:00",
@@ -306,15 +315,6 @@
       "source": "Interconnects",
       "sourceId": "interconnects",
       "sourceColor": "#16a34a"
-    },
-    {
-      "title": "Import AI 469: Science AI; RSI simulator; and Zuck’s technological pessimism",
-      "link": "https://jack-clark.net/2026/08/17/import-ai-469-science-ai-rsi-simulator-and-zucks-technological-pessimism/",
-      "date": "2026-08-17T13:05:36+00:00",
-      "desc": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now DiG-bench shows th",
-      "source": "Import AI",
-      "sourceId": "import-ai",
-      "sourceColor": "#7c3aed"
     },
     {
       "title": "The Cost of Time and AI Timelines",
