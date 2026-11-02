@@ -1,11 +1,11 @@
 {
-  "updated": "2026-11-01T21:00:10.658393+00:00",
+  "updated": "2026-11-02T00:55:40.366256+00:00",
   "items": [
     {
       "title": "Was I wrong about open models & cyber risks?",
       "link": "https://www.interconnects.ai/p/was-i-wrong-about-open-models-and",
       "date": "2026-10-30T17:36:56",
-      "desc": "Last week coined the term &#8220;Black October&#8220; after an onslaught of critical vulnerability disclosures, including PHP2Shell and GitLab, signified the moment when the cyber risks of AI models s",
+      "desc": "Last week coined the term &#8220;Black October&#8220; after an onslaught of critical vulnerability disclosures, including PHP2Shell and a long-standing GitLab bug, signified the moment when the cyber ",
       "source": "Interconnects",
       "sourceId": "interconnects",
       "sourceColor": "#16a34a"
