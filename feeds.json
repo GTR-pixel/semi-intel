@@ -1,6 +1,15 @@
 {
-  "updated": "2026-11-03T12:55:25.986923+00:00",
+  "updated": "2026-11-03T19:55:14.877608+00:00",
   "items": [
+    {
+      "title": "One question I’d ask every team building agents",
+      "link": "https://gradientflow.com/an-agent-passed-every-test-and-still-failed/",
+      "date": "2026-11-03T14:00:22+00:00",
+      "desc": "Your AI Passed the Test. Did It Do the Job? At the recent AI Conference, Ion Stoica described a coding agent that made a key-value store, a simple database, roughly six times faster. It passed the tes",
+      "source": "Gradient Flow",
+      "sourceId": "gradient-flow",
+      "sourceColor": "#7c3aed"
+    },
     {
       "title": "Import AI 479: Spacewar; low-latency tasks versus LLMs; Genie 4",
       "link": "https://jack-clark.net/2026/11/02/import-ai-479-spacewar-low-latency-tasks-versus-llms-genie-4/",
@@ -171,15 +180,6 @@
       "source": "Interconnects",
       "sourceId": "interconnects",
       "sourceColor": "#16a34a"
-    },
-    {
-      "title": "Eight Security Assumptions AI Agents Quietly Break",
-      "link": "https://gradientflow.com/eight-security-assumptions-ai-agents-quietly-break/",
-      "date": "2026-10-07T12:42:59+00:00",
-      "desc": "If you check Ethics.Dev regularly, you may have noticed how often AI agents and cybersecurity have been colliding lately. Some of the stories sound straight out of movies: agents escaping test environ",
-      "source": "Gradient Flow",
-      "sourceId": "gradient-flow",
-      "sourceColor": "#7c3aed"
     },
     {
       "title": "The Cyber Risk Discourse is Broken",
