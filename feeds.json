@@ -1,6 +1,15 @@
 {
-  "updated": "2026-11-06T18:09:56.825454+00:00",
+  "updated": "2026-11-06T23:20:57.077171+00:00",
   "items": [
+    {
+      "title": "AI Is Speeding Up the Teams Building AI",
+      "link": "https://gradientflow.com/metr-anthropic-2026/",
+      "date": "2026-11-06T12:00:47+00:00",
+      "desc": "Between August and October 2026, a small team from METR spent 11 weeks examining whether AI was accelerating research and development at Anthropic. They reviewed internal performance data for released",
+      "source": "Gradient Flow",
+      "sourceId": "gradient-flow",
+      "sourceColor": "#7c3aed"
+    },
     {
       "title": "How big is the open model economy today?",
       "link": "https://www.interconnects.ai/p/how-well-can-we-measure-open-model",
@@ -11,12 +20,39 @@
       "sourceColor": "#16a34a"
     },
     {
+      "title": "Your AI Passed the Test. Did It Do the Job?",
+      "link": "https://gradientflow.com/your-ai-passed-the-test-did-it-do-the-job/",
+      "date": "2026-11-04T13:30:22+00:00",
+      "desc": "At the recent AI Conference, Ion Stoica described a coding agent that made a key-value store, a simple database, roughly six times faster. It passed the tests, but there was a catch: the agent had sto",
+      "source": "Gradient Flow",
+      "sourceId": "gradient-flow",
+      "sourceColor": "#7c3aed"
+    },
+    {
+      "title": "One question I’d ask every team building agents",
+      "link": "https://gradientflow.com/an-agent-passed-every-test-and-still-failed/",
+      "date": "2026-11-03T14:00:22+00:00",
+      "desc": "Your AI Passed the Test. Did It Do the Job? At the recent AI Conference, Ion Stoica described a coding agent that made a key-value store, a simple database, roughly six times faster. It passed the tes",
+      "source": "Gradient Flow",
+      "sourceId": "gradient-flow",
+      "sourceColor": "#7c3aed"
+    },
+    {
       "title": "Import AI 479: Spacewar; low-latency tasks versus LLMs; Genie 4",
       "link": "https://jack-clark.net/2026/11/02/import-ai-479-spacewar-low-latency-tasks-versus-llms-genie-4/",
       "date": "2026-11-02T14:30:54+00:00",
       "desc": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now LLMs are very bad ",
       "source": "Import AI",
       "sourceId": "import-ai",
+      "sourceColor": "#7c3aed"
+    },
+    {
+      "title": "Previewing the Debate Over Frontier AI Regulation",
+      "link": "https://gradientflow.com/proposals-to-regulate-frontier-ai-labs/",
+      "date": "2026-11-02T13:00:11+00:00",
+      "desc": "If Democrats take control of at least one chamber of Congress and pick up a few governorships in the midterms, proposals to regulate frontier AI labs could get a more serious hearing. So I wanted to l",
+      "source": "Gradient Flow",
+      "sourceId": "gradient-flow",
       "sourceColor": "#7c3aed"
     },
     {
@@ -29,6 +65,15 @@
       "sourceColor": "#16a34a"
     },
     {
+      "title": "What If AI Builds the Robot Instead of Controlling It?",
+      "link": "https://gradientflow.com/what-if-ai-builds-the-robot-instead-of-controlling-it/",
+      "date": "2026-10-28T13:10:48+00:00",
+      "desc": "Last year I wrote about robotics moving from bespoke machines toward reusable foundation models, essentially an attempt to build a general-purpose robot brain. More recently, I argued that models are ",
+      "source": "Gradient Flow",
+      "sourceId": "gradient-flow",
+      "sourceColor": "#7c3aed"
+    },
+    {
       "title": "Artificial Analysis v5 and the benchmarker's dilemma",
       "link": "https://www.interconnects.ai/p/artificial-analysis-v5-and-the-benchmarkers",
       "date": "2026-10-28T12:58:39",
@@ -36,6 +81,33 @@
       "source": "Interconnects",
       "sourceId": "interconnects",
       "sourceColor": "#16a34a"
+    },
+    {
+      "title": "Anthropic’s IPO: The Business Is Real. The Hard Part Comes Next",
+      "link": "https://gradientflow.com/anthropic-ipo/",
+      "date": "2026-10-27T18:25:01+00:00",
+      "desc": "If you had asked me a year ago which frontier AI lab would go public first, I would have said OpenAI. Instead, Anthropic has filed for one of the most anticipated technology IPOs in years. The numbers",
+      "source": "Gradient Flow",
+      "sourceId": "gradient-flow",
+      "sourceColor": "#7c3aed"
+    },
+    {
+      "title": "I changed my mind about world models",
+      "link": "https://gradientflow.com/this-robotics-result-surprised-me/",
+      "date": "2026-10-27T13:00:25+00:00",
+      "desc": "What If AI Builds the Robot Instead of Controlling It? Last year I wrote about robotics moving from bespoke machines toward reusable foundation models, essentially an attempt to build a general-purpos",
+      "source": "Gradient Flow",
+      "sourceId": "gradient-flow",
+      "sourceColor": "#7c3aed"
+    },
+    {
+      "title": "China’s Export Strength Is Only Half the Story",
+      "link": "https://gradientflow.com/broken-china-logan-wright/",
+      "date": "2026-10-27T11:00:31+00:00",
+      "desc": "Most media coverage of China focuses on its export and manufacturing prowess. Yet when I talk with visitors and friends just back from the country, what they most want to discuss is the bleak job mark",
+      "source": "Gradient Flow",
+      "sourceId": "gradient-flow",
+      "sourceColor": "#7c3aed"
     },
     {
       "title": "Import AI 478: Math for alignment; ProgramBench; and Mirendil shows what RSI means",
@@ -56,6 +128,15 @@
       "sourceColor": "#16a34a"
     },
     {
+      "title": "The Model Factory Matters More Than the Model",
+      "link": "https://gradientflow.com/the-model-factory-matters-more-than-the-model/",
+      "date": "2026-10-21T12:48:55+00:00",
+      "desc": "A couple of months ago, I wrote about the growing post-training stack that lets teams turn general-purpose models into something better suited to their own work. I recently spoke with Joel Hron, CTO o",
+      "source": "Gradient Flow",
+      "sourceId": "gradient-flow",
+      "sourceColor": "#7c3aed"
+    },
+    {
       "title": "Latest open artifacts (#25): DeepSeek V4.1 Flash 1017, American-made models, and new regulatory controls in the US & China",
       "link": "https://www.interconnects.ai/p/latest-open-artifacts-25-deepseek",
       "date": "2026-10-20T17:04:21",
@@ -63,6 +144,15 @@
       "source": "Interconnects",
       "sourceId": "interconnects",
       "sourceColor": "#16a34a"
+    },
+    {
+      "title": "What I learned from companies training their own models",
+      "link": "https://gradientflow.com/are-you-building-a-model-or-a-model-factory/",
+      "date": "2026-10-20T13:00:43+00:00",
+      "desc": "The Model Factory Matters More Than the Model A couple of months ago, I wrote about the growing post-training stack that lets teams turn general-purpose models into something better suited to their ow",
+      "source": "Gradient Flow",
+      "sourceId": "gradient-flow",
+      "sourceColor": "#7c3aed"
     },
     {
       "title": "Import AI 477: In which I tell the IMF the Singularity has begun",
