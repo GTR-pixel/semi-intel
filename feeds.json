@@ -1,6 +1,15 @@
 {
-  "updated": "2026-11-10T07:55:48.071750+00:00",
+  "updated": "2026-11-10T16:00:11.973239+00:00",
   "items": [
+    {
+      "title": "Maybe we’ve been thinking about verification backwards",
+      "link": "https://gradientflow.com/what-if-coding-agents-could-take-bigger-risks/",
+      "date": "2026-11-10T14:00:15+00:00",
+      "desc": "Proofs Could Make AI Coding Faster, Not Slower Last week I wrote about a coding agent that made a database six times faster by quietly abandoning the requirement to store data. It passed the tests, bu",
+      "source": "Gradient Flow",
+      "sourceId": "gradient-flow",
+      "sourceColor": "#7c3aed"
+    },
     {
       "title": "Import AI 480: Self-sustaining space economies; AI for science progress, and Meta builds perfect hands for a superintelligence",
       "link": "https://jack-clark.net/2026/11/09/import-ai-480-self-sustaining-space-economies-ai-for-science-progress-and-meta-builds-perfect-hands-for-a-superintelligence/",
@@ -153,15 +162,6 @@
       "source": "Interconnects",
       "sourceId": "interconnects",
       "sourceColor": "#16a34a"
-    },
-    {
-      "title": "What I learned from companies training their own models",
-      "link": "https://gradientflow.com/are-you-building-a-model-or-a-model-factory/",
-      "date": "2026-10-20T13:00:43+00:00",
-      "desc": "The Model Factory Matters More Than the Model A couple of months ago, I wrote about the growing post-training stack that lets teams turn general-purpose models into something better suited to their ow",
-      "source": "Gradient Flow",
-      "sourceId": "gradient-flow",
-      "sourceColor": "#7c3aed"
     },
     {
       "title": "Import AI 477: In which I tell the IMF the Singularity has begun",
