@@ -1,6 +1,15 @@
 {
-  "updated": "2026-11-11T08:42:09.605129+00:00",
+  "updated": "2026-11-11T16:47:54.419775+00:00",
   "items": [
+    {
+      "title": "Proofs Could Make AI Coding Faster, Not Slower",
+      "link": "https://gradientflow.com/proofs-could-make-ai-coding-faster-not-slower/",
+      "date": "2026-11-11T14:08:56+00:00",
+      "desc": "Last week I wrote about a coding agent that made a database six times faster by quietly abandoning the requirement to store data. It passed the tests, but the result was useless. That article focused ",
+      "source": "Gradient Flow",
+      "sourceId": "gradient-flow",
+      "sourceColor": "#7c3aed"
+    },
     {
       "title": "Maybe we’ve been thinking about verification backwards",
       "link": "https://gradientflow.com/what-if-coding-agents-could-take-bigger-risks/",
@@ -144,15 +153,6 @@
       "source": "Interconnects",
       "sourceId": "interconnects",
       "sourceColor": "#16a34a"
-    },
-    {
-      "title": "The Model Factory Matters More Than the Model",
-      "link": "https://gradientflow.com/the-model-factory-matters-more-than-the-model/",
-      "date": "2026-10-21T12:48:55+00:00",
-      "desc": "A couple of months ago, I wrote about the growing post-training stack that lets teams turn general-purpose models into something better suited to their own work. I recently spoke with Joel Hron, CTO o",
-      "source": "Gradient Flow",
-      "sourceId": "gradient-flow",
-      "sourceColor": "#7c3aed"
     },
     {
       "title": "Latest open artifacts (#25): DeepSeek V4.1 Flash 1017, American-made models, and new regulatory controls in the US & China",
