@@ -1,6 +1,15 @@
 {
-  "updated": "2026-11-12T12:16:59.650183+00:00",
+  "updated": "2026-11-12T20:13:25.349980+00:00",
   "items": [
+    {
+      "title": "Revisiting Anthropic’s IPO: The Compute Timing Problem",
+      "link": "https://gradientflow.com/anthropic-ipo-2/",
+      "date": "2026-11-12T14:00:12+00:00",
+      "desc": "When Anthropic filed for its IPO in October, my quick reaction was that the business is real, but the hard part comes next. The amended prospectus adds September-quarter results that sharpen my concer",
+      "source": "Gradient Flow",
+      "sourceId": "gradient-flow",
+      "sourceColor": "#7c3aed"
+    },
     {
       "title": "Proofs Could Make AI Coding Faster, Not Slower",
       "link": "https://gradientflow.com/proofs-could-make-ai-coding-faster-not-slower/",
@@ -123,15 +132,6 @@
       "link": "https://gradientflow.com/this-robotics-result-surprised-me/",
       "date": "2026-10-27T13:00:25+00:00",
       "desc": "What If AI Builds the Robot Instead of Controlling It? Last year I wrote about robotics moving from bespoke machines toward reusable foundation models, essentially an attempt to build a general-purpos",
-      "source": "Gradient Flow",
-      "sourceId": "gradient-flow",
-      "sourceColor": "#7c3aed"
-    },
-    {
-      "title": "China’s Export Strength Is Only Half the Story",
-      "link": "https://gradientflow.com/broken-china-logan-wright/",
-      "date": "2026-10-27T11:00:31+00:00",
-      "desc": "Most media coverage of China focuses on its export and manufacturing prowess. Yet when I talk with visitors and friends just back from the country, what they most want to discuss is the bleak job mark",
       "source": "Gradient Flow",
       "sourceId": "gradient-flow",
       "sourceColor": "#7c3aed"
