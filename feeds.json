@@ -1,6 +1,15 @@
 {
-  "updated": "2026-11-13T08:21:39.175024+00:00",
+  "updated": "2026-11-13T16:37:50.755668+00:00",
   "items": [
+    {
+      "title": "8 Ways to Make Agent Memory Earn Its Keep",
+      "link": "https://gradientflow.com/8-ways-to-make-agent-memory-earn-its-keep/",
+      "date": "2026-11-13T12:00:51+00:00",
+      "desc": "I&#8217;ve argued that your AI should be better on day 500 than on day one. Two recent pieces got me thinking about what that takes in practice. One is Anthropic&#8217;s research on agent memory, and ",
+      "source": "Gradient Flow",
+      "sourceId": "gradient-flow",
+      "sourceColor": "#7c3aed"
+    },
     {
       "title": "Revisiting Anthropic’s IPO: The Compute Timing Problem",
       "link": "https://gradientflow.com/anthropic-ipo-2/",
@@ -123,15 +132,6 @@
       "link": "https://gradientflow.com/anthropic-ipo/",
       "date": "2026-10-27T18:25:01+00:00",
       "desc": "If you had asked me a year ago which frontier AI lab would go public first, I would have said OpenAI. Instead, Anthropic has filed for one of the most anticipated technology IPOs in years. The numbers",
-      "source": "Gradient Flow",
-      "sourceId": "gradient-flow",
-      "sourceColor": "#7c3aed"
-    },
-    {
-      "title": "I changed my mind about world models",
-      "link": "https://gradientflow.com/this-robotics-result-surprised-me/",
-      "date": "2026-10-27T13:00:25+00:00",
-      "desc": "What If AI Builds the Robot Instead of Controlling It? Last year I wrote about robotics moving from bespoke machines toward reusable foundation models, essentially an attempt to build a general-purpos",
       "source": "Gradient Flow",
       "sourceId": "gradient-flow",
       "sourceColor": "#7c3aed"
