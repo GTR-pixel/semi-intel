@@ -1,6 +1,15 @@
 {
-  "updated": "2026-11-14T09:41:54.757196+00:00",
+  "updated": "2026-11-14T16:17:11.390940+00:00",
   "items": [
+    {
+      "title": "Open-source AI without Jensen",
+      "link": "https://www.interconnects.ai/p/open-source-ai-without-jensen",
+      "date": "2026-11-14T12:23:15",
+      "desc": "A decapitation. It&#8217;s time to rebuild.",
+      "source": "Interconnects",
+      "sourceId": "interconnects",
+      "sourceColor": "#16a34a"
+    },
     {
       "title": "8 Ways to Make Agent Memory Earn Its Keep",
       "link": "https://gradientflow.com/8-ways-to-make-agent-memory-earn-its-keep/",
@@ -285,15 +294,6 @@
       "link": "https://www.interconnects.ai/p/when-will-average-people-feel-ais",
       "date": "2026-09-09T11:01:23",
       "desc": "We&#8217;re <5 years into a compounding revolution which could take a century, and how the AI industry should manage this.",
-      "source": "Interconnects",
-      "sourceId": "interconnects",
-      "sourceColor": "#16a34a"
-    },
-    {
-      "title": "Latest open artifacts (#24): Motif-3, GLM-5.3, Hy4-preview and open model licenses",
-      "link": "https://www.interconnects.ai/p/latest-open-artifacts-24-motif-3",
-      "date": "2026-09-08T14:15:25",
-      "desc": "The open model ecosystem continues to expand in its breadth",
       "source": "Interconnects",
       "sourceId": "interconnects",
       "sourceColor": "#16a34a"
