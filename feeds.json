@@ -1,6 +1,15 @@
 {
-  "updated": "2026-11-17T08:43:12.484859+00:00",
+  "updated": "2026-11-17T18:01:11.042266+00:00",
   "items": [
+    {
+      "title": "Something keeps showing up in AI agent deployments",
+      "link": "https://gradientflow.com/something-keeps-showing-up-in-ai-agent-deployments/",
+      "date": "2026-11-17T14:00:04+00:00",
+      "desc": "Building AI Agents Is Getting Easier. Running Them Isn&#8217;t. In August, I wrote about teams building very different AI products arriving at similar architectural choices. I distilled my research an",
+      "source": "Gradient Flow",
+      "sourceId": "gradient-flow",
+      "sourceColor": "#7c3aed"
+    },
     {
       "title": "Import AI 481: AI sub-contractors; a wet lab for AI; and subterfuge during development",
       "link": "https://jack-clark.net/2026/11/16/import-ai-481-ai-sub-contractors-a-wet-lab-for-ai-and-subterfuge-during-development/",
@@ -144,15 +153,6 @@
       "source": "Interconnects",
       "sourceId": "interconnects",
       "sourceColor": "#16a34a"
-    },
-    {
-      "title": "Anthropic’s IPO: The Business Is Real. The Hard Part Comes Next",
-      "link": "https://gradientflow.com/anthropic-ipo/",
-      "date": "2026-10-27T18:25:01+00:00",
-      "desc": "If you had asked me a year ago which frontier AI lab would go public first, I would have said OpenAI. Instead, Anthropic has filed for one of the most anticipated technology IPOs in years. The numbers",
-      "source": "Gradient Flow",
-      "sourceId": "gradient-flow",
-      "sourceColor": "#7c3aed"
     },
     {
       "title": "Import AI 478: Math for alignment; ProgramBench; and Mirendil shows what RSI means",
