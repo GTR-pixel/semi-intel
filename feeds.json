@@ -1,6 +1,15 @@
 {
-  "updated": "2026-11-18T08:45:44.897035+00:00",
+  "updated": "2026-11-18T17:42:49.061177+00:00",
   "items": [
+    {
+      "title": "Building AI Agents Is Getting Easier. Running Them Isn’t.",
+      "link": "https://gradientflow.com/building-ai-agents-is-getting-easier-running-them-isnt/",
+      "date": "2026-11-18T13:33:41+00:00",
+      "desc": "In August, I wrote about teams building very different AI products arriving at similar architectural choices. I distilled my research and conversations into nine practical rules. I&#8217;ve since been",
+      "source": "Gradient Flow",
+      "sourceId": "gradient-flow",
+      "sourceColor": "#7c3aed"
+    },
     {
       "title": "Something keeps showing up in AI agent deployments",
       "link": "https://gradientflow.com/something-keeps-showing-up-in-ai-agent-deployments/",
@@ -135,15 +144,6 @@
       "source": "Interconnects",
       "sourceId": "interconnects",
       "sourceColor": "#16a34a"
-    },
-    {
-      "title": "What If AI Builds the Robot Instead of Controlling It?",
-      "link": "https://gradientflow.com/what-if-ai-builds-the-robot-instead-of-controlling-it/",
-      "date": "2026-10-28T13:10:48+00:00",
-      "desc": "Last year I wrote about robotics moving from bespoke machines toward reusable foundation models, essentially an attempt to build a general-purpose robot brain. More recently, I argued that models are ",
-      "source": "Gradient Flow",
-      "sourceId": "gradient-flow",
-      "sourceColor": "#7c3aed"
     },
     {
       "title": "Artificial Analysis v5 and the benchmarker's dilemma",
