@@ -1,6 +1,15 @@
 {
-  "updated": "2026-11-24T11:17:22.959697+00:00",
+  "updated": "2026-11-24T21:25:29.233548+00:00",
   "items": [
+    {
+      "title": "I think AI agents need a new data layer",
+      "link": "https://gradientflow.com/your-ai-agents-can-connect-to-data-now-what/",
+      "date": "2026-11-24T14:00:47+00:00",
+      "desc": "What Is an Agent Data Runtime? Earlier this fall, I wrote about why the data stack is becoming less forgiving as AI agents start making decisions. Stale records, inconsistent definitions, and incorrec",
+      "source": "Gradient Flow",
+      "sourceId": "gradient-flow",
+      "sourceColor": "#7c3aed"
+    },
     {
       "title": "Import AI 482: Huawei kernel benchmarks; airborne drone detection; and a national lab’s AI science benchmark",
       "link": "https://jack-clark.net/2026/11/23/import-ai-482-huawei-kernel-benchmarks-airborne-drone-detection-and-a-national-labs-ai-science-benchmark/",
@@ -134,15 +143,6 @@
       "desc": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now LLMs are very bad ",
       "source": "Import AI",
       "sourceId": "import-ai",
-      "sourceColor": "#7c3aed"
-    },
-    {
-      "title": "Previewing the Debate Over Frontier AI Regulation",
-      "link": "https://gradientflow.com/proposals-to-regulate-frontier-ai-labs/",
-      "date": "2026-11-02T13:00:11+00:00",
-      "desc": "If Democrats take control of at least one chamber of Congress and pick up a few governorships in the midterms, proposals to regulate frontier AI labs could get a more serious hearing. So I wanted to l",
-      "source": "Gradient Flow",
-      "sourceId": "gradient-flow",
       "sourceColor": "#7c3aed"
     },
     {
